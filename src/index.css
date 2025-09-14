@@ -1,0 +1,53 @@
+* {
+  /* transform: all 0.5s; */
+  -webkit-tap-highlight-color: transparent;
+  -webkit-focus-ring-color: transparent;
+  /* outline: none; */
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: #e5e7eb;
+}
+
+:root {
+  font-family: 'Geist Mono', system-ui, Arial, sans-serif;
+  color-scheme: light dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--text-black);
+  background-color: var(--bg-color);
+
+  /* --bg-color: #fff;
+  --bg-primary: #4a4e68;
+  --bg-secondary: #355368;
+  --text-primary: #1c4c75;
+  --text-white: #ffffff;
+  --text-black: #050315;
+  --text-gray: #bbbbbb;
+  --ascent: #0f5c62; */
+
+  --bg-color: #eeefe9;
+  --bg-primary: #e5e7e0;
+  --bg-secondary: #355368;
+  --bg-white: #ffffff;
+  --text-primary: #f54e00;
+  --text-white: #ffffff;
+  --text-black: #151515;
+  --text-gray: #bbbbbb;
+  --border-primary: #eb9d2a;
+  --border-secondary: #c6851d;
+  --border-black: #151515;
+  --font-family: 'Geist Mono', system-ui, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}

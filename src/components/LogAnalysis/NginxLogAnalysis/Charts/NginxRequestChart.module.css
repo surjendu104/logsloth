@@ -1,0 +1,13 @@
+.nrpsHead {
+  background-color: var(--bg-white);
+  border-radius: 6px;
+  padding: 10px;
+  width: 100%;
+  height: 300px;
+}
+
+.yAxisLabelStyle {
+  font-size: '14px';
+  font-weight: 600;
+  color: '#374151';
+}

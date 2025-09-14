@@ -1,0 +1,41 @@
+.nginxLogAMainCt {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.timePeriodCt {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.timePeriodCtInner {
+  padding: 5px;
+  background-color: var(--bg-white);
+  border-radius: 9px;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.timePeriod {
+  padding: 5px 10px;
+  font-size: 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.5s;
+}
+.activePeriod {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.trafficAndUsageCt {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
