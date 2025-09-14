@@ -3,11 +3,7 @@ import type { NginxAccessLog } from '../parser';
 import type { ApexOptions } from 'apexcharts';
 import Chart from 'react-apexcharts';
 import classes from './MalFormedRequests.module.css';
-
-type SerisData = {
-  x: number;
-  y: number;
-};
+import { isbot } from 'isbot';
 
 // Decide bucket size based on selected period
 const getBucketSize = (start: Date, end: Date): number => {
@@ -17,7 +13,7 @@ const getBucketSize = (start: Date, end: Date): number => {
 };
 
 const MalFormedRequests = ({ logs }: { logs: NginxAccessLog[] }) => {
-  const seriesData = useMemo((): SerisData[] => {
+  const seriesData = useMemo(() => {
     if (logs.length === 0) {
       return [];
     }
@@ -26,13 +22,15 @@ const MalFormedRequests = ({ logs }: { logs: NginxAccessLog[] }) => {
 
     if (!startDate || !endDate) return [];
 
-    const counts = new Map<number, number>();
+    const malformedURLcounts = new Map<number, number>();
+    const botRequestcounts = new Map<number, number>();
 
     // prefill buckets
     const bucketMs = getBucketSize(startDate, endDate);
     const firstBucket = Math.floor(startDate.getTime() / bucketMs) * bucketMs;
     for (let t = firstBucket; t <= endDate.getTime(); t += bucketMs) {
-      counts.set(t, 0);
+      malformedURLcounts.set(t, 0);
+      botRequestcounts.set(t, 0);
     }
 
     // bucket logs
@@ -43,13 +41,35 @@ const MalFormedRequests = ({ logs }: { logs: NginxAccessLog[] }) => {
 
       const bucketStart = Math.floor(ts / bucketMs) * bucketMs;
       if (log.malformed) {
-        counts.set(bucketStart, (counts.get(bucketStart) || 0) + 1);
+        malformedURLcounts.set(
+          bucketStart,
+          (malformedURLcounts.get(bucketStart) || 0) + 1,
+        );
+      }
+      if (isbot(log.userAgent)) {
+        botRequestcounts.set(
+          bucketStart,
+          (botRequestcounts.get(bucketStart) || 0) + 1,
+        );
       }
     }
 
-    return Array.from(counts.entries())
-      .sort((a, b) => a[0] - b[0])
-      .map(([x, y]) => ({ x, y }));
+    const data = [
+      {
+        name: 'Malformed URLs',
+        data: Array.from(malformedURLcounts.entries())
+          .sort((a, b) => a[0] - b[0])
+          .map(([x, y]) => ({ x, y })),
+      },
+      {
+        name: 'Bot Requests',
+        data: Array.from(botRequestcounts.entries())
+          .sort((a, b) => a[0] - b[0])
+          .map(([x, y]) => ({ x, y })),
+      },
+    ];
+
+    return data;
   }, [logs]);
 
   const chartOptions: ApexOptions = {
@@ -61,7 +81,7 @@ const MalFormedRequests = ({ logs }: { logs: NginxAccessLog[] }) => {
       fontFamily: 'var(--font-family)',
     },
     title: {
-      text: 'Malformed Requests Over Time',
+      text: 'Automated/Anomalous Traffic Trends',
       style: {
         fontSize: '18px',
         fontWeight: '600',
@@ -89,7 +109,7 @@ const MalFormedRequests = ({ logs }: { logs: NginxAccessLog[] }) => {
     },
     fill: {
       type: 'gradient',
-      colors: ['#d90429'],
+      colors: ['#d90429', '#008ffb'],
       gradient: { shadeIntensity: 1, opacityFrom: 0.6, opacityTo: 0.05 },
     },
     grid: {
@@ -106,7 +126,7 @@ const MalFormedRequests = ({ logs }: { logs: NginxAccessLog[] }) => {
     <div className={classes.mainCt}>
       <Chart
         options={chartOptions}
-        series={[{ name: 'Requests', data: seriesData }]}
+        series={seriesData}
         type="area"
         height={'100%'}
         width={'100%'}
