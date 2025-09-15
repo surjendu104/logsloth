@@ -17,6 +17,7 @@ import TopEndpoints from './Charts/TopEndpoints';
 import ResponseSize from './Charts/ResponseSize';
 import MalFormedRequests from './Charts/MalFormedRequests';
 import Referrer from './Charts/Referrer';
+import SuspeciousIPs from './SuspeciousIPs';
 
 const PERIODS = [
   {
@@ -142,6 +143,9 @@ const NginxLogAnalysisPage = (): JSX.Element => {
         <MalFormedRequests logs={filteredAccessLogByTimePeriod} />
         <Referrer logs={filteredAccessLogByTimePeriod} />
       </div>
+      <div className={classes.trafficAndUsageCt}>
+      <SuspeciousIPs logs={filteredAccessLogByTimePeriod} />
+      </div>
     </div>
   );
 };
@@ -178,7 +182,7 @@ charts
 [Latency Graph {P90, P95, P50}] **not possible for default nginx log
 [Top Endpoints(Horizontal bar chart/treemap)] [Response Size Distribution]
 [Malformed request, bot request by time(line)][Reffer Breakdown(Pie/treemap)]
-[Top Endpoints by status code(404, 444 etc)] [Suspecious IPs]
+[Geographical distribution of requests] [Suspecious IPs]
 [Raw Access Logs viewer]
 [Raw Error Logs viewer]
 [DOSS Attack Detection] [PII Leak Detection]
