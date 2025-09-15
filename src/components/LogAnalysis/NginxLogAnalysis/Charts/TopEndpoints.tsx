@@ -4,76 +4,32 @@ import type { ApexOptions } from 'apexcharts';
 import Chart from 'react-apexcharts';
 import classes from './TopEndpoints.module.css';
 
-/* const TopEndpoints = ({logs}: {logs: NginxAccessLog[]}) => {
-  const [plotData, setPlotData] = useState<[{
-  data: { x: string; y: number }[]
-}] | null>(null);
-
-  useEffect(() => {
-    const endpointCounts:{[path:string]: number} = {};
-    logs.forEach((log) => {
-      const url = log.url?.split('?')[0];
-      // console.log(url);
-      if(url) {
-        endpointCounts[url] = (endpointCounts[url] || 0) + 1;;
-      }
-    })
-    // console.log(endpointCounts);
-    const finalPlotData = Object.entries(endpointCounts).map(([path, count]) => ({
-      x: path,
-      y: count
-    })).sort((a, b) => b.y - a.y).slice(0, 10);
-
-    setPlotData([{data:finalPlotData}])
-  }, [logs]);
-
-  const chartOptions:ApexOptions = {
-              legend: {
-                show: false
-              },
-              chart: {
-                height: 350,
-                type: 'treemap',
-                fontFamily: 'var(--font-family)',
-                toolbar: { show: false },
-                zoom: { enabled: false },
-              },
-              title: {
-                text: 'Basic Treemap'
-              }
-            };
-  return (
-    <div className={classes.mainCt}>
-    {plotData && (
-            <Chart
-              options={chartOptions}
-              series={plotData}
-              type="treemap"
-              height={'100%'}
-              width={'100%'}
-            />
-          )}
-    </div>
-  )
-} */
-
 const TopEndpoints = ({ logs }: { logs: NginxAccessLog[] }) => {
   const [plotData, setPlotData] = useState<{ [path: string]: number } | null>(
     null,
   );
+  const [selectedStatusCode, setSelectedStatusCode] = useState<number | 'all'>(
+    'all',
+  );
 
   useEffect(() => {
+    console.log(selectedStatusCode);
     const endpointCounts: { [path: string]: number } = {};
     logs.forEach((log) => {
       const url = log.url?.split('?')[0];
-      // console.log(url);
       if (url) {
-        endpointCounts[url] = (endpointCounts[url] || 0) + 1;
+        if (selectedStatusCode === 'all' || log.status === selectedStatusCode) {
+          endpointCounts[url] = (endpointCounts[url] || 0) + 1;
+        }
       }
     });
-
     setPlotData(endpointCounts);
-  }, [logs]);
+  }, [logs, selectedStatusCode]);
+
+  const handleStatusCodeChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+    const value = e.target.value;
+    setSelectedStatusCode(value === 'all' ? 'all' : Number(value));
+  };
 
   // Sort data by count (descending) and take top 10
   const sortedData = plotData
@@ -108,6 +64,9 @@ const TopEndpoints = ({ logs }: { logs: NginxAccessLog[] }) => {
     xaxis: {
       categories: sortedData.map(([path]) => path),
     },
+    noData: {
+      text: 'No Data Found',
+    },
   };
 
   const series = [
@@ -119,6 +78,20 @@ const TopEndpoints = ({ logs }: { logs: NginxAccessLog[] }) => {
 
   return (
     <div className={classes.mainCt}>
+      <div className={classes.statusCodeSelectCt}>
+        <select
+          name="status_code"
+          id="status_code"
+          value={selectedStatusCode}
+          onChange={handleStatusCodeChange}
+        >
+          {['all', 400, 401, 404, 413, 444, 500, 503].map(
+            (s: string | number) => (
+              <option value={s}>{s}</option>
+            ),
+          )}
+        </select>
+      </div>
       {plotData && (
         <Chart
           options={chartOptions}

@@ -177,8 +177,8 @@ charts
 [PI Chart of {Device type, Client type, OS type}] | [Usage time Bar Graph{number of request + number of user}]
 [Latency Graph {P90, P95, P50}] **not possible for default nginx log
 [Top Endpoints(Horizontal bar chart/treemap)] [Response Size Distribution]
-[Malformed request by time(line)][Reffer Breakdown(Pie/treemap)]
-[Top URL by status code(404, 444 etc)]
+[Malformed request, bot request by time(line)][Reffer Breakdown(Pie/treemap)]
+[Top Endpoints by status code(404, 444 etc)] [Suspecious IPs]
 [Raw Access Logs viewer]
 [Raw Error Logs viewer]
 [DOSS Attack Detection] [PII Leak Detection]
