@@ -26,6 +26,8 @@ const SuspeciousIPs = ({ logs }: { logs: NginxAccessLog[] }) => {
         /phpmyadmin/i,
         /etc\/passwd/i,
         /config/i,
+        /.env/i,
+        /.git/i
       ],
       scoreThreshold: 5, // total score needed to be flagged
     },
