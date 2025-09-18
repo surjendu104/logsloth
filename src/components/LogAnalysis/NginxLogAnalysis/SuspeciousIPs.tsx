@@ -140,8 +140,12 @@ const SuspeciousIPs = ({ logs }: { logs: NginxAccessLog[] }) => {
     return result.sort((a: SuspiciousIP, b: SuspiciousIP) => b.score - a.score);
   };
 
-  const handleShowLogsButtonClick = (sip:SuspiciousIP) => {
-    setAccessLogSearchQuery(sip.ip.toString());
+  const handleShowLogsButtonClick = async(sip:SuspiciousIP) => {
+    await setAccessLogSearchQuery(sip.ip.toString());
+  }
+
+  const handleCopy = (sip:SuspiciousIP) => {
+    navigator.clipboard.writeText(sip.ip.toString())
   }
 
   const toggleSuspeciousIP = (index: number) => {
@@ -183,7 +187,7 @@ const SuspeciousIPs = ({ logs }: { logs: NginxAccessLog[] }) => {
                 <button title="Logs" onClick={() => handleShowLogsButtonClick(sip)}>
                   <LuLogs size={16} />
                 </button>
-                <button title="Copy IP">
+                <button title="Copy IP" onClick={() => handleCopy(sip)}>
                   <LuCopy size={16} />
                 </button>
               </div>
