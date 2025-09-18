@@ -109,7 +109,7 @@ const RawAccessLogViewer: React.FC<Props> = ({ logs }) => {
                   <div>{generateRawLog(log)}</div>
                 </div>
                 {isExpanded && (
-                  <pre className={classes.logJsonCt}>
+                  <pre className={classes.logJsonCt} onClick={(e) => e.stopPropagation()}>
                     {JSON.stringify(log, null, 2)}
                   </pre>
                 )}

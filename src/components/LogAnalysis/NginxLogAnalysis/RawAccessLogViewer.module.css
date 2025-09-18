@@ -59,6 +59,7 @@
 
 .logCt {
   width: 100%;
+  margin-bottom: 5px;
   padding: 5px 6px;
   border-radius: 6px;
   /* word-break: break-all; */
