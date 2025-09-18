@@ -1,4 +1,4 @@
-import type { NginxAccessLog } from './parser';
+import type { NginxAccessLog, NginxErrorLog } from './parser';
 
 export type Period = '1h' | '24h' | '7d' | '30d' | '6m' | 'all';
 
@@ -33,7 +33,7 @@ export const getPeriodStart = (period: Period, endDate: Date) => {
 };
 
 export const getLogDateRange = (
-  data: NginxAccessLog[],
+  data: NginxAccessLog[] | NginxErrorLog[],
 ): LogDateRange | null => {
   if (!data || data.length === 0) {
     return null;

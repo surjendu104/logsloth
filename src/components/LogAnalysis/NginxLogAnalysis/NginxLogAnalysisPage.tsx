@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState, type JSX } from 'react';
-import { parseLogLines, type NginxAccessLog } from './parser';
+import { parseErrorLogs, parseLogLines, type NginxAccessLog, type NginxErrorLog } from './parser';
 import FileUpload from './FileUpload';
 import {
   getLogDateRange,
@@ -19,6 +19,7 @@ import MalFormedRequests from './Charts/MalFormedRequests';
 import Referrer from './Charts/Referrer';
 import SuspeciousIPs from './SuspeciousIPs';
 import RawAccessLogViewer from './RawAccessLogViewer';
+import RawErrorLogViewer from './RawErrorLogViewer';
 
 const PERIODS = [
   {
@@ -49,8 +50,9 @@ const PERIODS = [
 
 const NginxLogAnalysisPage = (): JSX.Element => {
   const [accessLogs, setAccessLogs] = useState<string[]>([]);
-  const [, setErrorLogs] = useState<string[]>([]);
+  const [errorLogs, setErrorLogs] = useState<string[]>([]);
   const [parsedLogs, setParsedLogs] = useState<NginxAccessLog[]>([]);
+  const [parsedErrorLogs, setParsedErrorLogs] = useState<NginxErrorLog[]>([]);
   const [isFileUploaded, setIsFileUploaded] = useState(false);
   const [period, setPeriod] = useState<Period>('all');
   const [logDateRange, setLogDateRange] = useState<LogDateRange>({
@@ -92,6 +94,41 @@ const NginxLogAnalysisPage = (): JSX.Element => {
     });
   }, [parsedLogs, period, logPeriodRangeMode]);
 
+  const filteredErrorLogByTimePeriod = useMemo(() => {
+    if (!parsedErrorLogs.length) return [];
+
+    // get dataset range
+    const logRange = getLogDateRange(parsedErrorLogs);
+    console.log(logRange);
+    if (!logRange) return [];
+
+    const endDate =
+      logPeriodRangeMode === 'datasetRelative'
+        ? new Date(logRange.end)
+        : new Date();
+    const startDate =
+      getPeriodStart(period, endDate) ?? new Date(logRange.start);
+
+    setLogDateRange(logRange);
+
+    const filteredLogs = [];
+
+    for (const log of parsedErrorLogs) {
+      if (!log.time) continue;
+      const ts = log.time.getTime();
+      if (ts < startDate.getTime() || ts > endDate.getTime()) continue;
+      else {
+        filteredLogs.push(log);
+      }
+    }
+
+    return filteredLogs.sort((a, b) => {
+      const aTime = a.time?.getTime() ?? 0;
+      const bTime = b.time?.getTime() ?? 0;
+      return aTime - bTime;
+    })
+  }, [logPeriodRangeMode, parsedErrorLogs, period])
+
   const changePeriod = (newPeriod: Period) => {
     if (newPeriod !== period) {
       setPeriod(newPeriod);
@@ -105,6 +142,13 @@ const NginxLogAnalysisPage = (): JSX.Element => {
       setIsFileUploaded(true);
     }
   }, [accessLogs]);
+
+  useEffect(() => {
+    if (errorLogs.length != 0) {
+      const parsedErrorLogs = parseErrorLogs(errorLogs);
+      setParsedErrorLogs(parsedErrorLogs);
+    }
+  }, [errorLogs]);
 
   if (!isFileUploaded || accessLogs.length === 0 || parsedLogs.length === 0) {
     return (
@@ -148,6 +192,7 @@ const NginxLogAnalysisPage = (): JSX.Element => {
         <SuspeciousIPs logs={filteredAccessLogByTimePeriod} />
         <RawAccessLogViewer logs={filteredAccessLogByTimePeriod} />
       </div>
+      <RawErrorLogViewer logs={filteredErrorLogByTimePeriod}/>
     </div>
   );
 };
