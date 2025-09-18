@@ -18,6 +18,7 @@ import ResponseSize from './Charts/ResponseSize';
 import MalFormedRequests from './Charts/MalFormedRequests';
 import Referrer from './Charts/Referrer';
 import SuspeciousIPs from './SuspeciousIPs';
+import RawAccessLogViewer from './RawAccessLogViewer';
 
 const PERIODS = [
   {
@@ -144,7 +145,8 @@ const NginxLogAnalysisPage = (): JSX.Element => {
         <Referrer logs={filteredAccessLogByTimePeriod} />
       </div>
       <div className={classes.trafficAndUsageCt}>
-      <SuspeciousIPs logs={filteredAccessLogByTimePeriod} />
+        <SuspeciousIPs logs={filteredAccessLogByTimePeriod} />
+        <RawAccessLogViewer logs={filteredAccessLogByTimePeriod} />
       </div>
     </div>
   );

@@ -27,7 +27,7 @@ const SuspeciousIPs = ({ logs }: { logs: NginxAccessLog[] }) => {
         /etc\/passwd/i,
         /config/i,
         /.env/i,
-        /.git/i
+        /.git/i,
       ],
       scoreThreshold: 5, // total score needed to be flagged
     },
@@ -170,10 +170,7 @@ const SuspeciousIPs = ({ logs }: { logs: NginxAccessLog[] }) => {
                 {/* <span>{sip.score}</span> */}
               </div>
               <div className={classes.actionCt}>
-                <button
-                  title="Info"
-                  onClick={() => toggleSuspeciousIP(index)}
-                >
+                <button title="Info" onClick={() => toggleSuspeciousIP(index)}>
                   <IoDocumentTextOutline size={16} />
                 </button>
                 <button title="Logs">
@@ -189,11 +186,11 @@ const SuspeciousIPs = ({ logs }: { logs: NginxAccessLog[] }) => {
               <div className={classes.infoCt}>
                 <div>Suspision Score: {sip.score}</div>
                 <div>Reasons</div>
-                <div className={classes.reasonCt}>
+                <ul className={classes.reasonCt}>
                   {sip.reasons.map((r: string, idx: number) => (
                     <li key={idx}>{r}</li>
                   ))}
-                </div>
+                </ul>
               </div>
             )}
           </div>

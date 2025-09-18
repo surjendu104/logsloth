@@ -1,5 +1,5 @@
 .mainCt {
-  width: 40%;
+  width: 30%;
   height: 100%;
   background-color: var(--bg-white);
   border-radius: 6px;
@@ -76,9 +76,13 @@
   cursor: pointer;
 }
 
-.infoCt{
+.infoCt {
   width: 100%;
   padding: 6px 5px 6px 5px;
   background-color: var(--bg-white);
   border-radius: 6px;
+}
+
+.reasonCt {
+  margin: 5px;
 }
