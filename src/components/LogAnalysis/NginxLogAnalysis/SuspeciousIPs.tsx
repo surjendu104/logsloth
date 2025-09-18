@@ -3,6 +3,7 @@ import type { NginxAccessLog } from './parser';
 import classes from './SuspeciousIPs.module.css';
 import { LuCopy, LuLogs } from 'react-icons/lu';
 import { IoDocumentTextOutline } from 'react-icons/io5';
+import { useLogContext } from '../../../hooks/useLogContext';
 
 type SuspiciousIP = {
   ip: string;
@@ -12,6 +13,8 @@ type SuspiciousIP = {
 };
 
 const SuspeciousIPs = ({ logs }: { logs: NginxAccessLog[] }) => {
+  const {setAccessLogSearchQuery} = useLogContext();
+
   const [suspeciousIps, setSuspeciousIps] = useState<SuspiciousIP[]>([]);
   const detectSuspiciousIPs = (
     logs: NginxAccessLog[],
@@ -137,6 +140,10 @@ const SuspeciousIPs = ({ logs }: { logs: NginxAccessLog[] }) => {
     return result.sort((a: SuspiciousIP, b: SuspiciousIP) => b.score - a.score);
   };
 
+  const handleShowLogsButtonClick = (sip:SuspiciousIP) => {
+    setAccessLogSearchQuery(sip.ip.toString());
+  }
+
   const toggleSuspeciousIP = (index: number) => {
     if (index < suspeciousIps.length) {
       setSuspeciousIps((prev: SuspiciousIP[]) =>
@@ -173,7 +180,7 @@ const SuspeciousIPs = ({ logs }: { logs: NginxAccessLog[] }) => {
                 <button title="Info" onClick={() => toggleSuspeciousIP(index)}>
                   <IoDocumentTextOutline size={16} />
                 </button>
-                <button title="Logs">
+                <button title="Logs" onClick={() => handleShowLogsButtonClick(sip)}>
                   <LuLogs size={16} />
                 </button>
                 <button title="Copy IP">

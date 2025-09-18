@@ -4,14 +4,15 @@ import classes from './RawAccessLogViewer.module.css';
 import dropdownIcon from '../../../assets/select-element-dropdown-icon.svg';
 import { LuSearch } from 'react-icons/lu';
 import { Virtuoso } from 'react-virtuoso';
+import { useLogContext } from '../../../hooks/useLogContext';
 
 type Props = {
   logs: NginxAccessLog[];
 };
 
 const RawAccessLogViewer: React.FC<Props> = ({ logs }) => {
+  const {accessLogSearchQuery, setAccessLogSearchQuery} = useLogContext();
   const [expanded, setExpanded] = useState<Set<number>>(new Set());
-  const [searchInput, setSearchInput] = useState('');
 
   const formatDate = (date: Date): string => {
     const day = String(date.getUTCDate()).padStart(2, '0');
@@ -64,12 +65,12 @@ const RawAccessLogViewer: React.FC<Props> = ({ logs }) => {
   };
 
   const filteredLogs = useMemo(() => {
-    if (!searchInput.trim()) return logs;
-    const lower = searchInput.toLowerCase();
+    if (!accessLogSearchQuery.trim()) return logs;
+    const lower = accessLogSearchQuery.toLowerCase();
     return logs.filter((log) =>
       generateRawLog(log).toLowerCase().includes(lower),
     );
-  }, [logs, searchInput, generateRawLog]);
+  }, [logs, accessLogSearchQuery, generateRawLog]);
 
   return (
     <div className={classes.mainCt}>
@@ -79,8 +80,8 @@ const RawAccessLogViewer: React.FC<Props> = ({ logs }) => {
           <LuSearch size={20} />
           <input
             type="text"
-            value={searchInput}
-            onChange={(e) => setSearchInput(e.target.value)}
+            value={accessLogSearchQuery}
+            onChange={(e) => setAccessLogSearchQuery(e.target.value)}
             placeholder="Search logs..."
           />
         </div>
