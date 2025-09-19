@@ -1,0 +1,45 @@
+.mainCt {
+  width: 100%;
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+  font-family: var(--font-family);
+  padding: 10px;
+}
+
+.toolCt {
+  text-decoration: none;
+  color: var(--text-black);
+  height: fit-content;
+  width: 150px;
+  min-height: 120px;
+  background-color: var(--bg-white);
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  transition: all 0.5s;
+  cursor: pointer;
+  /* box-shadow: 6px 8px 0px 0px #00000094; */
+}
+
+.toolCt:hover {
+  box-shadow: 6px 8px 0px 0px var(--text-primary);
+  /* color: var(--text-primary); */
+}
+
+.toolImg{
+  width: 35px;
+  height: 35px;
+}
+
+.toolName {
+  flex: 1;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+}

@@ -1,7 +1,12 @@
 import type { JSX } from 'react';
+import ComingSoon from '../ComingSoon';
 
 const GunicornLogAnalysisPage = (): JSX.Element => {
-  return <div>GunicornLogAnalysisPage</div>;
+  return (
+    <>
+    <ComingSoon />
+    </>
+  );
 };
 
 export default GunicornLogAnalysisPage;
