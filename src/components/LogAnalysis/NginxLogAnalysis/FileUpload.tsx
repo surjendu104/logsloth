@@ -23,7 +23,7 @@ const FileUpload = ({
 }) => {
   const [files, setFiles] = useState<File[]>([]);
   const [isUploading, setIsUploading] = useState<boolean>(false);
-  const [uploaadProgress, setUploadProgress] = useState<number>(0);
+  const [processingProgress, setProcessingProgress] = useState<number>(0);
   const [isDragging, setIsDragging] = useState<boolean>(false);
   const fileInputRef = useRef<HTMLInputElement>(null);
 
@@ -125,7 +125,7 @@ const FileUpload = ({
     }
 
     setIsUploading(true);
-    setUploadProgress(0);
+    setProcessingProgress(0);
 
     try {
       let accessLogs: string[] = [];
@@ -138,14 +138,14 @@ const FileUpload = ({
         } else {
           accessLogs = accessLogs.concat(logs);
         }
-        setUploadProgress((100 * (i + 1)) / files.length);
+        setProcessingProgress(parseFloat(((100 * (i + 1)) / files.length).toFixed(2)));
       }
       setAccessLogs(accessLogs);
       setErrorLogs(errorLogs);
     } catch (error) {
       console.error(`File Upload failed with error : ${error}`);
       setIsUploading(true);
-      setUploadProgress(0);
+      setProcessingProgress(0);
     }
   };
 
@@ -224,6 +224,15 @@ const FileUpload = ({
                 </div>
               ))}
             </div>{' '}
+            { isUploading &&
+            <>
+            <div className={classes.processingText}>Processing Files({processingProgress}%)</div>
+            <div className={classes.processingProgressOuter}>
+            <div className={classes.processingProgressInner} style={{width: `${processingProgress}%`}}></div>
+          </div>
+            </>
+
+        }
           </div>
         )}
         {files.length > 0 && (
@@ -231,6 +240,7 @@ const FileUpload = ({
             Proceed
           </button>
         )}
+
       </div>
     </div>
   );
