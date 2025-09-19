@@ -1,7 +1,12 @@
 import type { JSX } from 'react';
+import ComingSoon from '../ComingSoon';
 
 const ApacheTomCatLogAnalysisPage = (): JSX.Element => {
-  return <div>ApacheTomCatLogAnalysisPage</div>;
+  return (
+    <>
+      <ComingSoon />
+    </>
+  );
 };
 
 export default ApacheTomCatLogAnalysisPage;

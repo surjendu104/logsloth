@@ -1,4 +1,10 @@
-import { createContext, useState, type Dispatch, type ReactNode, type SetStateAction } from "react";
+import {
+  createContext,
+  useState,
+  type Dispatch,
+  type ReactNode,
+  type SetStateAction,
+} from 'react';
 
 interface LogContextType {
   accessLogSearchQuery: string;
@@ -7,11 +13,16 @@ interface LogContextType {
 
 const LogContext = createContext<LogContextType | undefined>(undefined);
 
-const LogContextProvider = ({children}: {children: ReactNode}) => {
+const LogContextProvider = ({ children }: { children: ReactNode }) => {
   const [accessLogSearchQuery, setAccessLogSearchQuery] = useState('');
 
-  return <LogContext.Provider value={{accessLogSearchQuery, setAccessLogSearchQuery}}
-  >{children}</LogContext.Provider>
-}
+  return (
+    <LogContext.Provider
+      value={{ accessLogSearchQuery, setAccessLogSearchQuery }}
+    >
+      {children}
+    </LogContext.Provider>
+  );
+};
 
-export {LogContext, LogContextProvider};
+export { LogContext, LogContextProvider };

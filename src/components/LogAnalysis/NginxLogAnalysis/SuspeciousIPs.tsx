@@ -13,7 +13,7 @@ type SuspiciousIP = {
 };
 
 const SuspeciousIPs = ({ logs }: { logs: NginxAccessLog[] }) => {
-  const {setAccessLogSearchQuery} = useLogContext();
+  const { setAccessLogSearchQuery } = useLogContext();
 
   const [suspeciousIps, setSuspeciousIps] = useState<SuspiciousIP[]>([]);
   const detectSuspiciousIPs = (
@@ -140,13 +140,13 @@ const SuspeciousIPs = ({ logs }: { logs: NginxAccessLog[] }) => {
     return result.sort((a: SuspiciousIP, b: SuspiciousIP) => b.score - a.score);
   };
 
-  const handleShowLogsButtonClick = async(sip:SuspiciousIP) => {
+  const handleShowLogsButtonClick = async (sip: SuspiciousIP) => {
     await setAccessLogSearchQuery(sip.ip.toString());
-  }
+  };
 
-  const handleCopy = (sip:SuspiciousIP) => {
-    navigator.clipboard.writeText(sip.ip.toString())
-  }
+  const handleCopy = (sip: SuspiciousIP) => {
+    navigator.clipboard.writeText(sip.ip.toString());
+  };
 
   const toggleSuspeciousIP = (index: number) => {
     if (index < suspeciousIps.length) {
@@ -184,7 +184,10 @@ const SuspeciousIPs = ({ logs }: { logs: NginxAccessLog[] }) => {
                 <button title="Info" onClick={() => toggleSuspeciousIP(index)}>
                   <IoDocumentTextOutline size={16} />
                 </button>
-                <button title="Logs" onClick={() => handleShowLogsButtonClick(sip)}>
+                <button
+                  title="Logs"
+                  onClick={() => handleShowLogsButtonClick(sip)}
+                >
                   <LuLogs size={16} />
                 </button>
                 <button title="Copy IP" onClick={() => handleCopy(sip)}>

@@ -138,7 +138,9 @@ const FileUpload = ({
         } else {
           accessLogs = accessLogs.concat(logs);
         }
-        setProcessingProgress(parseFloat(((100 * (i + 1)) / files.length).toFixed(2)));
+        setProcessingProgress(
+          parseFloat(((100 * (i + 1)) / files.length).toFixed(2)),
+        );
       }
       setAccessLogs(accessLogs);
       setErrorLogs(errorLogs);
@@ -224,15 +226,19 @@ const FileUpload = ({
                 </div>
               ))}
             </div>{' '}
-            { isUploading &&
-            <>
-            <div className={classes.processingText}>Processing Files({processingProgress}%)</div>
-            <div className={classes.processingProgressOuter}>
-            <div className={classes.processingProgressInner} style={{width: `${processingProgress}%`}}></div>
-          </div>
-            </>
-
-        }
+            {isUploading && (
+              <>
+                <div className={classes.processingText}>
+                  Processing Files({processingProgress}%)
+                </div>
+                <div className={classes.processingProgressOuter}>
+                  <div
+                    className={classes.processingProgressInner}
+                    style={{ width: `${processingProgress}%` }}
+                  ></div>
+                </div>
+              </>
+            )}
           </div>
         )}
         {files.length > 0 && (
@@ -240,7 +246,6 @@ const FileUpload = ({
             Proceed
           </button>
         )}
-
       </div>
     </div>
   );

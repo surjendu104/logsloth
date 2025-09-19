@@ -5,8 +5,8 @@ const ComingSoon = () => {
     <div className={classes.mainCt}>
       <span>Coming</span>
       <span className={classes.soonText}> Soon</span>
-      </div>
-  )
-}
+    </div>
+  );
+};
 
-export default ComingSoon
+export default ComingSoon;

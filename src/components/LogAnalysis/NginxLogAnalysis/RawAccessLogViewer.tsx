@@ -11,7 +11,7 @@ type Props = {
 };
 
 const RawAccessLogViewer: React.FC<Props> = ({ logs }) => {
-  const {accessLogSearchQuery, setAccessLogSearchQuery} = useLogContext();
+  const { accessLogSearchQuery, setAccessLogSearchQuery } = useLogContext();
   const [expanded, setExpanded] = useState<Set<number>>(new Set());
 
   const formatDate = (date: Date): string => {
@@ -109,7 +109,10 @@ const RawAccessLogViewer: React.FC<Props> = ({ logs }) => {
                   <div>{generateRawLog(log)}</div>
                 </div>
                 {isExpanded && (
-                  <pre className={classes.logJsonCt} onClick={(e) => e.stopPropagation()}>
+                  <pre
+                    className={classes.logJsonCt}
+                    onClick={(e) => e.stopPropagation()}
+                  >
                     {JSON.stringify(log, null, 2)}
                   </pre>
                 )}

@@ -1,5 +1,10 @@
 import { useEffect, useMemo, useState, type JSX } from 'react';
-import { parseErrorLogs, parseLogLines, type NginxAccessLog, type NginxErrorLog } from './parser';
+import {
+  parseErrorLogs,
+  parseLogLines,
+  type NginxAccessLog,
+  type NginxErrorLog,
+} from './parser';
 import FileUpload from './FileUpload';
 import {
   getLogDateRange,
@@ -126,8 +131,8 @@ const NginxLogAnalysisPage = (): JSX.Element => {
       const aTime = a.time?.getTime() ?? 0;
       const bTime = b.time?.getTime() ?? 0;
       return aTime - bTime;
-    })
-  }, [logPeriodRangeMode, parsedErrorLogs, period])
+    });
+  }, [logPeriodRangeMode, parsedErrorLogs, period]);
 
   const changePeriod = (newPeriod: Period) => {
     if (newPeriod !== period) {
@@ -192,7 +197,7 @@ const NginxLogAnalysisPage = (): JSX.Element => {
         <SuspeciousIPs logs={filteredAccessLogByTimePeriod} />
         <RawAccessLogViewer logs={filteredAccessLogByTimePeriod} />
       </div>
-      <RawErrorLogViewer logs={filteredErrorLogByTimePeriod}/>
+      <RawErrorLogViewer logs={filteredErrorLogByTimePeriod} />
     </div>
   );
 };

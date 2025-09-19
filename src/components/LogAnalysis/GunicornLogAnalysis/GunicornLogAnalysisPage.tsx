@@ -4,7 +4,7 @@ import ComingSoon from '../ComingSoon';
 const GunicornLogAnalysisPage = (): JSX.Element => {
   return (
     <>
-    <ComingSoon />
+      <ComingSoon />
     </>
   );
 };

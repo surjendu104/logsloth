@@ -40,7 +40,7 @@ const TOOLS: Tool[] = [
   },
   {
     name: 'Apache Tomcat',
-    path: '/log/apache-server',
+    path: '/log/apacheTomcat',
     icon: SiApachetomcat,
   },
 ];

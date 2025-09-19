@@ -29,7 +29,7 @@ export type NginxErrorLog = {
   upstream?: string;
   host?: string;
   referrer?: string;
-}
+};
 
 // Valid HTTP methods
 const validMethods = new Set([
@@ -140,7 +140,7 @@ export const parseErrorLogs = (lines: string[]): NginxErrorLog[] => {
 
     // parse timestamp safely
     const tsParts = timestamp.match(
-      /^(\d{4})\/(\d{2})\/(\d{2}) (\d{2}):(\d{2}):(\d{2})$/
+      /^(\d{4})\/(\d{2})\/(\d{2}) (\d{2}):(\d{2}):(\d{2})$/,
     );
     let time = new Date(NaN);
     if (tsParts) {
@@ -152,8 +152,8 @@ export const parseErrorLogs = (lines: string[]): NginxErrorLog[] => {
           parseInt(d, 10),
           parseInt(hh, 10),
           parseInt(mm, 10),
-          parseInt(ss, 10)
-        )
+          parseInt(ss, 10),
+        ),
       );
     }
 

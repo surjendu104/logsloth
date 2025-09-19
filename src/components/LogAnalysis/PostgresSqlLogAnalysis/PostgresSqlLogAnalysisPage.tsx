@@ -1,7 +1,12 @@
 import type { JSX } from 'react';
+import ComingSoon from '../ComingSoon';
 
 const PostgresSqlLogAnalysisPage = (): JSX.Element => {
-  return <div>PostgresSqlLogAnalysisPage</div>;
+  return (
+    <>
+      <ComingSoon />
+    </>
+  );
 };
 
 export default PostgresSqlLogAnalysisPage;

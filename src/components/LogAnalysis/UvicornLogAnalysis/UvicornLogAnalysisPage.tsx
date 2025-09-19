@@ -1,7 +1,12 @@
 import type { JSX } from 'react';
+import ComingSoon from '../ComingSoon';
 
 const UvicornLogAnalysisPage = (): JSX.Element => {
-  return <div>UvicornLogAnalysisPage</div>;
+  return (
+    <>
+      <ComingSoon />
+    </>
+  );
 };
 
 export default UvicornLogAnalysisPage;
