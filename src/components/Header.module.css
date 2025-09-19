@@ -36,3 +36,20 @@
   align-items: center;
   color: var(--text-primary);
 }
+
+.github {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+@media (max-width: 768px) {
+  .right {
+    gap: 10px;
+  }
+  .right a {
+    font-size: 18px;
+    padding: 5px;
+  }
+}
