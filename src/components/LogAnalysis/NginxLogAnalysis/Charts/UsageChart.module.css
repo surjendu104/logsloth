@@ -13,3 +13,11 @@
   font-size: 18px;
   font-weight: 600;
 }
+
+@media (max-width: 768px) {
+  .mainCt {
+    flex: none;
+    width: 100%;
+    height: 400px;
+  }
+}

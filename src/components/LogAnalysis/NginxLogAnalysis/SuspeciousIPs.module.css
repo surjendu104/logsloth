@@ -86,3 +86,11 @@
 .reasonCt {
   margin: 5px;
 }
+
+@media (max-width: 768px) {
+  .mainCt {
+    flex: none;
+    width: 100%;
+    height: 300px;
+  }
+}

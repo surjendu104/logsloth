@@ -35,3 +35,11 @@
   background-size: 15px;
   outline: none;
 }
+
+@media (max-width: 768px) {
+  .mainCt {
+    flex: none;
+    width: 100%;
+    height: 300px;
+  }
+}
