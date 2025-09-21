@@ -1,10 +1,45 @@
 .mainCt {
   width: 100%;
   display: flex;
+  flex-direction: column;
   gap: 18px;
-  flex-wrap: wrap;
   font-family: var(--font-family);
   padding: 10px;
+}
+
+.sectionCt {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sectionHead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionTitle {
+  font-size: 22px;
+  font-weight: 600;
+  padding: 5px 15px;
+  background-color: #fff;
+  border-radius: 6px;
+  width: fit-content;
+  border-bottom: 4px solid var(--border-secondary);
+}
+
+.sectionHr {
+  flex: 1;
+  height: 1.5px;
+  background: var(--border-primary);
+  margin: 2.5px;
+}
+
+.toolsGrid {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
 }
 
 .toolCt {
@@ -15,7 +50,7 @@
   min-height: 120px;
   background-color: var(--bg-white);
   padding: 10px 15px;
-  border: none;
+  border: 1px solid #151515;
   border-radius: 6px;
   display: flex;
   justify-content: flex-start;
