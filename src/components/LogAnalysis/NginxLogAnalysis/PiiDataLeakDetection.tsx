@@ -131,7 +131,8 @@ const PiiDataLeakDetection = ({
     <div className={classes.mainCt}>
       <div className={classes.name}>PII Leak Detection Summary</div>
       <div className={classes.tableWrapper}>
-        <TableVirtuoso
+        {
+          leakSummryOverTime.endpoints.length > 0 && leakSummryOverTime.stats.length > 0 ? (<><TableVirtuoso
           className={classes.tableVirtuoso}
           data={leakSummryOverTime.stats}
           fixedHeaderContent={() => (
@@ -166,7 +167,9 @@ const PiiDataLeakDetection = ({
               <td>{content.leakCount}</td>
             </>
           )}
-        />
+        /></>) : (<div className={classes.nodata}><span>No PII data leak detected</span></div>)
+        }
+
       </div>
     </div>
   );
