@@ -8,7 +8,6 @@ import dropdownIcon from '../../../assets/select-element-dropdown-icon.svg';
 const RawErrorLogViewer = ({ logs }: { logs: NginxErrorLog[] }) => {
   const [searchInput, setSearchInput] = useState<string>('');
   const [expanded, setExpanded] = useState<Set<number>>(new Set());
-  console.log(JSON.stringify(logs));
 
   const toggleExpand = (index: number) => {
     setExpanded((prev) => {
