@@ -2,12 +2,9 @@ import type { ApexOptions } from 'apexcharts';
 import Chart from 'react-apexcharts';
 import classes from './NginxRequestChart.module.css';
 import type { NginxAccessLog } from '../parser';
-import { useMemo } from 'react';
+import { useMemo, useState } from 'react';
 
-type SerisData = {
-  x: number;
-  y: number;
-};
+type ChartMode = 'generic' | 'method' | 'status_code';
 
 // Decide bucket size based on selected period
 const getBucketSize = (start: Date, end: Date): number => {
@@ -17,38 +14,67 @@ const getBucketSize = (start: Date, end: Date): number => {
 };
 
 const NginxRequestChart = ({ logs }: { logs: NginxAccessLog[] }) => {
-  const seriesData = useMemo((): SerisData[] => {
-    if (logs.length === 0) {
-      return [];
-    }
+  const [chartMode, setChartMode] = useState<ChartMode>('generic');
+
+  const seriesData = useMemo(() => {
+    if (logs.length === 0) return [];
+
     const endDate = logs[logs.length - 1].time;
     const startDate = logs[0].time;
-
     if (!startDate || !endDate) return [];
 
-    const counts = new Map<number, number>();
-
-    // prefill buckets
     const bucketMs = getBucketSize(startDate, endDate);
     const firstBucket = Math.floor(startDate.getTime() / bucketMs) * bucketMs;
-    for (let t = firstBucket; t <= endDate.getTime(); t += bucketMs) {
-      counts.set(t, 0);
-    }
 
-    // bucket logs
+    // helper: init buckets
+    const initBuckets = () => {
+      const map = new Map<number, number>();
+      for (let t = firstBucket; t <= endDate.getTime(); t += bucketMs) {
+        map.set(t, 0);
+      }
+      return map;
+    };
+
+    // choose grouping key
+    const getKey = (log: NginxAccessLog) => {
+      if (chartMode === 'method') return log.method || 'UNKNOWN';
+      if (chartMode === 'status_code') return String(log.status) || 'UNKNOWN';
+      return 'ALL';
+    };
+
+    // buckets grouped by key
+    const grouped = new Map<string, Map<number, number>>();
+
     for (const log of logs) {
       if (!log.time) continue;
       const ts = log.time.getTime();
       if (ts < startDate.getTime() || ts > endDate.getTime()) continue;
 
       const bucketStart = Math.floor(ts / bucketMs) * bucketMs;
-      counts.set(bucketStart, (counts.get(bucketStart) || 0) + 1);
+      const key = getKey(log);
+
+      if (!grouped.has(key)) {
+        grouped.set(key, initBuckets());
+      }
+
+      const buckets = grouped.get(key)!;
+      buckets.set(bucketStart, (buckets.get(bucketStart) || 0) + 1);
     }
 
-    return Array.from(counts.entries())
-      .sort((a, b) => a[0] - b[0])
-      .map(([x, y]) => ({ x, y }));
-  }, [logs]);
+    // convert into Apex series
+    return Array.from(grouped.entries()).map(([name, buckets]) => ({
+      name,
+      data: Array.from(buckets.entries())
+        .sort((a, b) => a[0] - b[0])
+        .map(([x, y]) => ({ x, y })),
+    }));
+  }, [logs, chartMode]);
+
+  const handleChartModeChange = (newMode:ChartMode) => {
+    if(newMode !== chartMode) {
+      setChartMode(newMode)
+    }
+  }
 
   const chartOptions: ApexOptions = {
     chart: {
@@ -58,7 +84,15 @@ const NginxRequestChart = ({ logs }: { logs: NginxAccessLog[] }) => {
       zoom: { type: 'x', enabled: false, autoScaleYaxis: false },
       toolbar: { show: false },
       fontFamily: 'var(--font-family)',
+      // offsetY: -40
     },
+    // title: {
+    //   text: 'Request Chart',
+    //   style: {
+    //     fontSize: '18px',
+    //     fontWeight: '600',
+    //   },
+    // },
     markers: { size: 0 },
     stroke: { curve: 'smooth', width: 2 },
     dataLabels: { enabled: false },
@@ -95,9 +129,31 @@ const NginxRequestChart = ({ logs }: { logs: NginxAccessLog[] }) => {
 
   return (
     <div className={classes.nrpsHead}>
+      <div className={classes.rpsTab}>
+        <div className={classes.rpsTabInner}>
+          <span
+            className={`${classes.tab} ${chartMode === 'generic' ? classes.activeTab : ''}`}
+            onClick={() => handleChartModeChange('generic')}
+          >
+            Generic
+          </span>
+          <span
+            className={`${classes.tab} ${chartMode === 'method' ? classes.activeTab : ''}`}
+            onClick={() => handleChartModeChange('method')}
+          >
+            Method
+          </span>
+          <span
+            className={`${classes.tab} ${chartMode === 'status_code' ? classes.activeTab : ''}`}
+            onClick={() => handleChartModeChange('status_code')}
+          >
+            Status Code
+          </span>
+        </div>
+      </div>
       <Chart
         options={chartOptions}
-        series={[{ name: 'Requests', data: seriesData }]}
+        series={seriesData}
         type="area"
         height={'100%'}
         width={'100%'}

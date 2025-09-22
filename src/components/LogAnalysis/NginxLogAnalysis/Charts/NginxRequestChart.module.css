@@ -3,7 +3,39 @@
   border-radius: 6px;
   padding: 10px;
   width: 100%;
-  height: 300px;
+  height: auto;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.rpsTab {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.rpsTabInner {
+  padding: 5px;
+  background-color: var(--bg-primary);
+  border-radius: 9px;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.tab {
+  padding: 5px 10px;
+  font-size: 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.5s;
+}
+
+.activeTab {
+  background-color: var(--bg-white);
+  color: var(--text-primary);
+  font-weight: 600;
 }
 
 .yAxisLabelStyle {
