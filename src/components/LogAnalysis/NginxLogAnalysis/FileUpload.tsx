@@ -165,39 +165,56 @@ const FileUpload = ({
     setFiles(updatedFiles);
   };
 
-  const fetchAndProcessDemoFile = async (fileName: string): Promise<string[]> => {
-  try {
-    const res = await fetch(`/demo-logs/nginx/${fileName}`);
-    if (!res.ok) throw new Error(`Failed to fetch ${fileName}`);
-    const logContent = await res.text();
+  const fetchAndProcessDemoFile = async (
+    fileName: string,
+  ): Promise<string[]> => {
+    try {
+      const res = await fetch(`/demo-logs/nginx/${fileName}`);
+      if (!res.ok) throw new Error(`Failed to fetch ${fileName}`);
 
-    return logContent.split('\n').filter((line) => line.trim().length > 0);
-  } catch (err) {
-    console.error(err);
-    return [];
-  }
-};
+      let logContent: string;
 
-const handleLoadDemoLogs = async () => {
-  setIsUploading(true);
-  setProcessingProgress(0);
+      // Always fetch raw bytes
+      const arrayBuffer = await res.arrayBuffer();
+      const data = new Uint8Array(arrayBuffer);
 
-  let accessLogs: string[] = [];
-  let errorLogs: string[] = [];
+      try {
+        // ungzip — because production it will come like application/gzip
+        const decompressedData = pako.ungzip(data);
+        logContent = new TextDecoder('utf-8').decode(decompressedData);
+      } catch {
+        // Fallback — dev server may have already decompressed
+        logContent = new TextDecoder('utf-8').decode(data);
+      }
 
-  for (let i = 0; i < demoFiles.length; i++) {
-    const logs = await fetchAndProcessDemoFile(demoFiles[i]);
-    if (demoFiles[i].includes('error')) errorLogs = errorLogs.concat(logs);
-    else accessLogs = accessLogs.concat(logs);
+      return logContent.split('\n').filter((line) => line.trim().length > 0);
+    } catch (err) {
+      console.error(`Error processing file ${fileName}:`, err);
+      return [];
+    }
+  };
 
-    setProcessingProgress(parseFloat(((100 * (i + 1)) / demoFiles.length).toFixed(2)));
-  }
+  const handleLoadDemoLogs = async () => {
+    setIsUploading(true);
+    setProcessingProgress(0);
 
-  setAccessLogs(accessLogs);
-  setErrorLogs(errorLogs);
-  setIsUploading(false);
-};
+    let accessLogs: string[] = [];
+    let errorLogs: string[] = [];
 
+    for (let i = 0; i < demoFiles.length; i++) {
+      const logs = await fetchAndProcessDemoFile(demoFiles[i]);
+      if (demoFiles[i].includes('error')) errorLogs = errorLogs.concat(logs);
+      else accessLogs = accessLogs.concat(logs);
+
+      setProcessingProgress(
+        parseFloat(((100 * (i + 1)) / demoFiles.length).toFixed(2)),
+      );
+    }
+
+    setAccessLogs(accessLogs);
+    setErrorLogs(errorLogs);
+    setIsUploading(false);
+  };
 
   return (
     <div className={classes.mainContainer}>
@@ -290,7 +307,9 @@ const handleLoadDemoLogs = async () => {
           </button>
         )}
 
-        <button className={classes.demoButton} onClick={handleLoadDemoLogs}>Demo Dashboard</button>
+        <button className={classes.demoButton} onClick={handleLoadDemoLogs}>
+          Demo Dashboard
+        </button>
       </div>
     </div>
   );
