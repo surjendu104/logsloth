@@ -25,6 +25,7 @@ import Referrer from './Charts/Referrer';
 import SuspeciousIPs from './SuspeciousIPs';
 import RawAccessLogViewer from './RawAccessLogViewer';
 import RawErrorLogViewer from './RawErrorLogViewer';
+import PiiDataLeakDetection from './PiiDataLeakDetection';
 
 const PERIODS = [
   {
@@ -220,6 +221,7 @@ const NginxLogAnalysisPage = (): JSX.Element => {
         <RawAccessLogViewer logs={filteredAccessLogByTimePeriod} />
       </div>
       <RawErrorLogViewer logs={filteredErrorLogByTimePeriod} />
+      <PiiDataLeakDetection logs={filteredAccessLogByTimePeriod} />
     </div>
   );
 };
