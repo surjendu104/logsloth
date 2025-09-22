@@ -52,7 +52,7 @@
 }
 
 .fileDragging {
-  border: 2px dashed var(--bg-primary);
+  border: 2px dashed var(--text-primary);
 }
 
 .fileInput {
@@ -160,4 +160,22 @@
 .textSecondary {
   font-size: 14px;
   color: var(--text-gray);
+}
+
+.demoButton {
+  background-color: var(--bg-white);
+  color: var(--text-black);
+  border: 1px solid var(--border-primary);
+  padding: 0.75rem 2rem;
+  border-radius: 8px;
+  font-family: 'Geist Mono', 'Inter', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.5s;
+}
+
+.demoButton:hover {
+  background-color: var(--text-primary);
+  color: var(--text-white);
 }

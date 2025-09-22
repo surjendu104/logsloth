@@ -14,6 +14,15 @@ import {
 } from 'react-icons/lu';
 import ngInxIcon from '../../../assets/nginx-icon.svg';
 
+const demoFiles = [
+  'access.1.log.gz',
+  'access.2.log.gz',
+  'access.3.log.gz',
+  'access.4.log.gz',
+  'error.1.log.gz',
+  'error.2.log.gz',
+];
+
 const FileUpload = ({
   setAccessLogs,
   setErrorLogs,
@@ -156,6 +165,40 @@ const FileUpload = ({
     setFiles(updatedFiles);
   };
 
+  const fetchAndProcessDemoFile = async (fileName: string): Promise<string[]> => {
+  try {
+    const res = await fetch(`/demo-logs/nginx/${fileName}`);
+    if (!res.ok) throw new Error(`Failed to fetch ${fileName}`);
+    const logContent = await res.text();
+
+    return logContent.split('\n').filter((line) => line.trim().length > 0);
+  } catch (err) {
+    console.error(err);
+    return [];
+  }
+};
+
+const handleLoadDemoLogs = async () => {
+  setIsUploading(true);
+  setProcessingProgress(0);
+
+  let accessLogs: string[] = [];
+  let errorLogs: string[] = [];
+
+  for (let i = 0; i < demoFiles.length; i++) {
+    const logs = await fetchAndProcessDemoFile(demoFiles[i]);
+    if (demoFiles[i].includes('error')) errorLogs = errorLogs.concat(logs);
+    else accessLogs = accessLogs.concat(logs);
+
+    setProcessingProgress(parseFloat(((100 * (i + 1)) / demoFiles.length).toFixed(2)));
+  }
+
+  setAccessLogs(accessLogs);
+  setErrorLogs(errorLogs);
+  setIsUploading(false);
+};
+
+
   return (
     <div className={classes.mainContainer}>
       <div className={classes.fileUploadContainer}>
@@ -246,6 +289,8 @@ const FileUpload = ({
             Proceed
           </button>
         )}
+
+        <button className={classes.demoButton} onClick={handleLoadDemoLogs}>Demo Dashboard</button>
       </div>
     </div>
   );
