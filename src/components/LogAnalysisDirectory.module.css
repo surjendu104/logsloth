@@ -10,7 +10,7 @@
 .sectionCt {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 25px;
 }
 
 .sectionHead {
@@ -20,13 +20,13 @@
 }
 
 .sectionTitle {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 600;
   padding: 5px 15px;
   background-color: #fff;
   border-radius: 6px;
   width: fit-content;
-  border-bottom: 4px solid var(--border-secondary);
+  border: 2px solid var(--border-secondary);
 }
 
 .sectionHr {
