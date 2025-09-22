@@ -32,6 +32,8 @@ const FileUpload = ({
 }) => {
   const [files, setFiles] = useState<File[]>([]);
   const [isUploading, setIsUploading] = useState<boolean>(false);
+  const [isDemoFileProcessing, setIsDemoFileProcessing] =
+    useState<boolean>(false);
   const [processingProgress, setProcessingProgress] = useState<number>(0);
   const [isDragging, setIsDragging] = useState<boolean>(false);
   const fileInputRef = useRef<HTMLInputElement>(null);
@@ -195,7 +197,7 @@ const FileUpload = ({
   };
 
   const handleLoadDemoLogs = async () => {
-    setIsUploading(true);
+    setIsDemoFileProcessing(true);
     setProcessingProgress(0);
 
     let accessLogs: string[] = [];
@@ -207,13 +209,13 @@ const FileUpload = ({
       else accessLogs = accessLogs.concat(logs);
 
       setProcessingProgress(
-        parseFloat(((100 * (i + 1)) / demoFiles.length).toFixed(2)),
+        parseFloat(((100 * (i + 1)) / demoFiles.length).toFixed(0)),
       );
     }
 
     setAccessLogs(accessLogs);
     setErrorLogs(errorLogs);
-    setIsUploading(false);
+    setIsDemoFileProcessing(false);
   };
 
   return (
@@ -308,7 +310,11 @@ const FileUpload = ({
         )}
 
         <button className={classes.demoButton} onClick={handleLoadDemoLogs}>
-          Demo Dashboard
+          {isDemoFileProcessing ? (
+            <span>Processing ({processingProgress}%)</span>
+          ) : (
+            <span>Demo Dashboard</span>
+          )}
         </button>
       </div>
     </div>
