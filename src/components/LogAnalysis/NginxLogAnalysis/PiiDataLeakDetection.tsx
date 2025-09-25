@@ -79,7 +79,7 @@ const getPiiLeaksStatsByTime = (leaks: PiiLeak[]): PiiLeakStat[] => {
   });
 
   return result;
-}
+};
 
 /**
  * Gives PII leaks by endpoint.
@@ -106,7 +106,7 @@ const getPiiLeakingEndpoints = (leaks: PiiLeak[]): PiiLeakingEndpoint[] => {
   });
 
   return result;
-}
+};
 
 const PiiDataLeakDetection = ({
   logs,
@@ -131,45 +131,53 @@ const PiiDataLeakDetection = ({
     <div className={classes.mainCt}>
       <div className={classes.name}>PII Leak Detection Summary</div>
       <div className={classes.tableWrapper}>
-        {
-          leakSummryOverTime.endpoints.length > 0 && leakSummryOverTime.stats.length > 0 ? (<><TableVirtuoso
-          className={classes.tableVirtuoso}
-          data={leakSummryOverTime.stats}
-          fixedHeaderContent={() => (
-            <tr>
-              <th>Date</th>
-              <th>PII Type</th>
-              <th>Count</th>
-            </tr>
-          )}
-          itemContent={(_: number, content: PiiLeakStat) => (
-            <>
-              <td>{content.date}</td>
-              <td>{content.piiType}</td>
-              <td>{content.uniqueCount}</td>
-            </>
-          )}
-        />
-        <TableVirtuoso
-          className={classes.tableVirtuoso}
-          data={leakSummryOverTime.endpoints}
-          fixedHeaderContent={() => (
-            <tr>
-              <th>Date</th>
-              <th>PII Type</th>
-              <th>Count</th>
-            </tr>
-          )}
-          itemContent={(_: number, content: PiiLeakingEndpoint) => (
-            <>
-              <td style={{ overflowWrap: 'anywhere' }}>{content.endpoint}</td>
-              <td>{content.piiType}</td>
-              <td>{content.leakCount}</td>
-            </>
-          )}
-        /></>) : (<div className={classes.nodata}><span>No PII data leak detected</span></div>)
-        }
-
+        {leakSummryOverTime.endpoints.length > 0 &&
+        leakSummryOverTime.stats.length > 0 ? (
+          <>
+            <TableVirtuoso
+              className={classes.tableVirtuoso}
+              data={leakSummryOverTime.stats}
+              fixedHeaderContent={() => (
+                <tr>
+                  <th>Date</th>
+                  <th>PII Type</th>
+                  <th>Count</th>
+                </tr>
+              )}
+              itemContent={(_: number, content: PiiLeakStat) => (
+                <>
+                  <td>{content.date}</td>
+                  <td>{content.piiType}</td>
+                  <td>{content.uniqueCount}</td>
+                </>
+              )}
+            />
+            <TableVirtuoso
+              className={classes.tableVirtuoso}
+              data={leakSummryOverTime.endpoints}
+              fixedHeaderContent={() => (
+                <tr>
+                  <th>Date</th>
+                  <th>PII Type</th>
+                  <th>Count</th>
+                </tr>
+              )}
+              itemContent={(_: number, content: PiiLeakingEndpoint) => (
+                <>
+                  <td style={{ overflowWrap: 'anywhere' }}>
+                    {content.endpoint}
+                  </td>
+                  <td>{content.piiType}</td>
+                  <td>{content.leakCount}</td>
+                </>
+              )}
+            />
+          </>
+        ) : (
+          <div className={classes.nodata}>
+            <span>No PII data leak detected</span>
+          </div>
+        )}
       </div>
     </div>
   );

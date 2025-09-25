@@ -309,7 +309,11 @@ const FileUpload = ({
           </button>
         )}
 
-        <button className={classes.demoButton} disabled={isDemoFileProcessing} onClick={handleLoadDemoLogs}>
+        <button
+          className={classes.demoButton}
+          disabled={isDemoFileProcessing}
+          onClick={handleLoadDemoLogs}
+        >
           {isDemoFileProcessing ? (
             <span>Processing ({processingProgress}%)</span>
           ) : (

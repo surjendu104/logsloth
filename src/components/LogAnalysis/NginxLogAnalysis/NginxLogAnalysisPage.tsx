@@ -82,7 +82,7 @@ const NginxLogAnalysisPage = (): JSX.Element => {
     const startDate =
       getPeriodStart(period, endDate) ?? new Date(logRange.start);
 
-    setLogDateRange({start: startDate.getTime(), end: endDate.getTime()});
+    setLogDateRange({ start: startDate.getTime(), end: endDate.getTime() });
 
     const filteredLogs = [];
     for (const log of parsedLogs) {
@@ -140,15 +140,21 @@ const NginxLogAnalysisPage = (): JSX.Element => {
   };
 
   const totalLogDateRange = useMemo(() => {
-    if(parsedLogs) {
+    if (parsedLogs) {
       const range = getLogDateRange(parsedLogs);
-      return {start: new Date(range?.start as number).toLocaleString(), end: new Date(range?.end as number).toLocaleString()}
+      return {
+        start: new Date(range?.start as number).toLocaleString(),
+        end: new Date(range?.end as number).toLocaleString(),
+      };
     }
-    return {start: 'Unknown', end: 'Unknown'}
+    return { start: 'Unknown', end: 'Unknown' };
   }, [parsedLogs]);
 
   const selectedLogDateRange = useMemo(() => {
-    return {start: new Date(logDateRange.start).toLocaleString(), end: new Date(logDateRange.end).toLocaleString()}
+    return {
+      start: new Date(logDateRange.start).toLocaleString(),
+      end: new Date(logDateRange.end).toLocaleString(),
+    };
   }, [logDateRange]);
 
   useEffect(() => {
@@ -178,9 +184,9 @@ const NginxLogAnalysisPage = (): JSX.Element => {
         <div className={classes.timePeriodCtInner}>
           {PERIODS.map((p, idx) => (
             <span
-            key={idx}
-            className={`${classes.timePeriod} ${p.value === period ? classes.activePeriod : ''}`}
-            onClick={() => changePeriod(p.value as Period)}
+              key={idx}
+              className={`${classes.timePeriod} ${p.value === period ? classes.activePeriod : ''}`}
+              onClick={() => changePeriod(p.value as Period)}
             >
               {p.name}
             </span>
@@ -196,8 +202,10 @@ const NginxLogAnalysisPage = (): JSX.Element => {
         </div>
         <div className={classes.range}>
           <div className={classes.cardName}>Selected Log Period</div>
-          <div>{selectedLogDateRange.start} - {selectedLogDateRange.end}</div>
+          <div>
+            {selectedLogDateRange.start} - {selectedLogDateRange.end}
           </div>
+        </div>
       </div>
       <TrafficOverview
         logs={filteredAccessLogByTimePeriod}

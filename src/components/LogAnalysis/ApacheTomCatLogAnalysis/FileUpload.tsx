@@ -21,7 +21,7 @@ const demoFiles = [
   'access_log.4.gz',
   'access_log.5.gz',
   'host-manager.gz',
-  'catalina.out'
+  'catalina.out',
 ];
 
 const FileUpload = ({
@@ -145,7 +145,10 @@ const FileUpload = ({
 
       for (let i = 0; i < files.length; ++i) {
         const logs = await processFile(files[i]);
-        if (files[i].name.includes('catalina') && files[i].name.endsWith('.out')) {
+        if (
+          files[i].name.includes('catalina') &&
+          files[i].name.endsWith('.out')
+        ) {
           errorLogs = errorLogs.concat(logs);
         } else {
           accessLogs = accessLogs.concat(logs);
@@ -310,7 +313,11 @@ const FileUpload = ({
           </button>
         )}
 
-        <button className={classes.demoButton} disabled={isDemoFileProcessing} onClick={handleLoadDemoLogs}>
+        <button
+          className={classes.demoButton}
+          disabled={isDemoFileProcessing}
+          onClick={handleLoadDemoLogs}
+        >
           {isDemoFileProcessing ? (
             <span>Processing ({processingProgress}%)</span>
           ) : (

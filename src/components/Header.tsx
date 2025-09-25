@@ -6,7 +6,9 @@ import { Link } from 'react-router-dom';
 const Header = (): JSX.Element => {
   return (
     <div className={classes.head}>
-      <Link className={classes.name} to={'/'}>Log Sloth</Link>
+      <Link className={classes.name} to={'/'}>
+        Log Sloth
+      </Link>
       <div className={classes.right}>
         <a href="/">Home</a>
         <a
