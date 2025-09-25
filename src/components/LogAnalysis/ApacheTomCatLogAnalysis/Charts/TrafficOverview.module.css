@@ -1,0 +1,30 @@
+.trafficOverviewCt {
+  width: 100%;
+  display: flex;
+  align-self: stretch;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.tOCard {
+  flex: 1;
+  padding: 10px 15px;
+  background-color: var(--bg-white);
+  /* box-shadow: 8px 8px 0 #D4D4D4; */
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cardName {
+  font-size: 18px;
+  font-weight: 550;
+  color: var(--text-gray);
+}
+
+.cardValue {
+  font-size: 40px;
+  font-weight: 600;
+}

@@ -1,0 +1,80 @@
+.mainCt {
+  max-width: 100%;
+  height: 500px;
+  background-color: var(--bg-white);
+  border-radius: 6px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-black);
+}
+
+.tableWrapper {
+  flex: 1;
+  display: flex;
+  gap: 10px;
+}
+
+.tableVirtuoso {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.tableVirtuoso table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+.tableVirtuoso thead {
+  background-color: var(--bg-primary);
+  color: var(--text-black);
+}
+
+.tableVirtuoso th,
+.tableVirtuoso td {
+  border: 1px solid var(--bg-primary);
+  padding: 8px;
+  text-align: left;
+}
+
+.tableVirtuoso th:nth-child(1) {
+  width: 60%;
+}
+
+.tableVirtuoso tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.tableVirtuoso tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.tableVirtuoso th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.nodata {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .mainCt {
+    height: 800px;
+  }
+  .tableWrapper {
+    flex-direction: column;
+  }
+}
