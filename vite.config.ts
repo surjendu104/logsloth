@@ -8,6 +8,6 @@ export default defineConfig({
     // drop: ['console', 'debugger']
   },
   build: {
-    chunkSizeWarningLimit: 5120
-  }
+    chunkSizeWarningLimit: 5120,
+  },
 });

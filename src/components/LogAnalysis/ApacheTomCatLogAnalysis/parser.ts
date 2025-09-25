@@ -23,7 +23,7 @@ export type ServerLog = {
   // stack contains any following lines that belong to this log e.g. exception class, "at ..." lines, Caused by, etc.
   stack?: string[];
   raw?: string; // optional: original line (first line)
-}
+};
 
 // Valid HTTP methods
 const validMethods = new Set([
@@ -122,7 +122,7 @@ export const parseServerLogs = (lines: string[]): ServerLog[] => {
 
       // Parse timestamp: "YYYY-MM-DD HH:mm:ss,SSS"
       const tsParts = timestamp.match(
-        /^(\d{4})-(\d{2})-(\d{2}) (\d{2}):(\d{2}):(\d{2}),(\d{3})$/
+        /^(\d{4})-(\d{2})-(\d{2}) (\d{2}):(\d{2}):(\d{2}),(\d{3})$/,
       );
       let time = new Date(NaN);
       if (tsParts) {
@@ -135,8 +135,8 @@ export const parseServerLogs = (lines: string[]): ServerLog[] => {
             parseInt(hh, 10),
             parseInt(mm, 10),
             parseInt(ss, 10),
-            parseInt(ms, 10)
-          )
+            parseInt(ms, 10),
+          ),
         );
       }
 

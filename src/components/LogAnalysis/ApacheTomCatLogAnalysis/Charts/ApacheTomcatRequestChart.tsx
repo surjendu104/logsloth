@@ -70,11 +70,11 @@ const ApacheTomcatRequestChart = ({ logs }: { logs: AccessLog[] }) => {
     }));
   }, [logs, chartMode]);
 
-  const handleChartModeChange = (newMode:ChartMode) => {
-    if(newMode !== chartMode) {
-      setChartMode(newMode)
+  const handleChartModeChange = (newMode: ChartMode) => {
+    if (newMode !== chartMode) {
+      setChartMode(newMode);
     }
-  }
+  };
 
   const chartOptions: ApexOptions = {
     chart: {
