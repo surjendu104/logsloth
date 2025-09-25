@@ -1,0 +1,1454 @@
+2024-12-01 03:31:10,813 INFO  [http-nio-8080-exec-23] com.example.app.RequestHandler - Handled request in 211 ms
+2024-12-01 06:03:48,226 INFO  [http-nio-8080-exec-92] com.example.app.RequestHandler - Handled request in 100 ms
+2024-12-01 05:01:35,805 WARN  [http-nio-8080-exec-40] com.example.app.Cache - Slow cache lookup for key=user:248
+2024-12-01 10:58:16,310 INFO  [http-nio-8080-exec-89] com.example.app.RequestHandler - Handled request in 133 ms
+2024-12-01 18:43:50,910 INFO  [http-nio-8080-exec-69] com.example.app.RequestHandler - Handled request in 163 ms
+2024-12-01 13:46:37,102 INFO  [http-nio-8080-exec-10] com.example.app.RequestHandler - Handled request in 491 ms
+2024-12-01 09:15:47,799 INFO  [http-nio-8080-exec-52] com.example.app.RequestHandler - Handled request in 18 ms
+2024-12-01 04:49:05,517 INFO  [http-nio-8080-exec-54] com.example.app.RequestHandler - Handled request in 185 ms
+2024-12-01 12:02:20,883 INFO  [http-nio-8080-exec-80] com.example.app.RequestHandler - Handled request in 25 ms
+2024-12-01 07:26:20,188 INFO  [http-nio-8080-exec-8] com.example.app.RequestHandler - Handled request in 98 ms
+2024-12-01 21:14:00,553 INFO  [http-nio-8080-exec-72] com.example.app.RequestHandler - Handled request in 378 ms
+2024-12-01 22:50:50,524 INFO  [http-nio-8080-exec-24] com.example.app.RequestHandler - Handled request in 162 ms
+2024-12-01 19:12:01,523 INFO  [http-nio-8080-exec-68] com.example.app.RequestHandler - Handled request in 332 ms
+2024-12-01 22:58:10,620 INFO  [http-nio-8080-exec-86] com.example.app.RequestHandler - Handled request in 222 ms
+2024-12-01 08:33:35,730 WARN  [http-nio-8080-exec-9] com.example.app.Cache - Slow cache lookup for key=user:27468
+2024-12-01 21:42:23,130 WARN  [http-nio-8080-exec-4] com.example.app.Cache - Slow cache lookup for key=user:17495
+2024-12-01 03:16:00,450 INFO  [http-nio-8080-exec-22] com.example.app.RequestHandler - Handled request in 325 ms
+2024-12-01 16:46:15,628 INFO  [http-nio-8080-exec-99] com.example.app.RequestHandler - Handled request in 21 ms
+2024-12-01 05:10:52,534 INFO  [http-nio-8080-exec-81] com.example.app.RequestHandler - Handled request in 63 ms
+2024-12-01 01:39:43,316 INFO  [http-nio-8080-exec-91] com.example.app.RequestHandler - Handled request in 429 ms
+2024-12-01 22:17:08,593 INFO  [http-nio-8080-exec-28] com.example.app.RequestHandler - Handled request in 243 ms
+2024-12-01 19:22:27,349 INFO  [http-nio-8080-exec-89] com.example.app.RequestHandler - Handled request in 407 ms
+2024-12-01 04:56:54,724 INFO  [http-nio-8080-exec-14] com.example.app.RequestHandler - Handled request in 359 ms
+2024-12-01 02:40:54,557 WARN  [http-nio-8080-exec-53] com.example.app.Cache - Slow cache lookup for key=user:7251
+2024-12-01 00:28:22,813 INFO  [http-nio-8080-exec-55] com.example.app.RequestHandler - Handled request in 394 ms
+2024-12-01 03:14:09,412 INFO  [http-nio-8080-exec-19] com.example.app.RequestHandler - Handled request in 242 ms
+2024-12-01 11:59:15,941 INFO  [http-nio-8080-exec-64] com.example.app.RequestHandler - Handled request in 276 ms
+2024-12-01 18:07:37,436 INFO  [http-nio-8080-exec-100] com.example.app.RequestHandler - Handled request in 478 ms
+2024-12-01 14:47:01,786 INFO  [http-nio-8080-exec-53] com.example.app.RequestHandler - Handled request in 291 ms
+2024-12-01 19:30:46,441 INFO  [http-nio-8080-exec-62] com.example.app.RequestHandler - Handled request in 326 ms
+2024-12-01 03:20:39,322 INFO  [http-nio-8080-exec-61] com.example.app.RequestHandler - Handled request in 234 ms
+2024-12-01 00:44:22,469 INFO  [http-nio-8080-exec-10] com.example.app.RequestHandler - Handled request in 219 ms
+2024-12-01 10:35:00,646 WARN  [http-nio-8080-exec-56] com.example.app.Cache - Slow cache lookup for key=user:18418
+2024-12-01 20:53:20,799 INFO  [http-nio-8080-exec-39] com.example.app.RequestHandler - Handled request in 409 ms
+2024-12-01 17:31:17,327 INFO  [http-nio-8080-exec-14] com.example.app.RequestHandler - Handled request in 405 ms
+2024-12-01 11:26:54,575 INFO  [http-nio-8080-exec-25] com.example.app.RequestHandler - Handled request in 339 ms
+2024-12-01 20:35:12,819 INFO  [http-nio-8080-exec-35] com.example.app.RequestHandler - Handled request in 370 ms
+2024-12-01 19:26:06,299 INFO  [http-nio-8080-exec-49] com.example.app.RequestHandler - Handled request in 332 ms
+2024-12-01 16:22:10,386 WARN  [http-nio-8080-exec-32] com.example.app.Cache - Slow cache lookup for key=user:2598
+2024-12-01 00:45:16,444 INFO  [http-nio-8080-exec-60] com.example.app.RequestHandler - Handled request in 309 ms
+2024-12-01 20:10:13,960 INFO  [http-nio-8080-exec-86] com.example.app.RequestHandler - Handled request in 348 ms
+2024-12-01 14:46:40,325 INFO  [http-nio-8080-exec-58] com.example.app.RequestHandler - Handled request in 137 ms
+2024-12-01 23:55:13,455 INFO  [http-nio-8080-exec-86] com.example.app.RequestHandler - Handled request in 77 ms
+2024-12-01 12:26:52,839 INFO  [http-nio-8080-exec-38] com.example.app.RequestHandler - Handled request in 419 ms
+2024-12-01 06:04:35,900 INFO  [http-nio-8080-exec-78] com.example.app.RequestHandler - Handled request in 305 ms
+2024-12-02 11:46:30,717 INFO  [http-nio-8080-exec-1] com.example.app.RequestHandler - Handled request in 231 ms
+2024-12-02 18:49:26,660 WARN  [http-nio-8080-exec-48] com.example.app.Cache - Slow cache lookup for key=user:1673
+2024-12-02 01:14:57,197 WARN  [http-nio-8080-exec-60] com.example.app.Cache - Slow cache lookup for key=user:21987
+2024-12-02 07:32:32,542 INFO  [http-nio-8080-exec-32] com.example.app.RequestHandler - Handled request in 112 ms
+2024-12-02 23:31:29,395 INFO  [http-nio-8080-exec-32] com.example.app.RequestHandler - Handled request in 483 ms
+2024-12-02 17:31:13,638 INFO  [http-nio-8080-exec-60] com.example.app.RequestHandler - Handled request in 333 ms
+2024-12-02 13:46:56,509 INFO  [http-nio-8080-exec-65] com.example.app.RequestHandler - Handled request in 331 ms
+2024-12-02 13:20:58,581 INFO  [http-nio-8080-exec-81] com.example.app.RequestHandler - Handled request in 249 ms
+2024-12-02 17:40:55,590 INFO  [http-nio-8080-exec-42] com.example.app.RequestHandler - Handled request in 374 ms
+2024-12-02 16:15:34,533 INFO  [http-nio-8080-exec-14] com.example.app.RequestHandler - Handled request in 67 ms
+2024-12-02 02:05:30,708 INFO  [http-nio-8080-exec-24] com.example.app.RequestHandler - Handled request in 341 ms
+2024-12-02 23:53:39,692 INFO  [http-nio-8080-exec-63] com.example.app.RequestHandler - Handled request in 352 ms
+2024-12-02 02:14:18,628 INFO  [http-nio-8080-exec-87] com.example.app.RequestHandler - Handled request in 29 ms
+2024-12-02 09:02:28,187 INFO  [http-nio-8080-exec-37] com.example.app.RequestHandler - Handled request in 354 ms
+2024-12-02 09:09:23,319 INFO  [http-nio-8080-exec-36] com.example.app.RequestHandler - Handled request in 465 ms
+2024-12-02 00:20:39,290 INFO  [http-nio-8080-exec-32] com.example.app.RequestHandler - Handled request in 414 ms
+2024-12-02 04:24:43,398 INFO  [http-nio-8080-exec-91] com.example.app.RequestHandler - Handled request in 330 ms
+2024-12-02 22:10:17,813 ERROR [http-nio-8080-exec-79] com.example.app.UserController - Unhandled exception processing /api/user
+java.lang.NullPointerException: Cannot read property 'id' of null
+	at com.example.app.service.SomeService.method(SomeService.java:129)
+	at com.example.app.service.SomeService.method(SomeService.java:94)
+	at com.example.app.service.SomeService.method(SomeService.java:65)
+	at com.example.app.UserController.handle(UserController.java:73)
+2024-12-02 16:03:14,365 INFO  [http-nio-8080-exec-62] com.example.app.RequestHandler - Handled request in 264 ms
+2024-12-02 20:24:34,104 INFO  [http-nio-8080-exec-85] com.example.app.RequestHandler - Handled request in 133 ms
+2024-12-02 08:30:51,201 INFO  [http-nio-8080-exec-69] com.example.app.RequestHandler - Handled request in 210 ms
+2024-12-02 12:34:20,123 WARN  [http-nio-8080-exec-98] com.example.app.Cache - Slow cache lookup for key=user:24804
+2024-12-02 15:52:37,617 INFO  [http-nio-8080-exec-63] com.example.app.RequestHandler - Handled request in 90 ms
+2024-12-02 13:59:22,217 INFO  [http-nio-8080-exec-36] com.example.app.RequestHandler - Handled request in 257 ms
+2024-12-02 17:52:00,607 INFO  [http-nio-8080-exec-60] com.example.app.RequestHandler - Handled request in 107 ms
+2024-12-02 11:19:17,649 INFO  [http-nio-8080-exec-55] com.example.app.RequestHandler - Handled request in 179 ms
+2024-12-02 08:25:06,901 INFO  [http-nio-8080-exec-27] com.example.app.RequestHandler - Handled request in 260 ms
+2024-12-02 19:58:05,911 INFO  [http-nio-8080-exec-20] com.example.app.RequestHandler - Handled request in 423 ms
+2024-12-02 03:25:02,613 INFO  [http-nio-8080-exec-18] com.example.app.RequestHandler - Handled request in 130 ms
+2024-12-02 08:58:51,992 INFO  [http-nio-8080-exec-52] com.example.app.RequestHandler - Handled request in 290 ms
+2024-12-02 11:40:31,263 INFO  [http-nio-8080-exec-84] com.example.app.RequestHandler - Handled request in 84 ms
+2024-12-02 15:56:26,224 INFO  [http-nio-8080-exec-39] com.example.app.RequestHandler - Handled request in 440 ms
+2024-12-02 10:08:00,821 ERROR [http-nio-8080-exec-2] com.example.app.UserController - Unhandled exception processing /api/user
+java.lang.NullPointerException: Cannot read property 'id' of null
+	at com.example.app.service.SomeService.method(SomeService.java:114)
+	at com.example.app.service.SomeService.method(SomeService.java:38)
+	at com.example.app.service.SomeService.method(SomeService.java:146)
+	at com.example.app.UserController.handle(UserController.java:19)
+2024-12-02 15:33:49,592 INFO  [http-nio-8080-exec-91] com.example.app.RequestHandler - Handled request in 409 ms
+2024-12-02 10:56:42,513 INFO  [http-nio-8080-exec-18] com.example.app.RequestHandler - Handled request in 8 ms
+2024-12-02 13:51:49,271 INFO  [http-nio-8080-exec-7] com.example.app.RequestHandler - Handled request in 322 ms
+2024-12-02 19:06:44,886 INFO  [http-nio-8080-exec-58] com.example.app.RequestHandler - Handled request in 217 ms
+2024-12-02 13:44:51,152 ERROR [http-nio-8080-exec-5] com.example.app.UserController - Unhandled exception processing /api/user
+java.lang.NullPointerException: Cannot read property 'id' of null
+	at com.example.app.service.SomeService.method(SomeService.java:50)
+	at com.example.app.service.SomeService.method(SomeService.java:78)
+	at com.example.app.service.SomeService.method(SomeService.java:79)
+	at com.example.app.UserController.handle(UserController.java:12)
+2024-12-02 22:23:16,950 ERROR [http-nio-8080-exec-85] com.example.app.UserController - Unhandled exception processing /api/user
+java.lang.NullPointerException: Cannot read property 'id' of null
+	at com.example.app.service.SomeService.method(SomeService.java:109)
+	at com.example.app.service.SomeService.method(SomeService.java:115)
+	at com.example.app.service.SomeService.method(SomeService.java:115)
+	at com.example.app.UserController.handle(UserController.java:24)
+2024-12-02 03:09:07,551 INFO  [http-nio-8080-exec-46] com.example.app.RequestHandler - Handled request in 115 ms
+2024-12-02 10:02:23,329 INFO  [http-nio-8080-exec-89] com.example.app.RequestHandler - Handled request in 206 ms
+2024-12-02 19:53:22,436 INFO  [http-nio-8080-exec-72] com.example.app.RequestHandler - Handled request in 364 ms
+2024-12-03 02:52:55,311 INFO  [http-nio-8080-exec-50] com.example.app.RequestHandler - Handled request in 488 ms
+2024-12-03 03:42:55,131 ERROR [http-nio-8080-exec-38] com.example.app.UserController - Unhandled exception processing /api/user
+java.lang.NullPointerException: Cannot read property 'id' of null
+	at com.example.app.service.SomeService.method(SomeService.java:71)
+	at com.example.app.service.SomeService.method(SomeService.java:172)
+	at com.example.app.service.SomeService.method(SomeService.java:148)
+	at com.example.app.UserController.handle(UserController.java:61)
+2024-12-03 03:22:15,582 INFO  [http-nio-8080-exec-78] com.example.app.RequestHandler - Handled request in 189 ms
+2024-12-03 02:32:56,888 INFO  [http-nio-8080-exec-12] com.example.app.RequestHandler - Handled request in 280 ms
+2024-12-03 03:31:30,190 WARN  [http-nio-8080-exec-17] com.example.app.Cache - Slow cache lookup for key=user:14099
+2024-12-03 14:21:50,328 INFO  [http-nio-8080-exec-31] com.example.app.RequestHandler - Handled request in 426 ms
+2024-12-03 16:46:49,908 INFO  [http-nio-8080-exec-85] com.example.app.RequestHandler - Handled request in 218 ms
+2024-12-03 04:26:30,341 INFO  [http-nio-8080-exec-91] com.example.app.RequestHandler - Handled request in 130 ms
+2024-12-03 03:06:35,254 INFO  [http-nio-8080-exec-66] com.example.app.RequestHandler - Handled request in 120 ms
+2024-12-03 02:10:17,858 INFO  [http-nio-8080-exec-84] com.example.app.RequestHandler - Handled request in 96 ms
+2024-12-03 05:04:24,421 INFO  [http-nio-8080-exec-20] com.example.app.RequestHandler - Handled request in 285 ms
+2024-12-03 17:27:14,776 INFO  [http-nio-8080-exec-97] com.example.app.RequestHandler - Handled request in 330 ms
+2024-12-03 16:06:29,777 INFO  [http-nio-8080-exec-39] com.example.app.RequestHandler - Handled request in 455 ms
+2024-12-03 22:11:42,938 INFO  [http-nio-8080-exec-86] com.example.app.RequestHandler - Handled request in 280 ms
+2024-12-03 16:14:46,191 INFO  [http-nio-8080-exec-88] com.example.app.RequestHandler - Handled request in 63 ms
+2024-12-03 19:20:27,956 INFO  [http-nio-8080-exec-72] com.example.app.RequestHandler - Handled request in 433 ms
+2024-12-03 01:06:43,712 INFO  [http-nio-8080-exec-17] com.example.app.RequestHandler - Handled request in 161 ms
+2024-12-03 09:47:26,540 WARN  [http-nio-8080-exec-97] com.example.app.Cache - Slow cache lookup for key=user:17205
+2024-12-03 21:11:45,983 WARN  [http-nio-8080-exec-17] com.example.app.Cache - Slow cache lookup for key=user:6740
+2024-12-03 10:06:19,694 INFO  [http-nio-8080-exec-60] com.example.app.RequestHandler - Handled request in 106 ms
+2024-12-03 18:26:21,741 INFO  [http-nio-8080-exec-71] com.example.app.RequestHandler - Handled request in 493 ms
+2024-12-03 01:27:14,419 INFO  [http-nio-8080-exec-5] com.example.app.RequestHandler - Handled request in 108 ms
+2024-12-03 12:20:47,719 INFO  [http-nio-8080-exec-9] com.example.app.RequestHandler - Handled request in 459 ms
+2024-12-03 09:53:45,658 INFO  [http-nio-8080-exec-30] com.example.app.RequestHandler - Handled request in 344 ms
+2024-12-03 07:26:12,212 WARN  [http-nio-8080-exec-60] com.example.app.Cache - Slow cache lookup for key=user:19569
+2024-12-03 02:21:54,881 INFO  [http-nio-8080-exec-76] com.example.app.RequestHandler - Handled request in 326 ms
+2024-12-03 11:29:42,445 WARN  [http-nio-8080-exec-21] com.example.app.Cache - Slow cache lookup for key=user:6514
+2024-12-03 08:02:33,325 INFO  [http-nio-8080-exec-15] com.example.app.RequestHandler - Handled request in 21 ms
+2024-12-03 18:05:59,218 WARN  [http-nio-8080-exec-29] com.example.app.Cache - Slow cache lookup for key=user:15834
+2024-12-03 01:14:41,762 INFO  [http-nio-8080-exec-66] com.example.app.RequestHandler - Handled request in 37 ms
+2024-12-03 18:18:58,479 INFO  [http-nio-8080-exec-90] com.example.app.RequestHandler - Handled request in 423 ms
+2024-12-03 10:44:15,508 INFO  [http-nio-8080-exec-31] com.example.app.RequestHandler - Handled request in 400 ms
+2024-12-03 02:38:57,258 INFO  [http-nio-8080-exec-11] com.example.app.RequestHandler - Handled request in 199 ms
+2024-12-03 22:28:32,944 INFO  [http-nio-8080-exec-69] com.example.app.RequestHandler - Handled request in 359 ms
+2024-12-03 02:55:43,283 INFO  [http-nio-8080-exec-58] com.example.app.RequestHandler - Handled request in 197 ms
+2024-12-03 11:19:36,467 INFO  [http-nio-8080-exec-38] com.example.app.RequestHandler - Handled request in 230 ms
+2024-12-03 12:22:11,918 INFO  [http-nio-8080-exec-55] com.example.app.RequestHandler - Handled request in 264 ms
+2024-12-03 23:16:49,338 INFO  [http-nio-8080-exec-75] com.example.app.RequestHandler - Handled request in 345 ms
+2024-12-03 09:48:52,151 INFO  [http-nio-8080-exec-56] com.example.app.RequestHandler - Handled request in 323 ms
+2024-12-03 06:08:53,905 INFO  [http-nio-8080-exec-37] com.example.app.RequestHandler - Handled request in 31 ms
+2024-12-03 14:03:08,129 INFO  [http-nio-8080-exec-32] com.example.app.RequestHandler - Handled request in 54 ms
+2024-12-03 12:32:37,677 INFO  [http-nio-8080-exec-5] com.example.app.RequestHandler - Handled request in 272 ms
+2024-12-03 16:47:03,929 INFO  [http-nio-8080-exec-53] com.example.app.RequestHandler - Handled request in 406 ms
+2024-12-03 01:11:29,906 INFO  [http-nio-8080-exec-52] com.example.app.RequestHandler - Handled request in 482 ms
+2024-12-03 11:51:34,939 INFO  [http-nio-8080-exec-85] com.example.app.RequestHandler - Handled request in 354 ms
+2024-12-03 04:21:53,952 INFO  [http-nio-8080-exec-83] com.example.app.RequestHandler - Handled request in 454 ms
+2024-12-03 15:09:38,214 WARN  [http-nio-8080-exec-30] com.example.app.Cache - Slow cache lookup for key=user:24593
+2024-12-03 03:57:58,896 INFO  [http-nio-8080-exec-36] com.example.app.RequestHandler - Handled request in 186 ms
+2024-12-04 23:43:55,233 WARN  [http-nio-8080-exec-8] com.example.app.Cache - Slow cache lookup for key=user:10883
+2024-12-04 10:28:07,591 ERROR [http-nio-8080-exec-71] com.example.app.UserController - Unhandled exception processing /api/user
+java.lang.NullPointerException: Cannot read property 'id' of null
+	at com.example.app.service.SomeService.method(SomeService.java:166)
+	at com.example.app.service.SomeService.method(SomeService.java:128)
+	at com.example.app.service.SomeService.method(SomeService.java:196)
+	at com.example.app.UserController.handle(UserController.java:46)
+2024-12-04 19:41:44,941 WARN  [http-nio-8080-exec-81] com.example.app.Cache - Slow cache lookup for key=user:5607
+2024-12-04 10:30:38,625 INFO  [http-nio-8080-exec-17] com.example.app.RequestHandler - Handled request in 299 ms
+2024-12-04 05:26:54,457 INFO  [http-nio-8080-exec-90] com.example.app.RequestHandler - Handled request in 113 ms
+2024-12-04 03:40:24,798 INFO  [http-nio-8080-exec-36] com.example.app.RequestHandler - Handled request in 347 ms
+2024-12-04 21:27:59,421 INFO  [http-nio-8080-exec-74] com.example.app.RequestHandler - Handled request in 489 ms
+2024-12-04 03:11:08,294 ERROR [http-nio-8080-exec-94] com.example.app.UserController - Unhandled exception processing /api/user
+java.lang.NullPointerException: Cannot read property 'id' of null
+	at com.example.app.service.SomeService.method(SomeService.java:110)
+	at com.example.app.service.SomeService.method(SomeService.java:105)
+	at com.example.app.service.SomeService.method(SomeService.java:79)
+	at com.example.app.UserController.handle(UserController.java:51)
+2024-12-04 04:52:35,188 INFO  [http-nio-8080-exec-1] com.example.app.RequestHandler - Handled request in 243 ms
+2024-12-04 22:09:34,358 INFO  [http-nio-8080-exec-19] com.example.app.RequestHandler - Handled request in 290 ms
+2024-12-04 10:53:30,912 WARN  [http-nio-8080-exec-59] com.example.app.Cache - Slow cache lookup for key=user:29000
+2024-12-04 15:25:59,979 ERROR [http-nio-8080-exec-94] com.example.app.UserController - Unhandled exception processing /api/user
+java.lang.NullPointerException: Cannot read property 'id' of null
+	at com.example.app.service.SomeService.method(SomeService.java:92)
+	at com.example.app.service.SomeService.method(SomeService.java:118)
+	at com.example.app.service.SomeService.method(SomeService.java:74)
+	at com.example.app.UserController.handle(UserController.java:55)
+2024-12-04 21:06:58,565 INFO  [http-nio-8080-exec-87] com.example.app.RequestHandler - Handled request in 8 ms
+2024-12-04 15:59:48,682 INFO  [http-nio-8080-exec-2] com.example.app.RequestHandler - Handled request in 435 ms
+2024-12-04 15:51:19,207 INFO  [http-nio-8080-exec-66] com.example.app.RequestHandler - Handled request in 315 ms
+2024-12-04 23:30:30,623 WARN  [http-nio-8080-exec-40] com.example.app.Cache - Slow cache lookup for key=user:17630
+2024-12-04 06:27:53,622 INFO  [http-nio-8080-exec-53] com.example.app.RequestHandler - Handled request in 298 ms
+2024-12-04 11:20:57,941 WARN  [http-nio-8080-exec-96] com.example.app.Cache - Slow cache lookup for key=user:4395
+2024-12-04 13:12:03,721 INFO  [http-nio-8080-exec-69] com.example.app.RequestHandler - Handled request in 57 ms
+2024-12-04 00:08:19,124 INFO  [http-nio-8080-exec-37] com.example.app.RequestHandler - Handled request in 44 ms
+2024-12-04 23:04:20,208 WARN  [http-nio-8080-exec-75] com.example.app.Cache - Slow cache lookup for key=user:13952
+2024-12-04 10:43:34,353 INFO  [http-nio-8080-exec-93] com.example.app.RequestHandler - Handled request in 468 ms
+2024-12-04 07:19:55,584 INFO  [http-nio-8080-exec-47] com.example.app.RequestHandler - Handled request in 24 ms
+2024-12-04 09:18:42,762 INFO  [http-nio-8080-exec-14] com.example.app.RequestHandler - Handled request in 451 ms
+2024-12-04 09:05:04,140 INFO  [http-nio-8080-exec-8] com.example.app.RequestHandler - Handled request in 291 ms
+2024-12-04 17:12:05,919 WARN  [http-nio-8080-exec-97] com.example.app.Cache - Slow cache lookup for key=user:23425
+2024-12-04 18:51:23,844 WARN  [http-nio-8080-exec-86] com.example.app.Cache - Slow cache lookup for key=user:8851
+2024-12-04 21:52:43,256 WARN  [http-nio-8080-exec-46] com.example.app.Cache - Slow cache lookup for key=user:12900
+2024-12-04 07:07:22,476 INFO  [http-nio-8080-exec-52] com.example.app.RequestHandler - Handled request in 70 ms
+2024-12-04 11:49:16,202 INFO  [http-nio-8080-exec-7] com.example.app.RequestHandler - Handled request in 487 ms
+2024-12-04 23:50:39,474 INFO  [http-nio-8080-exec-69] com.example.app.RequestHandler - Handled request in 138 ms
+2024-12-04 07:48:13,679 INFO  [http-nio-8080-exec-16] com.example.app.RequestHandler - Handled request in 320 ms
+2024-12-04 06:30:54,519 ERROR [http-nio-8080-exec-94] com.example.app.UserController - Unhandled exception processing /api/user
+java.lang.NullPointerException: Cannot read property 'id' of null
+	at com.example.app.service.SomeService.method(SomeService.java:134)
+	at com.example.app.service.SomeService.method(SomeService.java:110)
+	at com.example.app.service.SomeService.method(SomeService.java:133)
+	at com.example.app.UserController.handle(UserController.java:88)
+2024-12-04 07:30:22,412 INFO  [http-nio-8080-exec-56] com.example.app.RequestHandler - Handled request in 418 ms
+2024-12-04 01:25:06,585 INFO  [http-nio-8080-exec-94] com.example.app.RequestHandler - Handled request in 85 ms
+2024-12-04 23:50:26,394 INFO  [http-nio-8080-exec-54] com.example.app.RequestHandler - Handled request in 427 ms
+2024-12-04 12:18:40,422 WARN  [http-nio-8080-exec-9] com.example.app.Cache - Slow cache lookup for key=user:11882
+2024-12-04 10:29:54,563 INFO  [http-nio-8080-exec-37] com.example.app.RequestHandler - Handled request in 22 ms
+2024-12-05 23:05:55,909 INFO  [http-nio-8080-exec-40] com.example.app.RequestHandler - Handled request in 472 ms
+2024-12-05 09:49:05,409 WARN  [http-nio-8080-exec-96] com.example.app.Cache - Slow cache lookup for key=user:926
+2024-12-05 22:43:00,790 WARN  [http-nio-8080-exec-71] com.example.app.Cache - Slow cache lookup for key=user:4808
+2024-12-05 20:56:12,575 WARN  [http-nio-8080-exec-30] com.example.app.Cache - Slow cache lookup for key=user:950
+2024-12-05 21:23:37,297 INFO  [http-nio-8080-exec-76] com.example.app.RequestHandler - Handled request in 432 ms
+2024-12-05 13:10:27,409 INFO  [http-nio-8080-exec-26] com.example.app.RequestHandler - Handled request in 479 ms
+2024-12-05 14:29:33,582 INFO  [http-nio-8080-exec-16] com.example.app.RequestHandler - Handled request in 9 ms
+2024-12-05 03:43:07,395 INFO  [http-nio-8080-exec-9] com.example.app.RequestHandler - Handled request in 254 ms
+2024-12-05 16:46:14,672 INFO  [http-nio-8080-exec-58] com.example.app.RequestHandler - Handled request in 256 ms
+2024-12-05 14:01:11,146 INFO  [http-nio-8080-exec-36] com.example.app.RequestHandler - Handled request in 436 ms
+2024-12-05 11:26:31,287 INFO  [http-nio-8080-exec-85] com.example.app.RequestHandler - Handled request in 198 ms
+2024-12-05 17:49:12,475 INFO  [http-nio-8080-exec-88] com.example.app.RequestHandler - Handled request in 148 ms
+2024-12-05 16:02:33,888 INFO  [http-nio-8080-exec-61] com.example.app.RequestHandler - Handled request in 419 ms
+2024-12-05 08:25:50,968 INFO  [http-nio-8080-exec-16] com.example.app.RequestHandler - Handled request in 201 ms
+2024-12-05 07:11:06,872 INFO  [http-nio-8080-exec-99] com.example.app.RequestHandler - Handled request in 294 ms
+2024-12-05 20:39:10,595 INFO  [http-nio-8080-exec-98] com.example.app.RequestHandler - Handled request in 270 ms
+2024-12-05 00:40:47,662 WARN  [http-nio-8080-exec-24] com.example.app.Cache - Slow cache lookup for key=user:3978
+2024-12-05 03:03:36,163 INFO  [http-nio-8080-exec-60] com.example.app.RequestHandler - Handled request in 21 ms
+2024-12-05 20:07:14,570 INFO  [http-nio-8080-exec-85] com.example.app.RequestHandler - Handled request in 104 ms
+2024-12-05 08:21:19,898 INFO  [http-nio-8080-exec-89] com.example.app.RequestHandler - Handled request in 354 ms
+2024-12-05 23:53:47,562 INFO  [http-nio-8080-exec-26] com.example.app.RequestHandler - Handled request in 225 ms
+2024-12-05 06:07:26,130 INFO  [http-nio-8080-exec-14] com.example.app.RequestHandler - Handled request in 265 ms
+2024-12-05 15:23:50,157 INFO  [http-nio-8080-exec-100] com.example.app.RequestHandler - Handled request in 126 ms
+2024-12-05 09:51:41,841 WARN  [http-nio-8080-exec-48] com.example.app.Cache - Slow cache lookup for key=user:16534
+2024-12-05 05:41:29,954 INFO  [http-nio-8080-exec-82] com.example.app.RequestHandler - Handled request in 304 ms
+2024-12-05 00:31:33,433 INFO  [http-nio-8080-exec-3] com.example.app.RequestHandler - Handled request in 235 ms
+2024-12-05 19:00:22,412 INFO  [http-nio-8080-exec-63] com.example.app.RequestHandler - Handled request in 75 ms
+2024-12-05 18:51:12,286 WARN  [http-nio-8080-exec-22] com.example.app.Cache - Slow cache lookup for key=user:14062
+2024-12-05 01:49:40,822 INFO  [http-nio-8080-exec-26] com.example.app.RequestHandler - Handled request in 99 ms
+2024-12-05 21:49:25,776 INFO  [http-nio-8080-exec-97] com.example.app.RequestHandler - Handled request in 445 ms
+2024-12-05 21:07:46,475 INFO  [http-nio-8080-exec-89] com.example.app.RequestHandler - Handled request in 425 ms
+2024-12-05 20:29:42,370 INFO  [http-nio-8080-exec-54] com.example.app.RequestHandler - Handled request in 92 ms
+2024-12-05 04:01:58,194 INFO  [http-nio-8080-exec-87] com.example.app.RequestHandler - Handled request in 361 ms
+2024-12-05 23:12:11,822 INFO  [http-nio-8080-exec-79] com.example.app.RequestHandler - Handled request in 205 ms
+2024-12-05 15:37:30,212 INFO  [http-nio-8080-exec-49] com.example.app.RequestHandler - Handled request in 392 ms
+2024-12-05 03:58:06,273 INFO  [http-nio-8080-exec-52] com.example.app.RequestHandler - Handled request in 198 ms
+2024-12-05 15:29:11,268 WARN  [http-nio-8080-exec-78] com.example.app.Cache - Slow cache lookup for key=user:17452
+2024-12-05 08:08:49,160 WARN  [http-nio-8080-exec-77] com.example.app.Cache - Slow cache lookup for key=user:25568
+2024-12-05 05:19:41,850 INFO  [http-nio-8080-exec-53] com.example.app.RequestHandler - Handled request in 405 ms
+2024-12-05 13:24:25,200 INFO  [http-nio-8080-exec-9] com.example.app.RequestHandler - Handled request in 483 ms
+2024-12-05 23:37:46,282 INFO  [http-nio-8080-exec-39] com.example.app.RequestHandler - Handled request in 307 ms
+2024-12-05 14:46:11,531 INFO  [http-nio-8080-exec-88] com.example.app.RequestHandler - Handled request in 436 ms
+2024-12-05 03:29:10,792 ERROR [http-nio-8080-exec-71] com.example.app.UserController - Unhandled exception processing /api/user
+java.lang.NullPointerException: Cannot read property 'id' of null
+	at com.example.app.service.SomeService.method(SomeService.java:79)
+	at com.example.app.service.SomeService.method(SomeService.java:151)
+	at com.example.app.service.SomeService.method(SomeService.java:154)
+	at com.example.app.UserController.handle(UserController.java:27)
+2024-12-05 12:36:08,657 INFO  [http-nio-8080-exec-55] com.example.app.RequestHandler - Handled request in 17 ms
+2024-12-05 14:40:06,522 INFO  [http-nio-8080-exec-38] com.example.app.RequestHandler - Handled request in 255 ms
+2024-12-05 08:17:03,849 INFO  [http-nio-8080-exec-98] com.example.app.RequestHandler - Handled request in 347 ms
+2024-12-06 15:30:09,173 WARN  [http-nio-8080-exec-76] com.example.app.Cache - Slow cache lookup for key=user:10596
+2024-12-06 16:41:30,256 INFO  [http-nio-8080-exec-76] com.example.app.RequestHandler - Handled request in 199 ms
+2024-12-06 12:23:25,776 INFO  [http-nio-8080-exec-65] com.example.app.RequestHandler - Handled request in 271 ms
+2024-12-06 15:31:01,969 INFO  [http-nio-8080-exec-46] com.example.app.RequestHandler - Handled request in 438 ms
+2024-12-06 10:03:48,179 ERROR [http-nio-8080-exec-29] com.example.app.UserController - Unhandled exception processing /api/user
+java.lang.NullPointerException: Cannot read property 'id' of null
+	at com.example.app.service.SomeService.method(SomeService.java:137)
+	at com.example.app.service.SomeService.method(SomeService.java:136)
+	at com.example.app.service.SomeService.method(SomeService.java:136)
+	at com.example.app.UserController.handle(UserController.java:56)
+2024-12-06 04:28:47,819 INFO  [http-nio-8080-exec-56] com.example.app.RequestHandler - Handled request in 51 ms
+2024-12-06 00:56:55,486 INFO  [http-nio-8080-exec-13] com.example.app.RequestHandler - Handled request in 355 ms
+2024-12-06 04:21:48,750 INFO  [http-nio-8080-exec-58] com.example.app.RequestHandler - Handled request in 297 ms
+2024-12-06 07:23:36,264 INFO  [http-nio-8080-exec-77] com.example.app.RequestHandler - Handled request in 11 ms
+2024-12-06 06:48:20,401 INFO  [http-nio-8080-exec-2] com.example.app.RequestHandler - Handled request in 204 ms
+2024-12-06 07:05:54,545 INFO  [http-nio-8080-exec-55] com.example.app.RequestHandler - Handled request in 219 ms
+2024-12-06 16:49:14,616 INFO  [http-nio-8080-exec-54] com.example.app.RequestHandler - Handled request in 282 ms
+2024-12-06 00:11:05,806 WARN  [http-nio-8080-exec-53] com.example.app.Cache - Slow cache lookup for key=user:1106
+2024-12-06 08:54:22,639 INFO  [http-nio-8080-exec-95] com.example.app.RequestHandler - Handled request in 173 ms
+2024-12-06 09:34:16,879 INFO  [http-nio-8080-exec-90] com.example.app.RequestHandler - Handled request in 422 ms
+2024-12-06 01:19:27,531 WARN  [http-nio-8080-exec-80] com.example.app.Cache - Slow cache lookup for key=user:8656
+2024-12-06 11:50:49,151 INFO  [http-nio-8080-exec-27] com.example.app.RequestHandler - Handled request in 352 ms
+2024-12-06 22:04:52,418 INFO  [http-nio-8080-exec-79] com.example.app.RequestHandler - Handled request in 45 ms
+2024-12-06 21:56:20,826 INFO  [http-nio-8080-exec-87] com.example.app.RequestHandler - Handled request in 493 ms
+2024-12-06 03:28:38,518 WARN  [http-nio-8080-exec-64] com.example.app.Cache - Slow cache lookup for key=user:9964
+2024-12-06 17:05:51,145 INFO  [http-nio-8080-exec-75] com.example.app.RequestHandler - Handled request in 363 ms
+2024-12-06 18:19:34,208 WARN  [http-nio-8080-exec-4] com.example.app.Cache - Slow cache lookup for key=user:9367
+2024-12-06 13:08:49,906 INFO  [http-nio-8080-exec-42] com.example.app.RequestHandler - Handled request in 121 ms
+2024-12-06 13:55:39,253 INFO  [http-nio-8080-exec-75] com.example.app.RequestHandler - Handled request in 464 ms
+2024-12-06 23:18:45,268 INFO  [http-nio-8080-exec-85] com.example.app.RequestHandler - Handled request in 414 ms
+2024-12-06 21:06:01,268 INFO  [http-nio-8080-exec-6] com.example.app.RequestHandler - Handled request in 355 ms
+2024-12-06 14:35:47,805 INFO  [http-nio-8080-exec-93] com.example.app.RequestHandler - Handled request in 381 ms
+2024-12-06 11:20:44,204 ERROR [http-nio-8080-exec-56] com.example.app.UserController - Unhandled exception processing /api/user
+java.lang.NullPointerException: Cannot read property 'id' of null
+	at com.example.app.service.SomeService.method(SomeService.java:177)
+	at com.example.app.service.SomeService.method(SomeService.java:104)
+	at com.example.app.service.SomeService.method(SomeService.java:78)
+	at com.example.app.UserController.handle(UserController.java:89)
+2024-12-06 01:17:21,440 WARN  [http-nio-8080-exec-37] com.example.app.Cache - Slow cache lookup for key=user:13988
+2024-12-06 00:49:56,935 INFO  [http-nio-8080-exec-86] com.example.app.RequestHandler - Handled request in 459 ms
+2024-12-06 09:38:13,467 INFO  [http-nio-8080-exec-40] com.example.app.RequestHandler - Handled request in 393 ms
+2024-12-06 06:03:23,913 INFO  [http-nio-8080-exec-60] com.example.app.RequestHandler - Handled request in 35 ms
+2024-12-06 18:34:33,885 INFO  [http-nio-8080-exec-10] com.example.app.RequestHandler - Handled request in 185 ms
+2024-12-06 08:04:05,944 INFO  [http-nio-8080-exec-2] com.example.app.RequestHandler - Handled request in 161 ms
+2024-12-07 03:39:02,111 INFO  [http-nio-8080-exec-22] com.example.app.RequestHandler - Handled request in 141 ms
+2024-12-07 05:44:55,693 INFO  [http-nio-8080-exec-30] com.example.app.RequestHandler - Handled request in 186 ms
+2024-12-07 20:34:40,155 INFO  [http-nio-8080-exec-2] com.example.app.RequestHandler - Handled request in 18 ms
+2024-12-07 13:01:34,832 INFO  [http-nio-8080-exec-50] com.example.app.RequestHandler - Handled request in 258 ms
+2024-12-07 21:47:37,835 INFO  [http-nio-8080-exec-89] com.example.app.RequestHandler - Handled request in 254 ms
+2024-12-07 07:59:56,834 INFO  [http-nio-8080-exec-39] com.example.app.RequestHandler - Handled request in 422 ms
+2024-12-07 19:26:00,883 ERROR [http-nio-8080-exec-45] com.example.app.UserController - Unhandled exception processing /api/user
+java.lang.NullPointerException: Cannot read property 'id' of null
+	at com.example.app.service.SomeService.method(SomeService.java:128)
+	at com.example.app.service.SomeService.method(SomeService.java:103)
+	at com.example.app.service.SomeService.method(SomeService.java:36)
+	at com.example.app.UserController.handle(UserController.java:32)
+2024-12-07 10:26:02,132 WARN  [http-nio-8080-exec-3] com.example.app.Cache - Slow cache lookup for key=user:20696
+2024-12-07 02:01:47,231 INFO  [http-nio-8080-exec-99] com.example.app.RequestHandler - Handled request in 231 ms
+2024-12-07 03:00:57,994 INFO  [http-nio-8080-exec-69] com.example.app.RequestHandler - Handled request in 498 ms
+2024-12-07 11:27:25,802 INFO  [http-nio-8080-exec-25] com.example.app.RequestHandler - Handled request in 474 ms
+2024-12-07 04:17:35,343 INFO  [http-nio-8080-exec-28] com.example.app.RequestHandler - Handled request in 418 ms
+2024-12-07 20:31:24,125 INFO  [http-nio-8080-exec-37] com.example.app.RequestHandler - Handled request in 162 ms
+2024-12-07 19:17:56,917 INFO  [http-nio-8080-exec-58] com.example.app.RequestHandler - Handled request in 292 ms
+2024-12-07 10:48:08,554 INFO  [http-nio-8080-exec-24] com.example.app.RequestHandler - Handled request in 463 ms
+2024-12-07 09:12:15,646 INFO  [http-nio-8080-exec-39] com.example.app.RequestHandler - Handled request in 299 ms
+2024-12-07 21:46:11,627 INFO  [http-nio-8080-exec-55] com.example.app.RequestHandler - Handled request in 380 ms
+2024-12-07 10:47:10,939 INFO  [http-nio-8080-exec-3] com.example.app.RequestHandler - Handled request in 116 ms
+2024-12-07 21:56:42,851 INFO  [http-nio-8080-exec-90] com.example.app.RequestHandler - Handled request in 272 ms
+2024-12-07 04:48:13,198 WARN  [http-nio-8080-exec-21] com.example.app.Cache - Slow cache lookup for key=user:13895
+2024-12-07 15:36:10,226 INFO  [http-nio-8080-exec-36] com.example.app.RequestHandler - Handled request in 137 ms
+2024-12-07 01:43:21,558 INFO  [http-nio-8080-exec-34] com.example.app.RequestHandler - Handled request in 483 ms
+2024-12-07 00:58:40,633 INFO  [http-nio-8080-exec-31] com.example.app.RequestHandler - Handled request in 401 ms
+2024-12-07 00:57:25,664 ERROR [http-nio-8080-exec-69] com.example.app.UserController - Unhandled exception processing /api/user
+java.lang.NullPointerException: Cannot read property 'id' of null
+	at com.example.app.service.SomeService.method(SomeService.java:74)
+	at com.example.app.service.SomeService.method(SomeService.java:200)
+	at com.example.app.service.SomeService.method(SomeService.java:134)
+	at com.example.app.UserController.handle(UserController.java:72)
+2024-12-08 04:25:10,555 WARN  [http-nio-8080-exec-81] com.example.app.Cache - Slow cache lookup for key=user:24603
+2024-12-08 18:55:13,782 WARN  [http-nio-8080-exec-4] com.example.app.Cache - Slow cache lookup for key=user:15443
+2024-12-08 03:12:55,405 INFO  [http-nio-8080-exec-50] com.example.app.RequestHandler - Handled request in 26 ms
+2024-12-08 19:44:08,706 WARN  [http-nio-8080-exec-66] com.example.app.Cache - Slow cache lookup for key=user:28374
+2024-12-08 18:16:26,997 WARN  [http-nio-8080-exec-64] com.example.app.Cache - Slow cache lookup for key=user:9577
+2024-12-08 11:22:20,734 INFO  [http-nio-8080-exec-9] com.example.app.RequestHandler - Handled request in 407 ms
+2024-12-08 12:36:55,260 INFO  [http-nio-8080-exec-89] com.example.app.RequestHandler - Handled request in 43 ms
+2024-12-08 04:37:31,846 INFO  [http-nio-8080-exec-73] com.example.app.RequestHandler - Handled request in 8 ms
+2024-12-08 00:30:38,679 INFO  [http-nio-8080-exec-74] com.example.app.RequestHandler - Handled request in 334 ms
+2024-12-08 19:46:33,767 WARN  [http-nio-8080-exec-100] com.example.app.Cache - Slow cache lookup for key=user:24007
+2024-12-08 23:16:40,506 INFO  [http-nio-8080-exec-64] com.example.app.RequestHandler - Handled request in 138 ms
+2024-12-08 02:42:16,750 INFO  [http-nio-8080-exec-16] com.example.app.RequestHandler - Handled request in 404 ms
+2024-12-08 09:30:22,139 INFO  [http-nio-8080-exec-54] com.example.app.RequestHandler - Handled request in 450 ms
+2024-12-08 22:58:57,782 INFO  [http-nio-8080-exec-36] com.example.app.RequestHandler - Handled request in 233 ms
+2024-12-08 15:32:38,658 WARN  [http-nio-8080-exec-88] com.example.app.Cache - Slow cache lookup for key=user:10651
+2024-12-08 04:36:50,504 INFO  [http-nio-8080-exec-9] com.example.app.RequestHandler - Handled request in 357 ms
+2024-12-08 21:51:51,218 INFO  [http-nio-8080-exec-84] com.example.app.RequestHandler - Handled request in 329 ms
+2024-12-08 03:39:12,979 INFO  [http-nio-8080-exec-2] com.example.app.RequestHandler - Handled request in 188 ms
+2024-12-08 18:38:22,531 INFO  [http-nio-8080-exec-16] com.example.app.RequestHandler - Handled request in 192 ms
+2024-12-08 20:00:03,550 INFO  [http-nio-8080-exec-97] com.example.app.RequestHandler - Handled request in 199 ms
+2024-12-09 17:48:39,773 INFO  [http-nio-8080-exec-12] com.example.app.RequestHandler - Handled request in 396 ms
+2024-12-09 10:29:10,448 INFO  [http-nio-8080-exec-68] com.example.app.RequestHandler - Handled request in 75 ms
+2024-12-09 10:19:33,841 INFO  [http-nio-8080-exec-81] com.example.app.RequestHandler - Handled request in 355 ms
+2024-12-09 19:53:55,743 INFO  [http-nio-8080-exec-65] com.example.app.RequestHandler - Handled request in 39 ms
+2024-12-09 19:41:47,121 INFO  [http-nio-8080-exec-78] com.example.app.RequestHandler - Handled request in 160 ms
+2024-12-09 07:37:31,216 ERROR [http-nio-8080-exec-18] com.example.app.UserController - Unhandled exception processing /api/user
+java.lang.NullPointerException: Cannot read property 'id' of null
+	at com.example.app.service.SomeService.method(SomeService.java:97)
+	at com.example.app.service.SomeService.method(SomeService.java:102)
+	at com.example.app.service.SomeService.method(SomeService.java:73)
+	at com.example.app.UserController.handle(UserController.java:52)
+2024-12-09 15:21:02,242 INFO  [http-nio-8080-exec-2] com.example.app.RequestHandler - Handled request in 284 ms
+2024-12-09 10:44:13,141 INFO  [http-nio-8080-exec-61] com.example.app.RequestHandler - Handled request in 274 ms
+2024-12-09 03:52:24,998 INFO  [http-nio-8080-exec-84] com.example.app.RequestHandler - Handled request in 423 ms
+2024-12-09 13:14:52,920 INFO  [http-nio-8080-exec-94] com.example.app.RequestHandler - Handled request in 368 ms
+2024-12-09 06:41:22,276 INFO  [http-nio-8080-exec-82] com.example.app.RequestHandler - Handled request in 30 ms
+2024-12-09 14:43:11,548 WARN  [http-nio-8080-exec-20] com.example.app.Cache - Slow cache lookup for key=user:25632
+2024-12-09 12:27:00,889 INFO  [http-nio-8080-exec-82] com.example.app.RequestHandler - Handled request in 318 ms
+2024-12-09 03:36:01,935 INFO  [http-nio-8080-exec-22] com.example.app.RequestHandler - Handled request in 118 ms
+2024-12-09 21:07:12,350 INFO  [http-nio-8080-exec-56] com.example.app.RequestHandler - Handled request in 415 ms
+2024-12-09 16:23:59,168 INFO  [http-nio-8080-exec-41] com.example.app.RequestHandler - Handled request in 454 ms
+2024-12-09 18:44:52,180 WARN  [http-nio-8080-exec-89] com.example.app.Cache - Slow cache lookup for key=user:23418
+2024-12-09 03:00:33,130 INFO  [http-nio-8080-exec-51] com.example.app.RequestHandler - Handled request in 379 ms
+2024-12-09 15:05:30,992 INFO  [http-nio-8080-exec-32] com.example.app.RequestHandler - Handled request in 214 ms
+2024-12-09 09:04:04,365 INFO  [http-nio-8080-exec-52] com.example.app.RequestHandler - Handled request in 320 ms
+2024-12-09 07:43:04,718 INFO  [http-nio-8080-exec-15] com.example.app.RequestHandler - Handled request in 423 ms
+2024-12-09 10:13:28,366 INFO  [http-nio-8080-exec-71] com.example.app.RequestHandler - Handled request in 436 ms
+2024-12-09 19:33:50,926 INFO  [http-nio-8080-exec-62] com.example.app.RequestHandler - Handled request in 99 ms
+2024-12-09 08:25:55,368 ERROR [http-nio-8080-exec-27] com.example.app.UserController - Unhandled exception processing /api/user
+java.lang.NullPointerException: Cannot read property 'id' of null
+	at com.example.app.service.SomeService.method(SomeService.java:184)
+	at com.example.app.service.SomeService.method(SomeService.java:52)
+	at com.example.app.service.SomeService.method(SomeService.java:120)
+	at com.example.app.UserController.handle(UserController.java:36)
+2024-12-09 11:08:46,466 WARN  [http-nio-8080-exec-44] com.example.app.Cache - Slow cache lookup for key=user:14941
+2024-12-09 08:05:58,680 ERROR [http-nio-8080-exec-44] com.example.app.UserController - Unhandled exception processing /api/user
+java.lang.NullPointerException: Cannot read property 'id' of null
+	at com.example.app.service.SomeService.method(SomeService.java:43)
+	at com.example.app.service.SomeService.method(SomeService.java:115)
+	at com.example.app.service.SomeService.method(SomeService.java:79)
+	at com.example.app.UserController.handle(UserController.java:28)
+2024-12-09 14:26:11,326 WARN  [http-nio-8080-exec-23] com.example.app.Cache - Slow cache lookup for key=user:12107
+2024-12-09 05:10:24,365 INFO  [http-nio-8080-exec-19] com.example.app.RequestHandler - Handled request in 139 ms
+2024-12-09 02:38:07,704 ERROR [http-nio-8080-exec-69] com.example.app.UserController - Unhandled exception processing /api/user
+java.lang.NullPointerException: Cannot read property 'id' of null
+	at com.example.app.service.SomeService.method(SomeService.java:62)
+	at com.example.app.service.SomeService.method(SomeService.java:99)
+	at com.example.app.service.SomeService.method(SomeService.java:44)
+	at com.example.app.UserController.handle(UserController.java:58)
+2024-12-09 06:18:29,827 INFO  [http-nio-8080-exec-10] com.example.app.RequestHandler - Handled request in 495 ms
+2024-12-09 02:24:54,888 INFO  [http-nio-8080-exec-24] com.example.app.RequestHandler - Handled request in 2 ms
+2024-12-09 10:17:04,949 INFO  [http-nio-8080-exec-53] com.example.app.RequestHandler - Handled request in 204 ms
+2024-12-09 05:34:56,166 INFO  [http-nio-8080-exec-63] com.example.app.RequestHandler - Handled request in 291 ms
+2024-12-09 01:55:54,141 INFO  [http-nio-8080-exec-23] com.example.app.RequestHandler - Handled request in 493 ms
+2024-12-09 01:08:12,887 INFO  [http-nio-8080-exec-30] com.example.app.RequestHandler - Handled request in 118 ms
+2024-12-09 04:53:38,147 INFO  [http-nio-8080-exec-86] com.example.app.RequestHandler - Handled request in 485 ms
+2024-12-09 07:23:10,328 ERROR [http-nio-8080-exec-91] com.example.app.UserController - Unhandled exception processing /api/user
+java.lang.NullPointerException: Cannot read property 'id' of null
+	at com.example.app.service.SomeService.method(SomeService.java:138)
+	at com.example.app.service.SomeService.method(SomeService.java:44)
+	at com.example.app.service.SomeService.method(SomeService.java:52)
+	at com.example.app.UserController.handle(UserController.java:33)
+2024-12-09 05:19:57,772 INFO  [http-nio-8080-exec-74] com.example.app.RequestHandler - Handled request in 386 ms
+2024-12-09 20:36:42,871 WARN  [http-nio-8080-exec-50] com.example.app.Cache - Slow cache lookup for key=user:7260
+2024-12-09 21:14:16,814 INFO  [http-nio-8080-exec-1] com.example.app.RequestHandler - Handled request in 376 ms
+2024-12-10 14:35:43,874 INFO  [http-nio-8080-exec-20] com.example.app.RequestHandler - Handled request in 90 ms
+2024-12-10 04:44:42,449 INFO  [http-nio-8080-exec-90] com.example.app.RequestHandler - Handled request in 161 ms
+2024-12-10 20:02:44,616 INFO  [http-nio-8080-exec-65] com.example.app.RequestHandler - Handled request in 290 ms
+2024-12-10 17:03:22,777 INFO  [http-nio-8080-exec-13] com.example.app.RequestHandler - Handled request in 36 ms
+2024-12-10 12:35:29,637 INFO  [http-nio-8080-exec-65] com.example.app.RequestHandler - Handled request in 232 ms
+2024-12-10 14:34:00,218 INFO  [http-nio-8080-exec-6] com.example.app.RequestHandler - Handled request in 18 ms
+2024-12-10 18:29:28,599 INFO  [http-nio-8080-exec-37] com.example.app.RequestHandler - Handled request in 137 ms
+2024-12-10 15:10:16,962 WARN  [http-nio-8080-exec-62] com.example.app.Cache - Slow cache lookup for key=user:18703
+2024-12-10 01:57:58,545 WARN  [http-nio-8080-exec-70] com.example.app.Cache - Slow cache lookup for key=user:27872
+2024-12-10 10:38:36,537 INFO  [http-nio-8080-exec-98] com.example.app.RequestHandler - Handled request in 271 ms
+2024-12-10 07:08:59,253 INFO  [http-nio-8080-exec-60] com.example.app.RequestHandler - Handled request in 29 ms
+2024-12-10 03:55:29,644 INFO  [http-nio-8080-exec-98] com.example.app.RequestHandler - Handled request in 11 ms
+2024-12-10 18:03:34,148 INFO  [http-nio-8080-exec-43] com.example.app.RequestHandler - Handled request in 125 ms
+2024-12-10 06:21:14,305 INFO  [http-nio-8080-exec-13] com.example.app.RequestHandler - Handled request in 346 ms
+2024-12-10 03:43:43,698 WARN  [http-nio-8080-exec-84] com.example.app.Cache - Slow cache lookup for key=user:10239
+2024-12-10 02:22:23,632 INFO  [http-nio-8080-exec-6] com.example.app.RequestHandler - Handled request in 332 ms
+2024-12-10 13:24:58,548 INFO  [http-nio-8080-exec-85] com.example.app.RequestHandler - Handled request in 284 ms
+2024-12-10 06:43:15,144 INFO  [http-nio-8080-exec-46] com.example.app.RequestHandler - Handled request in 459 ms
+2024-12-10 20:37:28,196 INFO  [http-nio-8080-exec-81] com.example.app.RequestHandler - Handled request in 282 ms
+2024-12-10 13:57:52,515 INFO  [http-nio-8080-exec-83] com.example.app.RequestHandler - Handled request in 467 ms
+2024-12-10 19:38:38,940 INFO  [http-nio-8080-exec-68] com.example.app.RequestHandler - Handled request in 224 ms
+2024-12-10 00:55:08,575 INFO  [http-nio-8080-exec-13] com.example.app.RequestHandler - Handled request in 397 ms
+2024-12-10 02:55:02,527 INFO  [http-nio-8080-exec-42] com.example.app.RequestHandler - Handled request in 112 ms
+2024-12-10 17:21:26,882 INFO  [http-nio-8080-exec-89] com.example.app.RequestHandler - Handled request in 328 ms
+2024-12-10 13:39:53,827 INFO  [http-nio-8080-exec-68] com.example.app.RequestHandler - Handled request in 400 ms
+2024-12-10 04:31:34,899 INFO  [http-nio-8080-exec-64] com.example.app.RequestHandler - Handled request in 72 ms
+2024-12-10 11:25:01,941 INFO  [http-nio-8080-exec-44] com.example.app.RequestHandler - Handled request in 414 ms
+2024-12-10 15:51:52,997 INFO  [http-nio-8080-exec-53] com.example.app.RequestHandler - Handled request in 98 ms
+2024-12-10 16:08:23,566 INFO  [http-nio-8080-exec-8] com.example.app.RequestHandler - Handled request in 141 ms
+2024-12-10 17:34:28,156 INFO  [http-nio-8080-exec-2] com.example.app.RequestHandler - Handled request in 471 ms
+2024-12-10 12:12:12,498 INFO  [http-nio-8080-exec-66] com.example.app.RequestHandler - Handled request in 69 ms
+2024-12-10 06:38:00,447 WARN  [http-nio-8080-exec-83] com.example.app.Cache - Slow cache lookup for key=user:26215
+2024-12-10 09:24:37,426 WARN  [http-nio-8080-exec-5] com.example.app.Cache - Slow cache lookup for key=user:17899
+2024-12-10 16:55:06,980 INFO  [http-nio-8080-exec-88] com.example.app.RequestHandler - Handled request in 11 ms
+2024-12-10 23:34:59,610 ERROR [http-nio-8080-exec-94] com.example.app.UserController - Unhandled exception processing /api/user
+java.lang.NullPointerException: Cannot read property 'id' of null
+	at com.example.app.service.SomeService.method(SomeService.java:33)
+	at com.example.app.service.SomeService.method(SomeService.java:184)
+	at com.example.app.service.SomeService.method(SomeService.java:118)
+	at com.example.app.UserController.handle(UserController.java:44)
+2024-12-10 04:21:57,679 INFO  [http-nio-8080-exec-74] com.example.app.RequestHandler - Handled request in 19 ms
+2024-12-10 00:44:07,168 INFO  [http-nio-8080-exec-89] com.example.app.RequestHandler - Handled request in 232 ms
+2024-12-10 05:06:08,973 INFO  [http-nio-8080-exec-20] com.example.app.RequestHandler - Handled request in 124 ms
+2024-12-10 15:30:29,259 INFO  [http-nio-8080-exec-99] com.example.app.RequestHandler - Handled request in 448 ms
+2024-12-10 07:11:46,557 INFO  [http-nio-8080-exec-85] com.example.app.RequestHandler - Handled request in 297 ms
+2024-12-10 22:13:36,508 INFO  [http-nio-8080-exec-89] com.example.app.RequestHandler - Handled request in 449 ms
+2024-12-11 02:34:09,308 INFO  [http-nio-8080-exec-85] com.example.app.RequestHandler - Handled request in 379 ms
+2024-12-11 06:04:11,233 INFO  [http-nio-8080-exec-30] com.example.app.RequestHandler - Handled request in 445 ms
+2024-12-11 16:39:02,951 WARN  [http-nio-8080-exec-96] com.example.app.Cache - Slow cache lookup for key=user:18692
+2024-12-11 22:51:48,966 INFO  [http-nio-8080-exec-48] com.example.app.RequestHandler - Handled request in 305 ms
+2024-12-11 15:10:34,599 INFO  [http-nio-8080-exec-3] com.example.app.RequestHandler - Handled request in 473 ms
+2024-12-11 16:22:10,703 INFO  [http-nio-8080-exec-47] com.example.app.RequestHandler - Handled request in 88 ms
+2024-12-11 10:49:02,650 INFO  [http-nio-8080-exec-80] com.example.app.RequestHandler - Handled request in 462 ms
+2024-12-11 00:40:22,367 INFO  [http-nio-8080-exec-9] com.example.app.RequestHandler - Handled request in 171 ms
+2024-12-11 06:00:30,207 INFO  [http-nio-8080-exec-15] com.example.app.RequestHandler - Handled request in 41 ms
+2024-12-11 23:18:17,739 INFO  [http-nio-8080-exec-88] com.example.app.RequestHandler - Handled request in 411 ms
+2024-12-11 21:08:26,347 WARN  [http-nio-8080-exec-21] com.example.app.Cache - Slow cache lookup for key=user:22480
+2024-12-11 23:35:32,759 WARN  [http-nio-8080-exec-1] com.example.app.Cache - Slow cache lookup for key=user:4082
+2024-12-11 19:39:59,857 INFO  [http-nio-8080-exec-18] com.example.app.RequestHandler - Handled request in 225 ms
+2024-12-11 18:16:19,570 INFO  [http-nio-8080-exec-58] com.example.app.RequestHandler - Handled request in 114 ms
+2024-12-11 03:48:47,927 INFO  [http-nio-8080-exec-28] com.example.app.RequestHandler - Handled request in 156 ms
+2024-12-11 10:44:22,603 INFO  [http-nio-8080-exec-28] com.example.app.RequestHandler - Handled request in 6 ms
+2024-12-11 23:04:04,384 INFO  [http-nio-8080-exec-85] com.example.app.RequestHandler - Handled request in 202 ms
+2024-12-11 20:45:33,328 INFO  [http-nio-8080-exec-67] com.example.app.RequestHandler - Handled request in 180 ms
+2024-12-11 08:46:24,124 INFO  [http-nio-8080-exec-6] com.example.app.RequestHandler - Handled request in 282 ms
+2024-12-11 16:22:39,538 INFO  [http-nio-8080-exec-47] com.example.app.RequestHandler - Handled request in 244 ms
+2024-12-11 05:13:58,259 INFO  [http-nio-8080-exec-84] com.example.app.RequestHandler - Handled request in 74 ms
+2024-12-11 12:32:34,270 INFO  [http-nio-8080-exec-62] com.example.app.RequestHandler - Handled request in 297 ms
+2024-12-11 00:03:27,780 INFO  [http-nio-8080-exec-22] com.example.app.RequestHandler - Handled request in 415 ms
+2024-12-11 19:34:44,443 INFO  [http-nio-8080-exec-94] com.example.app.RequestHandler - Handled request in 353 ms
+2024-12-11 22:58:43,319 INFO  [http-nio-8080-exec-58] com.example.app.RequestHandler - Handled request in 484 ms
+2024-12-11 15:51:47,228 INFO  [http-nio-8080-exec-13] com.example.app.RequestHandler - Handled request in 479 ms
+2024-12-11 01:03:30,619 INFO  [http-nio-8080-exec-29] com.example.app.RequestHandler - Handled request in 469 ms
+2024-12-11 14:48:04,619 INFO  [http-nio-8080-exec-52] com.example.app.RequestHandler - Handled request in 269 ms
+2024-12-11 00:36:24,668 INFO  [http-nio-8080-exec-95] com.example.app.RequestHandler - Handled request in 444 ms
+2024-12-11 19:14:53,231 INFO  [http-nio-8080-exec-91] com.example.app.RequestHandler - Handled request in 454 ms
+2024-12-11 20:32:37,634 INFO  [http-nio-8080-exec-61] com.example.app.RequestHandler - Handled request in 186 ms
+2024-12-11 19:47:13,126 WARN  [http-nio-8080-exec-90] com.example.app.Cache - Slow cache lookup for key=user:22127
+2024-12-11 23:50:26,497 INFO  [http-nio-8080-exec-43] com.example.app.RequestHandler - Handled request in 470 ms
+2024-12-11 10:25:40,913 INFO  [http-nio-8080-exec-55] com.example.app.RequestHandler - Handled request in 125 ms
+2024-12-11 19:56:50,693 INFO  [http-nio-8080-exec-29] com.example.app.RequestHandler - Handled request in 93 ms
+2024-12-11 22:53:12,645 INFO  [http-nio-8080-exec-63] com.example.app.RequestHandler - Handled request in 356 ms
+2024-12-11 01:18:25,374 INFO  [http-nio-8080-exec-77] com.example.app.RequestHandler - Handled request in 450 ms
+2024-12-11 05:20:42,176 ERROR [http-nio-8080-exec-57] com.example.app.UserController - Unhandled exception processing /api/user
+java.lang.NullPointerException: Cannot read property 'id' of null
+	at com.example.app.service.SomeService.method(SomeService.java:167)
+	at com.example.app.service.SomeService.method(SomeService.java:68)
+	at com.example.app.service.SomeService.method(SomeService.java:101)
+	at com.example.app.UserController.handle(UserController.java:81)
+2024-12-11 11:24:30,696 INFO  [http-nio-8080-exec-14] com.example.app.RequestHandler - Handled request in 131 ms
+2024-12-11 15:46:11,786 INFO  [http-nio-8080-exec-100] com.example.app.RequestHandler - Handled request in 251 ms
+2024-12-11 00:39:50,816 INFO  [http-nio-8080-exec-38] com.example.app.RequestHandler - Handled request in 459 ms
+2024-12-11 07:23:50,692 INFO  [http-nio-8080-exec-37] com.example.app.RequestHandler - Handled request in 40 ms
+2024-12-11 18:42:07,815 INFO  [http-nio-8080-exec-90] com.example.app.RequestHandler - Handled request in 246 ms
+2024-12-12 21:58:57,945 WARN  [http-nio-8080-exec-78] com.example.app.Cache - Slow cache lookup for key=user:11206
+2024-12-12 01:29:29,782 INFO  [http-nio-8080-exec-40] com.example.app.RequestHandler - Handled request in 407 ms
+2024-12-12 21:53:05,106 WARN  [http-nio-8080-exec-69] com.example.app.Cache - Slow cache lookup for key=user:12758
+2024-12-12 10:37:24,903 INFO  [http-nio-8080-exec-6] com.example.app.RequestHandler - Handled request in 173 ms
+2024-12-12 08:30:46,595 INFO  [http-nio-8080-exec-60] com.example.app.RequestHandler - Handled request in 342 ms
+2024-12-12 13:05:50,763 INFO  [http-nio-8080-exec-74] com.example.app.RequestHandler - Handled request in 196 ms
+2024-12-12 22:40:05,789 INFO  [http-nio-8080-exec-1] com.example.app.RequestHandler - Handled request in 409 ms
+2024-12-12 11:45:47,330 INFO  [http-nio-8080-exec-97] com.example.app.RequestHandler - Handled request in 258 ms
+2024-12-12 13:49:52,385 INFO  [http-nio-8080-exec-96] com.example.app.RequestHandler - Handled request in 206 ms
+2024-12-12 17:41:05,728 INFO  [http-nio-8080-exec-1] com.example.app.RequestHandler - Handled request in 21 ms
+2024-12-12 07:41:45,623 INFO  [http-nio-8080-exec-18] com.example.app.RequestHandler - Handled request in 176 ms
+2024-12-12 06:34:01,391 INFO  [http-nio-8080-exec-3] com.example.app.RequestHandler - Handled request in 321 ms
+2024-12-12 07:23:32,560 INFO  [http-nio-8080-exec-78] com.example.app.RequestHandler - Handled request in 444 ms
+2024-12-12 06:43:31,277 INFO  [http-nio-8080-exec-53] com.example.app.RequestHandler - Handled request in 440 ms
+2024-12-12 17:22:54,727 ERROR [http-nio-8080-exec-28] com.example.app.UserController - Unhandled exception processing /api/user
+java.lang.NullPointerException: Cannot read property 'id' of null
+	at com.example.app.service.SomeService.method(SomeService.java:164)
+	at com.example.app.service.SomeService.method(SomeService.java:129)
+	at com.example.app.service.SomeService.method(SomeService.java:88)
+	at com.example.app.UserController.handle(UserController.java:15)
+2024-12-12 06:36:43,903 INFO  [http-nio-8080-exec-53] com.example.app.RequestHandler - Handled request in 57 ms
+2024-12-12 01:47:37,631 INFO  [http-nio-8080-exec-77] com.example.app.RequestHandler - Handled request in 256 ms
+2024-12-12 14:40:32,231 INFO  [http-nio-8080-exec-43] com.example.app.RequestHandler - Handled request in 447 ms
+2024-12-12 15:07:28,450 INFO  [http-nio-8080-exec-40] com.example.app.RequestHandler - Handled request in 229 ms
+2024-12-12 21:32:20,484 INFO  [http-nio-8080-exec-29] com.example.app.RequestHandler - Handled request in 412 ms
+2024-12-12 03:54:49,673 INFO  [http-nio-8080-exec-57] com.example.app.RequestHandler - Handled request in 310 ms
+2024-12-12 18:58:35,790 ERROR [http-nio-8080-exec-57] com.example.app.UserController - Unhandled exception processing /api/user
+java.lang.NullPointerException: Cannot read property 'id' of null
+	at com.example.app.service.SomeService.method(SomeService.java:197)
+	at com.example.app.service.SomeService.method(SomeService.java:30)
+	at com.example.app.service.SomeService.method(SomeService.java:142)
+	at com.example.app.UserController.handle(UserController.java:45)
+2024-12-12 20:50:18,247 WARN  [http-nio-8080-exec-50] com.example.app.Cache - Slow cache lookup for key=user:18976
+2024-12-12 00:05:13,930 INFO  [http-nio-8080-exec-63] com.example.app.RequestHandler - Handled request in 416 ms
+2024-12-12 17:02:55,887 ERROR [http-nio-8080-exec-11] com.example.app.UserController - Unhandled exception processing /api/user
+java.lang.NullPointerException: Cannot read property 'id' of null
+	at com.example.app.service.SomeService.method(SomeService.java:154)
+	at com.example.app.service.SomeService.method(SomeService.java:184)
+	at com.example.app.service.SomeService.method(SomeService.java:106)
+	at com.example.app.UserController.handle(UserController.java:13)
+2024-12-12 01:45:06,177 INFO  [http-nio-8080-exec-99] com.example.app.RequestHandler - Handled request in 268 ms
+2024-12-12 19:39:31,521 WARN  [http-nio-8080-exec-18] com.example.app.Cache - Slow cache lookup for key=user:26342
+2024-12-12 04:05:19,679 INFO  [http-nio-8080-exec-47] com.example.app.RequestHandler - Handled request in 19 ms
+2024-12-12 10:49:56,904 ERROR [http-nio-8080-exec-23] com.example.app.UserController - Unhandled exception processing /api/user
+java.lang.NullPointerException: Cannot read property 'id' of null
+	at com.example.app.service.SomeService.method(SomeService.java:181)
+	at com.example.app.service.SomeService.method(SomeService.java:113)
+	at com.example.app.service.SomeService.method(SomeService.java:136)
+	at com.example.app.UserController.handle(UserController.java:51)
+2024-12-13 15:27:09,179 WARN  [http-nio-8080-exec-92] com.example.app.Cache - Slow cache lookup for key=user:17318
+2024-12-13 04:32:22,891 INFO  [http-nio-8080-exec-87] com.example.app.RequestHandler - Handled request in 26 ms
+2024-12-13 16:42:08,149 INFO  [http-nio-8080-exec-25] com.example.app.RequestHandler - Handled request in 326 ms
+2024-12-13 00:23:09,311 INFO  [http-nio-8080-exec-50] com.example.app.RequestHandler - Handled request in 37 ms
+2024-12-13 02:14:27,123 INFO  [http-nio-8080-exec-82] com.example.app.RequestHandler - Handled request in 363 ms
+2024-12-13 07:22:53,201 INFO  [http-nio-8080-exec-30] com.example.app.RequestHandler - Handled request in 421 ms
+2024-12-13 20:53:37,885 INFO  [http-nio-8080-exec-88] com.example.app.RequestHandler - Handled request in 276 ms
+2024-12-13 06:31:55,817 INFO  [http-nio-8080-exec-82] com.example.app.RequestHandler - Handled request in 222 ms
+2024-12-13 05:03:12,224 INFO  [http-nio-8080-exec-28] com.example.app.RequestHandler - Handled request in 487 ms
+2024-12-13 04:31:59,470 WARN  [http-nio-8080-exec-48] com.example.app.Cache - Slow cache lookup for key=user:15062
+2024-12-13 03:53:38,924 INFO  [http-nio-8080-exec-47] com.example.app.RequestHandler - Handled request in 263 ms
+2024-12-13 08:19:12,345 WARN  [http-nio-8080-exec-32] com.example.app.Cache - Slow cache lookup for key=user:24767
+2024-12-13 21:22:25,567 INFO  [http-nio-8080-exec-97] com.example.app.RequestHandler - Handled request in 181 ms
+2024-12-13 06:42:10,913 INFO  [http-nio-8080-exec-16] com.example.app.RequestHandler - Handled request in 479 ms
+2024-12-13 14:59:41,360 INFO  [http-nio-8080-exec-60] com.example.app.RequestHandler - Handled request in 96 ms
+2024-12-13 03:03:07,712 INFO  [http-nio-8080-exec-31] com.example.app.RequestHandler - Handled request in 216 ms
+2024-12-13 01:13:09,560 INFO  [http-nio-8080-exec-25] com.example.app.RequestHandler - Handled request in 299 ms
+2024-12-13 19:39:19,645 INFO  [http-nio-8080-exec-11] com.example.app.RequestHandler - Handled request in 256 ms
+2024-12-13 02:49:01,139 INFO  [http-nio-8080-exec-21] com.example.app.RequestHandler - Handled request in 270 ms
+2024-12-13 08:12:56,553 INFO  [http-nio-8080-exec-91] com.example.app.RequestHandler - Handled request in 269 ms
+2024-12-13 01:31:36,527 INFO  [http-nio-8080-exec-26] com.example.app.RequestHandler - Handled request in 188 ms
+2024-12-13 20:08:55,412 INFO  [http-nio-8080-exec-3] com.example.app.RequestHandler - Handled request in 335 ms
+2024-12-13 15:05:20,952 INFO  [http-nio-8080-exec-80] com.example.app.RequestHandler - Handled request in 226 ms
+2024-12-13 21:48:59,737 WARN  [http-nio-8080-exec-39] com.example.app.Cache - Slow cache lookup for key=user:15982
+2024-12-13 04:49:10,702 INFO  [http-nio-8080-exec-68] com.example.app.RequestHandler - Handled request in 179 ms
+2024-12-13 01:29:09,548 INFO  [http-nio-8080-exec-7] com.example.app.RequestHandler - Handled request in 437 ms
+2024-12-13 13:21:20,844 INFO  [http-nio-8080-exec-50] com.example.app.RequestHandler - Handled request in 50 ms
+2024-12-13 13:13:29,322 INFO  [http-nio-8080-exec-17] com.example.app.RequestHandler - Handled request in 332 ms
+2024-12-13 02:18:06,450 INFO  [http-nio-8080-exec-99] com.example.app.RequestHandler - Handled request in 106 ms
+2024-12-13 15:57:18,981 WARN  [http-nio-8080-exec-40] com.example.app.Cache - Slow cache lookup for key=user:24712
+2024-12-13 22:12:55,992 WARN  [http-nio-8080-exec-67] com.example.app.Cache - Slow cache lookup for key=user:13184
+2024-12-13 16:29:05,736 INFO  [http-nio-8080-exec-28] com.example.app.RequestHandler - Handled request in 122 ms
+2024-12-13 01:27:23,135 INFO  [http-nio-8080-exec-91] com.example.app.RequestHandler - Handled request in 171 ms
+2024-12-13 15:43:33,718 INFO  [http-nio-8080-exec-92] com.example.app.RequestHandler - Handled request in 463 ms
+2024-12-13 18:11:28,314 INFO  [http-nio-8080-exec-60] com.example.app.RequestHandler - Handled request in 175 ms
+2024-12-13 19:18:22,646 INFO  [http-nio-8080-exec-51] com.example.app.RequestHandler - Handled request in 26 ms
+2024-12-13 17:48:10,447 INFO  [http-nio-8080-exec-44] com.example.app.RequestHandler - Handled request in 250 ms
+2024-12-13 23:44:29,759 INFO  [http-nio-8080-exec-23] com.example.app.RequestHandler - Handled request in 56 ms
+2024-12-13 01:37:52,853 INFO  [http-nio-8080-exec-52] com.example.app.RequestHandler - Handled request in 134 ms
+2024-12-13 11:31:38,281 INFO  [http-nio-8080-exec-19] com.example.app.RequestHandler - Handled request in 87 ms
+2024-12-14 06:54:10,896 INFO  [http-nio-8080-exec-81] com.example.app.RequestHandler - Handled request in 448 ms
+2024-12-14 13:08:09,823 WARN  [http-nio-8080-exec-16] com.example.app.Cache - Slow cache lookup for key=user:8283
+2024-12-14 08:28:20,757 INFO  [http-nio-8080-exec-58] com.example.app.RequestHandler - Handled request in 383 ms
+2024-12-14 06:42:09,894 INFO  [http-nio-8080-exec-69] com.example.app.RequestHandler - Handled request in 471 ms
+2024-12-14 02:28:56,958 INFO  [http-nio-8080-exec-63] com.example.app.RequestHandler - Handled request in 284 ms
+2024-12-14 00:23:29,849 WARN  [http-nio-8080-exec-68] com.example.app.Cache - Slow cache lookup for key=user:390
+2024-12-14 03:54:11,410 INFO  [http-nio-8080-exec-60] com.example.app.RequestHandler - Handled request in 66 ms
+2024-12-14 03:17:21,662 INFO  [http-nio-8080-exec-51] com.example.app.RequestHandler - Handled request in 498 ms
+2024-12-14 21:20:27,110 INFO  [http-nio-8080-exec-92] com.example.app.RequestHandler - Handled request in 142 ms
+2024-12-14 16:52:14,208 INFO  [http-nio-8080-exec-34] com.example.app.RequestHandler - Handled request in 259 ms
+2024-12-14 03:41:11,101 INFO  [http-nio-8080-exec-71] com.example.app.RequestHandler - Handled request in 178 ms
+2024-12-14 02:14:16,393 INFO  [http-nio-8080-exec-9] com.example.app.RequestHandler - Handled request in 489 ms
+2024-12-14 21:45:40,949 INFO  [http-nio-8080-exec-51] com.example.app.RequestHandler - Handled request in 428 ms
+2024-12-14 00:51:45,568 INFO  [http-nio-8080-exec-76] com.example.app.RequestHandler - Handled request in 469 ms
+2024-12-14 20:01:44,111 INFO  [http-nio-8080-exec-94] com.example.app.RequestHandler - Handled request in 338 ms
+2024-12-14 04:40:09,892 ERROR [http-nio-8080-exec-12] com.example.app.UserController - Unhandled exception processing /api/user
+java.lang.NullPointerException: Cannot read property 'id' of null
+	at com.example.app.service.SomeService.method(SomeService.java:49)
+	at com.example.app.service.SomeService.method(SomeService.java:163)
+	at com.example.app.service.SomeService.method(SomeService.java:153)
+	at com.example.app.UserController.handle(UserController.java:52)
+2024-12-14 13:05:38,212 INFO  [http-nio-8080-exec-95] com.example.app.RequestHandler - Handled request in 218 ms
+2024-12-14 10:57:47,490 INFO  [http-nio-8080-exec-23] com.example.app.RequestHandler - Handled request in 368 ms
+2024-12-14 17:59:23,435 INFO  [http-nio-8080-exec-83] com.example.app.RequestHandler - Handled request in 97 ms
+2024-12-14 07:25:46,644 WARN  [http-nio-8080-exec-46] com.example.app.Cache - Slow cache lookup for key=user:428
+2024-12-14 21:17:44,785 INFO  [http-nio-8080-exec-99] com.example.app.RequestHandler - Handled request in 478 ms
+2024-12-14 18:44:41,878 WARN  [http-nio-8080-exec-74] com.example.app.Cache - Slow cache lookup for key=user:1239
+2024-12-14 04:47:08,530 INFO  [http-nio-8080-exec-22] com.example.app.RequestHandler - Handled request in 392 ms
+2024-12-14 01:33:38,677 INFO  [http-nio-8080-exec-81] com.example.app.RequestHandler - Handled request in 400 ms
+2024-12-14 20:32:16,534 INFO  [http-nio-8080-exec-35] com.example.app.RequestHandler - Handled request in 240 ms
+2024-12-14 00:23:39,881 INFO  [http-nio-8080-exec-46] com.example.app.RequestHandler - Handled request in 497 ms
+2024-12-14 12:41:02,253 ERROR [http-nio-8080-exec-19] com.example.app.UserController - Unhandled exception processing /api/user
+java.lang.NullPointerException: Cannot read property 'id' of null
+	at com.example.app.service.SomeService.method(SomeService.java:69)
+	at com.example.app.service.SomeService.method(SomeService.java:34)
+	at com.example.app.service.SomeService.method(SomeService.java:190)
+	at com.example.app.UserController.handle(UserController.java:54)
+2024-12-14 17:11:39,608 ERROR [http-nio-8080-exec-25] com.example.app.UserController - Unhandled exception processing /api/user
+java.lang.NullPointerException: Cannot read property 'id' of null
+	at com.example.app.service.SomeService.method(SomeService.java:65)
+	at com.example.app.service.SomeService.method(SomeService.java:178)
+	at com.example.app.service.SomeService.method(SomeService.java:141)
+	at com.example.app.UserController.handle(UserController.java:75)
+2024-12-14 11:34:26,279 WARN  [http-nio-8080-exec-39] com.example.app.Cache - Slow cache lookup for key=user:14821
+2024-12-14 21:27:50,321 WARN  [http-nio-8080-exec-61] com.example.app.Cache - Slow cache lookup for key=user:24443
+2024-12-14 10:39:37,612 INFO  [http-nio-8080-exec-51] com.example.app.RequestHandler - Handled request in 393 ms
+2024-12-14 13:36:32,386 INFO  [http-nio-8080-exec-76] com.example.app.RequestHandler - Handled request in 223 ms
+2024-12-14 14:49:57,270 INFO  [http-nio-8080-exec-88] com.example.app.RequestHandler - Handled request in 85 ms
+2024-12-14 19:43:08,369 ERROR [http-nio-8080-exec-9] com.example.app.UserController - Unhandled exception processing /api/user
+java.lang.NullPointerException: Cannot read property 'id' of null
+	at com.example.app.service.SomeService.method(SomeService.java:165)
+	at com.example.app.service.SomeService.method(SomeService.java:41)
+	at com.example.app.service.SomeService.method(SomeService.java:179)
+	at com.example.app.UserController.handle(UserController.java:19)
+2024-12-14 05:36:26,107 INFO  [http-nio-8080-exec-86] com.example.app.RequestHandler - Handled request in 201 ms
+2024-12-14 14:28:19,254 INFO  [http-nio-8080-exec-56] com.example.app.RequestHandler - Handled request in 49 ms
+2024-12-14 20:22:02,978 INFO  [http-nio-8080-exec-69] com.example.app.RequestHandler - Handled request in 140 ms
+2024-12-14 19:24:01,797 INFO  [http-nio-8080-exec-56] com.example.app.RequestHandler - Handled request in 118 ms
+2024-12-14 00:58:15,365 INFO  [http-nio-8080-exec-84] com.example.app.RequestHandler - Handled request in 253 ms
+2024-12-14 10:45:59,674 INFO  [http-nio-8080-exec-94] com.example.app.RequestHandler - Handled request in 10 ms
+2024-12-14 08:32:15,954 WARN  [http-nio-8080-exec-59] com.example.app.Cache - Slow cache lookup for key=user:20769
+2024-12-14 15:48:32,916 INFO  [http-nio-8080-exec-53] com.example.app.RequestHandler - Handled request in 192 ms
+2024-12-14 18:45:24,148 INFO  [http-nio-8080-exec-77] com.example.app.RequestHandler - Handled request in 423 ms
+2024-12-14 04:38:06,514 INFO  [http-nio-8080-exec-25] com.example.app.RequestHandler - Handled request in 322 ms
+2024-12-14 21:05:47,675 INFO  [http-nio-8080-exec-9] com.example.app.RequestHandler - Handled request in 279 ms
+2024-12-14 23:49:52,332 INFO  [http-nio-8080-exec-7] com.example.app.RequestHandler - Handled request in 331 ms
+2024-12-14 17:54:17,494 INFO  [http-nio-8080-exec-94] com.example.app.RequestHandler - Handled request in 322 ms
+2024-12-14 04:50:22,311 INFO  [http-nio-8080-exec-38] com.example.app.RequestHandler - Handled request in 50 ms
+2024-12-14 14:56:11,162 INFO  [http-nio-8080-exec-99] com.example.app.RequestHandler - Handled request in 39 ms
+2024-12-15 21:41:30,904 INFO  [http-nio-8080-exec-51] com.example.app.RequestHandler - Handled request in 386 ms
+2024-12-15 15:17:45,626 INFO  [http-nio-8080-exec-7] com.example.app.RequestHandler - Handled request in 281 ms
+2024-12-15 13:37:04,870 INFO  [http-nio-8080-exec-46] com.example.app.RequestHandler - Handled request in 481 ms
+2024-12-15 12:53:23,188 INFO  [http-nio-8080-exec-8] com.example.app.RequestHandler - Handled request in 464 ms
+2024-12-15 13:56:39,714 ERROR [http-nio-8080-exec-16] com.example.app.UserController - Unhandled exception processing /api/user
+java.lang.NullPointerException: Cannot read property 'id' of null
+	at com.example.app.service.SomeService.method(SomeService.java:88)
+	at com.example.app.service.SomeService.method(SomeService.java:75)
+	at com.example.app.service.SomeService.method(SomeService.java:170)
+	at com.example.app.UserController.handle(UserController.java:23)
+2024-12-15 22:00:47,184 WARN  [http-nio-8080-exec-90] com.example.app.Cache - Slow cache lookup for key=user:19006
+2024-12-15 21:44:36,861 INFO  [http-nio-8080-exec-95] com.example.app.RequestHandler - Handled request in 406 ms
+2024-12-15 18:50:40,375 INFO  [http-nio-8080-exec-22] com.example.app.RequestHandler - Handled request in 423 ms
+2024-12-15 08:03:33,333 INFO  [http-nio-8080-exec-30] com.example.app.RequestHandler - Handled request in 157 ms
+2024-12-15 08:13:09,403 WARN  [http-nio-8080-exec-3] com.example.app.Cache - Slow cache lookup for key=user:25440
+2024-12-15 02:19:12,677 WARN  [http-nio-8080-exec-63] com.example.app.Cache - Slow cache lookup for key=user:21939
+2024-12-15 22:59:15,677 INFO  [http-nio-8080-exec-46] com.example.app.RequestHandler - Handled request in 396 ms
+2024-12-15 17:24:57,281 INFO  [http-nio-8080-exec-75] com.example.app.RequestHandler - Handled request in 191 ms
+2024-12-15 22:05:05,740 INFO  [http-nio-8080-exec-22] com.example.app.RequestHandler - Handled request in 212 ms
+2024-12-15 01:18:44,177 INFO  [http-nio-8080-exec-23] com.example.app.RequestHandler - Handled request in 313 ms
+2024-12-15 07:50:25,673 INFO  [http-nio-8080-exec-100] com.example.app.RequestHandler - Handled request in 23 ms
+2024-12-15 16:54:20,533 WARN  [http-nio-8080-exec-46] com.example.app.Cache - Slow cache lookup for key=user:20941
+2024-12-15 10:37:27,794 INFO  [http-nio-8080-exec-48] com.example.app.RequestHandler - Handled request in 391 ms
+2024-12-15 11:41:53,573 INFO  [http-nio-8080-exec-60] com.example.app.RequestHandler - Handled request in 195 ms
+2024-12-15 00:50:19,590 INFO  [http-nio-8080-exec-12] com.example.app.RequestHandler - Handled request in 195 ms
+2024-12-15 21:18:41,242 WARN  [http-nio-8080-exec-20] com.example.app.Cache - Slow cache lookup for key=user:29437
+2024-12-15 00:29:00,373 WARN  [http-nio-8080-exec-93] com.example.app.Cache - Slow cache lookup for key=user:19960
+2024-12-16 18:22:43,976 WARN  [http-nio-8080-exec-22] com.example.app.Cache - Slow cache lookup for key=user:9560
+2024-12-16 03:36:08,911 INFO  [http-nio-8080-exec-69] com.example.app.RequestHandler - Handled request in 53 ms
+2024-12-16 02:43:49,384 INFO  [http-nio-8080-exec-1] com.example.app.RequestHandler - Handled request in 475 ms
+2024-12-16 17:15:48,794 INFO  [http-nio-8080-exec-46] com.example.app.RequestHandler - Handled request in 437 ms
+2024-12-16 07:18:32,599 INFO  [http-nio-8080-exec-88] com.example.app.RequestHandler - Handled request in 90 ms
+2024-12-16 15:12:10,251 INFO  [http-nio-8080-exec-16] com.example.app.RequestHandler - Handled request in 446 ms
+2024-12-16 11:05:44,479 INFO  [http-nio-8080-exec-46] com.example.app.RequestHandler - Handled request in 201 ms
+2024-12-16 16:18:26,344 INFO  [http-nio-8080-exec-74] com.example.app.RequestHandler - Handled request in 241 ms
+2024-12-16 20:16:15,756 INFO  [http-nio-8080-exec-22] com.example.app.RequestHandler - Handled request in 482 ms
+2024-12-16 16:10:35,878 INFO  [http-nio-8080-exec-17] com.example.app.RequestHandler - Handled request in 474 ms
+2024-12-16 07:46:10,740 INFO  [http-nio-8080-exec-84] com.example.app.RequestHandler - Handled request in 474 ms
+2024-12-16 23:33:50,234 ERROR [http-nio-8080-exec-56] com.example.app.UserController - Unhandled exception processing /api/user
+java.lang.NullPointerException: Cannot read property 'id' of null
+	at com.example.app.service.SomeService.method(SomeService.java:154)
+	at com.example.app.service.SomeService.method(SomeService.java:102)
+	at com.example.app.service.SomeService.method(SomeService.java:41)
+	at com.example.app.UserController.handle(UserController.java:58)
+2024-12-16 06:58:32,272 INFO  [http-nio-8080-exec-63] com.example.app.RequestHandler - Handled request in 332 ms
+2024-12-16 08:29:26,504 INFO  [http-nio-8080-exec-34] com.example.app.RequestHandler - Handled request in 377 ms
+2024-12-16 05:15:40,881 INFO  [http-nio-8080-exec-33] com.example.app.RequestHandler - Handled request in 367 ms
+2024-12-16 01:31:53,700 INFO  [http-nio-8080-exec-34] com.example.app.RequestHandler - Handled request in 266 ms
+2024-12-16 07:26:39,462 INFO  [http-nio-8080-exec-98] com.example.app.RequestHandler - Handled request in 96 ms
+2024-12-16 07:08:39,323 INFO  [http-nio-8080-exec-70] com.example.app.RequestHandler - Handled request in 150 ms
+2024-12-16 22:37:34,516 WARN  [http-nio-8080-exec-91] com.example.app.Cache - Slow cache lookup for key=user:2401
+2024-12-16 09:00:21,508 ERROR [http-nio-8080-exec-51] com.example.app.UserController - Unhandled exception processing /api/user
+java.lang.NullPointerException: Cannot read property 'id' of null
+	at com.example.app.service.SomeService.method(SomeService.java:124)
+	at com.example.app.service.SomeService.method(SomeService.java:105)
+	at com.example.app.service.SomeService.method(SomeService.java:101)
+	at com.example.app.UserController.handle(UserController.java:58)
+2024-12-16 12:34:26,993 INFO  [http-nio-8080-exec-85] com.example.app.RequestHandler - Handled request in 56 ms
+2024-12-16 20:57:17,899 INFO  [http-nio-8080-exec-71] com.example.app.RequestHandler - Handled request in 387 ms
+2024-12-16 09:11:10,211 WARN  [http-nio-8080-exec-42] com.example.app.Cache - Slow cache lookup for key=user:4265
+2024-12-16 20:45:40,407 INFO  [http-nio-8080-exec-78] com.example.app.RequestHandler - Handled request in 97 ms
+2024-12-16 01:44:46,469 ERROR [http-nio-8080-exec-48] com.example.app.UserController - Unhandled exception processing /api/user
+java.lang.NullPointerException: Cannot read property 'id' of null
+	at com.example.app.service.SomeService.method(SomeService.java:179)
+	at com.example.app.service.SomeService.method(SomeService.java:134)
+	at com.example.app.service.SomeService.method(SomeService.java:160)
+	at com.example.app.UserController.handle(UserController.java:68)
+2024-12-16 09:12:38,140 INFO  [http-nio-8080-exec-85] com.example.app.RequestHandler - Handled request in 308 ms
+2024-12-16 19:31:58,356 INFO  [http-nio-8080-exec-32] com.example.app.RequestHandler - Handled request in 385 ms
+2024-12-16 09:39:58,232 INFO  [http-nio-8080-exec-72] com.example.app.RequestHandler - Handled request in 295 ms
+2024-12-16 21:55:29,875 INFO  [http-nio-8080-exec-24] com.example.app.RequestHandler - Handled request in 262 ms
+2024-12-16 18:12:22,948 INFO  [http-nio-8080-exec-98] com.example.app.RequestHandler - Handled request in 49 ms
+2024-12-16 13:53:20,467 INFO  [http-nio-8080-exec-2] com.example.app.RequestHandler - Handled request in 462 ms
+2024-12-16 13:49:25,920 WARN  [http-nio-8080-exec-35] com.example.app.Cache - Slow cache lookup for key=user:8754
+2024-12-16 18:13:08,276 WARN  [http-nio-8080-exec-12] com.example.app.Cache - Slow cache lookup for key=user:27546
+2024-12-16 20:59:20,389 INFO  [http-nio-8080-exec-88] com.example.app.RequestHandler - Handled request in 178 ms
+2024-12-16 18:45:57,108 INFO  [http-nio-8080-exec-64] com.example.app.RequestHandler - Handled request in 53 ms
+2024-12-16 14:56:19,504 INFO  [http-nio-8080-exec-17] com.example.app.RequestHandler - Handled request in 19 ms
+2024-12-16 21:30:56,913 INFO  [http-nio-8080-exec-66] com.example.app.RequestHandler - Handled request in 172 ms
+2024-12-16 12:58:16,418 INFO  [http-nio-8080-exec-34] com.example.app.RequestHandler - Handled request in 68 ms
+2024-12-16 12:52:26,331 INFO  [http-nio-8080-exec-91] com.example.app.RequestHandler - Handled request in 31 ms
+2024-12-16 13:40:28,900 INFO  [http-nio-8080-exec-10] com.example.app.RequestHandler - Handled request in 287 ms
+2024-12-16 00:58:37,551 WARN  [http-nio-8080-exec-40] com.example.app.Cache - Slow cache lookup for key=user:19943
+2024-12-16 00:50:59,865 INFO  [http-nio-8080-exec-63] com.example.app.RequestHandler - Handled request in 181 ms
+2024-12-16 21:43:08,404 WARN  [http-nio-8080-exec-53] com.example.app.Cache - Slow cache lookup for key=user:3373
+2024-12-17 18:15:37,889 INFO  [http-nio-8080-exec-47] com.example.app.RequestHandler - Handled request in 108 ms
+2024-12-17 14:12:12,155 INFO  [http-nio-8080-exec-23] com.example.app.RequestHandler - Handled request in 294 ms
+2024-12-17 06:41:09,114 ERROR [http-nio-8080-exec-81] com.example.app.UserController - Unhandled exception processing /api/user
+java.lang.NullPointerException: Cannot read property 'id' of null
+	at com.example.app.service.SomeService.method(SomeService.java:48)
+	at com.example.app.service.SomeService.method(SomeService.java:164)
+	at com.example.app.service.SomeService.method(SomeService.java:77)
+	at com.example.app.UserController.handle(UserController.java:87)
+2024-12-17 17:29:53,431 INFO  [http-nio-8080-exec-85] com.example.app.RequestHandler - Handled request in 168 ms
+2024-12-17 23:24:02,707 WARN  [http-nio-8080-exec-85] com.example.app.Cache - Slow cache lookup for key=user:10737
+2024-12-17 12:00:47,195 INFO  [http-nio-8080-exec-72] com.example.app.RequestHandler - Handled request in 82 ms
+2024-12-17 02:34:34,196 WARN  [http-nio-8080-exec-97] com.example.app.Cache - Slow cache lookup for key=user:3656
+2024-12-17 22:53:35,839 INFO  [http-nio-8080-exec-26] com.example.app.RequestHandler - Handled request in 50 ms
+2024-12-17 15:26:51,176 INFO  [http-nio-8080-exec-18] com.example.app.RequestHandler - Handled request in 263 ms
+2024-12-17 11:00:38,103 INFO  [http-nio-8080-exec-29] com.example.app.RequestHandler - Handled request in 32 ms
+2024-12-17 11:13:43,787 ERROR [http-nio-8080-exec-16] com.example.app.UserController - Unhandled exception processing /api/user
+java.lang.NullPointerException: Cannot read property 'id' of null
+	at com.example.app.service.SomeService.method(SomeService.java:149)
+	at com.example.app.service.SomeService.method(SomeService.java:86)
+	at com.example.app.service.SomeService.method(SomeService.java:193)
+	at com.example.app.UserController.handle(UserController.java:86)
+2024-12-17 10:05:31,156 INFO  [http-nio-8080-exec-95] com.example.app.RequestHandler - Handled request in 259 ms
+2024-12-17 22:43:46,548 INFO  [http-nio-8080-exec-96] com.example.app.RequestHandler - Handled request in 363 ms
+2024-12-17 07:44:48,293 INFO  [http-nio-8080-exec-86] com.example.app.RequestHandler - Handled request in 483 ms
+2024-12-17 20:02:32,479 INFO  [http-nio-8080-exec-83] com.example.app.RequestHandler - Handled request in 165 ms
+2024-12-17 13:41:46,641 INFO  [http-nio-8080-exec-90] com.example.app.RequestHandler - Handled request in 14 ms
+2024-12-17 18:07:37,817 INFO  [http-nio-8080-exec-44] com.example.app.RequestHandler - Handled request in 409 ms
+2024-12-17 22:35:17,337 WARN  [http-nio-8080-exec-39] com.example.app.Cache - Slow cache lookup for key=user:147
+2024-12-17 03:23:46,322 INFO  [http-nio-8080-exec-16] com.example.app.RequestHandler - Handled request in 236 ms
+2024-12-17 04:43:57,576 WARN  [http-nio-8080-exec-72] com.example.app.Cache - Slow cache lookup for key=user:10405
+2024-12-17 08:53:17,523 ERROR [http-nio-8080-exec-90] com.example.app.UserController - Unhandled exception processing /api/user
+java.lang.NullPointerException: Cannot read property 'id' of null
+	at com.example.app.service.SomeService.method(SomeService.java:108)
+	at com.example.app.service.SomeService.method(SomeService.java:139)
+	at com.example.app.service.SomeService.method(SomeService.java:150)
+	at com.example.app.UserController.handle(UserController.java:80)
+2024-12-17 20:34:10,179 INFO  [http-nio-8080-exec-100] com.example.app.RequestHandler - Handled request in 261 ms
+2024-12-17 23:35:59,529 INFO  [http-nio-8080-exec-3] com.example.app.RequestHandler - Handled request in 77 ms
+2024-12-17 13:52:38,866 INFO  [http-nio-8080-exec-6] com.example.app.RequestHandler - Handled request in 302 ms
+2024-12-17 13:36:07,182 INFO  [http-nio-8080-exec-10] com.example.app.RequestHandler - Handled request in 47 ms
+2024-12-17 16:07:40,673 INFO  [http-nio-8080-exec-4] com.example.app.RequestHandler - Handled request in 164 ms
+2024-12-17 11:31:38,185 INFO  [http-nio-8080-exec-65] com.example.app.RequestHandler - Handled request in 192 ms
+2024-12-17 20:55:44,538 INFO  [http-nio-8080-exec-31] com.example.app.RequestHandler - Handled request in 384 ms
+2024-12-17 20:38:19,508 INFO  [http-nio-8080-exec-78] com.example.app.RequestHandler - Handled request in 97 ms
+2024-12-17 14:17:13,724 INFO  [http-nio-8080-exec-90] com.example.app.RequestHandler - Handled request in 435 ms
+2024-12-17 03:49:49,217 INFO  [http-nio-8080-exec-50] com.example.app.RequestHandler - Handled request in 470 ms
+2024-12-17 21:07:02,848 INFO  [http-nio-8080-exec-19] com.example.app.RequestHandler - Handled request in 371 ms
+2024-12-17 20:35:42,945 WARN  [http-nio-8080-exec-36] com.example.app.Cache - Slow cache lookup for key=user:10849
+2024-12-17 19:45:44,504 INFO  [http-nio-8080-exec-68] com.example.app.RequestHandler - Handled request in 221 ms
+2024-12-17 07:19:20,488 INFO  [http-nio-8080-exec-54] com.example.app.RequestHandler - Handled request in 353 ms
+2024-12-17 19:23:12,626 INFO  [http-nio-8080-exec-61] com.example.app.RequestHandler - Handled request in 111 ms
+2024-12-17 20:48:55,554 INFO  [http-nio-8080-exec-38] com.example.app.RequestHandler - Handled request in 3 ms
+2024-12-17 16:23:37,834 INFO  [http-nio-8080-exec-58] com.example.app.RequestHandler - Handled request in 16 ms
+2024-12-17 03:26:47,543 INFO  [http-nio-8080-exec-50] com.example.app.RequestHandler - Handled request in 50 ms
+2024-12-17 18:43:14,242 INFO  [http-nio-8080-exec-65] com.example.app.RequestHandler - Handled request in 87 ms
+2024-12-17 10:46:08,304 WARN  [http-nio-8080-exec-69] com.example.app.Cache - Slow cache lookup for key=user:8459
+2024-12-17 02:11:03,236 INFO  [http-nio-8080-exec-8] com.example.app.RequestHandler - Handled request in 282 ms
+2024-12-17 21:52:51,473 INFO  [http-nio-8080-exec-72] com.example.app.RequestHandler - Handled request in 229 ms
+2024-12-17 14:03:20,759 INFO  [http-nio-8080-exec-75] com.example.app.RequestHandler - Handled request in 103 ms
+2024-12-17 17:46:46,641 INFO  [http-nio-8080-exec-96] com.example.app.RequestHandler - Handled request in 223 ms
+2024-12-17 01:13:28,405 WARN  [http-nio-8080-exec-65] com.example.app.Cache - Slow cache lookup for key=user:3014
+2024-12-17 07:10:34,957 INFO  [http-nio-8080-exec-45] com.example.app.RequestHandler - Handled request in 191 ms
+2024-12-17 13:26:48,554 WARN  [http-nio-8080-exec-72] com.example.app.Cache - Slow cache lookup for key=user:22829
+2024-12-17 23:47:58,929 INFO  [http-nio-8080-exec-38] com.example.app.RequestHandler - Handled request in 237 ms
+2024-12-18 02:31:42,743 INFO  [http-nio-8080-exec-92] com.example.app.RequestHandler - Handled request in 11 ms
+2024-12-18 13:01:12,372 INFO  [http-nio-8080-exec-5] com.example.app.RequestHandler - Handled request in 326 ms
+2024-12-18 02:15:09,876 INFO  [http-nio-8080-exec-53] com.example.app.RequestHandler - Handled request in 242 ms
+2024-12-18 15:57:28,671 INFO  [http-nio-8080-exec-66] com.example.app.RequestHandler - Handled request in 233 ms
+2024-12-18 17:56:18,708 INFO  [http-nio-8080-exec-64] com.example.app.RequestHandler - Handled request in 24 ms
+2024-12-18 04:41:06,244 ERROR [http-nio-8080-exec-95] com.example.app.UserController - Unhandled exception processing /api/user
+java.lang.NullPointerException: Cannot read property 'id' of null
+	at com.example.app.service.SomeService.method(SomeService.java:106)
+	at com.example.app.service.SomeService.method(SomeService.java:84)
+	at com.example.app.service.SomeService.method(SomeService.java:82)
+	at com.example.app.UserController.handle(UserController.java:41)
+2024-12-18 09:41:28,429 ERROR [http-nio-8080-exec-56] com.example.app.UserController - Unhandled exception processing /api/user
+java.lang.NullPointerException: Cannot read property 'id' of null
+	at com.example.app.service.SomeService.method(SomeService.java:82)
+	at com.example.app.service.SomeService.method(SomeService.java:47)
+	at com.example.app.service.SomeService.method(SomeService.java:151)
+	at com.example.app.UserController.handle(UserController.java:74)
+2024-12-18 00:34:57,107 INFO  [http-nio-8080-exec-5] com.example.app.RequestHandler - Handled request in 496 ms
+2024-12-18 11:06:40,658 WARN  [http-nio-8080-exec-58] com.example.app.Cache - Slow cache lookup for key=user:3982
+2024-12-18 09:41:45,988 WARN  [http-nio-8080-exec-93] com.example.app.Cache - Slow cache lookup for key=user:9085
+2024-12-18 13:52:44,309 INFO  [http-nio-8080-exec-22] com.example.app.RequestHandler - Handled request in 352 ms
+2024-12-18 21:26:29,458 INFO  [http-nio-8080-exec-35] com.example.app.RequestHandler - Handled request in 43 ms
+2024-12-18 23:18:31,124 WARN  [http-nio-8080-exec-93] com.example.app.Cache - Slow cache lookup for key=user:21566
+2024-12-18 00:21:00,105 INFO  [http-nio-8080-exec-93] com.example.app.RequestHandler - Handled request in 258 ms
+2024-12-18 04:57:53,678 INFO  [http-nio-8080-exec-61] com.example.app.RequestHandler - Handled request in 55 ms
+2024-12-18 12:53:16,169 WARN  [http-nio-8080-exec-67] com.example.app.Cache - Slow cache lookup for key=user:15184
+2024-12-18 15:58:09,946 INFO  [http-nio-8080-exec-6] com.example.app.RequestHandler - Handled request in 264 ms
+2024-12-18 19:53:46,558 INFO  [http-nio-8080-exec-100] com.example.app.RequestHandler - Handled request in 370 ms
+2024-12-18 02:25:51,755 INFO  [http-nio-8080-exec-44] com.example.app.RequestHandler - Handled request in 3 ms
+2024-12-18 05:06:36,210 INFO  [http-nio-8080-exec-74] com.example.app.RequestHandler - Handled request in 84 ms
+2024-12-18 16:03:39,661 INFO  [http-nio-8080-exec-93] com.example.app.RequestHandler - Handled request in 156 ms
+2024-12-18 19:44:20,822 INFO  [http-nio-8080-exec-47] com.example.app.RequestHandler - Handled request in 118 ms
+2024-12-18 20:04:29,494 WARN  [http-nio-8080-exec-91] com.example.app.Cache - Slow cache lookup for key=user:2250
+2024-12-18 04:45:55,435 WARN  [http-nio-8080-exec-68] com.example.app.Cache - Slow cache lookup for key=user:17340
+2024-12-18 19:34:19,241 INFO  [http-nio-8080-exec-22] com.example.app.RequestHandler - Handled request in 488 ms
+2024-12-18 23:48:04,267 INFO  [http-nio-8080-exec-81] com.example.app.RequestHandler - Handled request in 459 ms
+2024-12-18 12:08:45,434 ERROR [http-nio-8080-exec-3] com.example.app.UserController - Unhandled exception processing /api/user
+java.lang.NullPointerException: Cannot read property 'id' of null
+	at com.example.app.service.SomeService.method(SomeService.java:42)
+	at com.example.app.service.SomeService.method(SomeService.java:143)
+	at com.example.app.service.SomeService.method(SomeService.java:157)
+	at com.example.app.UserController.handle(UserController.java:17)
+2024-12-18 10:31:57,778 INFO  [http-nio-8080-exec-2] com.example.app.RequestHandler - Handled request in 476 ms
+2024-12-18 14:15:01,368 INFO  [http-nio-8080-exec-91] com.example.app.RequestHandler - Handled request in 468 ms
+2024-12-18 14:40:29,157 INFO  [http-nio-8080-exec-45] com.example.app.RequestHandler - Handled request in 141 ms
+2024-12-18 01:53:08,561 INFO  [http-nio-8080-exec-62] com.example.app.RequestHandler - Handled request in 317 ms
+2024-12-18 18:13:46,904 INFO  [http-nio-8080-exec-79] com.example.app.RequestHandler - Handled request in 412 ms
+2024-12-18 07:50:02,969 INFO  [http-nio-8080-exec-97] com.example.app.RequestHandler - Handled request in 373 ms
+2024-12-18 14:32:31,248 INFO  [http-nio-8080-exec-41] com.example.app.RequestHandler - Handled request in 441 ms
+2024-12-18 13:26:19,774 INFO  [http-nio-8080-exec-61] com.example.app.RequestHandler - Handled request in 450 ms
+2024-12-18 13:46:39,882 INFO  [http-nio-8080-exec-93] com.example.app.RequestHandler - Handled request in 303 ms
+2024-12-19 19:54:59,559 INFO  [http-nio-8080-exec-69] com.example.app.RequestHandler - Handled request in 169 ms
+2024-12-19 11:06:13,664 INFO  [http-nio-8080-exec-3] com.example.app.RequestHandler - Handled request in 104 ms
+2024-12-19 17:26:35,957 INFO  [http-nio-8080-exec-81] com.example.app.RequestHandler - Handled request in 82 ms
+2024-12-19 10:37:40,341 INFO  [http-nio-8080-exec-67] com.example.app.RequestHandler - Handled request in 184 ms
+2024-12-19 00:09:57,108 INFO  [http-nio-8080-exec-96] com.example.app.RequestHandler - Handled request in 130 ms
+2024-12-19 04:08:14,463 INFO  [http-nio-8080-exec-19] com.example.app.RequestHandler - Handled request in 387 ms
+2024-12-19 15:25:21,169 INFO  [http-nio-8080-exec-75] com.example.app.RequestHandler - Handled request in 436 ms
+2024-12-19 20:39:02,727 ERROR [http-nio-8080-exec-64] com.example.app.UserController - Unhandled exception processing /api/user
+java.lang.NullPointerException: Cannot read property 'id' of null
+	at com.example.app.service.SomeService.method(SomeService.java:102)
+	at com.example.app.service.SomeService.method(SomeService.java:119)
+	at com.example.app.service.SomeService.method(SomeService.java:83)
+	at com.example.app.UserController.handle(UserController.java:90)
+2024-12-19 21:25:01,779 WARN  [http-nio-8080-exec-90] com.example.app.Cache - Slow cache lookup for key=user:22530
+2024-12-19 03:12:36,361 WARN  [http-nio-8080-exec-70] com.example.app.Cache - Slow cache lookup for key=user:9281
+2024-12-19 03:40:01,352 INFO  [http-nio-8080-exec-83] com.example.app.RequestHandler - Handled request in 471 ms
+2024-12-19 21:01:48,213 WARN  [http-nio-8080-exec-74] com.example.app.Cache - Slow cache lookup for key=user:15588
+2024-12-19 06:59:34,975 INFO  [http-nio-8080-exec-87] com.example.app.RequestHandler - Handled request in 147 ms
+2024-12-19 17:51:13,685 WARN  [http-nio-8080-exec-48] com.example.app.Cache - Slow cache lookup for key=user:10922
+2024-12-19 20:01:01,460 INFO  [http-nio-8080-exec-78] com.example.app.RequestHandler - Handled request in 355 ms
+2024-12-19 20:48:44,177 INFO  [http-nio-8080-exec-28] com.example.app.RequestHandler - Handled request in 153 ms
+2024-12-19 13:25:17,743 WARN  [http-nio-8080-exec-70] com.example.app.Cache - Slow cache lookup for key=user:28464
+2024-12-19 14:03:19,883 INFO  [http-nio-8080-exec-51] com.example.app.RequestHandler - Handled request in 72 ms
+2024-12-19 16:17:31,404 WARN  [http-nio-8080-exec-83] com.example.app.Cache - Slow cache lookup for key=user:19951
+2024-12-19 16:56:20,755 INFO  [http-nio-8080-exec-74] com.example.app.RequestHandler - Handled request in 101 ms
+2024-12-19 09:29:19,445 INFO  [http-nio-8080-exec-60] com.example.app.RequestHandler - Handled request in 433 ms
+2024-12-19 18:02:12,516 INFO  [http-nio-8080-exec-34] com.example.app.RequestHandler - Handled request in 157 ms
+2024-12-19 00:37:59,361 INFO  [http-nio-8080-exec-53] com.example.app.RequestHandler - Handled request in 114 ms
+2024-12-19 11:45:33,723 INFO  [http-nio-8080-exec-37] com.example.app.RequestHandler - Handled request in 473 ms
+2024-12-19 06:51:03,752 INFO  [http-nio-8080-exec-70] com.example.app.RequestHandler - Handled request in 424 ms
+2024-12-19 12:56:30,236 ERROR [http-nio-8080-exec-56] com.example.app.UserController - Unhandled exception processing /api/user
+java.lang.NullPointerException: Cannot read property 'id' of null
+	at com.example.app.service.SomeService.method(SomeService.java:129)
+	at com.example.app.service.SomeService.method(SomeService.java:104)
+	at com.example.app.service.SomeService.method(SomeService.java:120)
+	at com.example.app.UserController.handle(UserController.java:17)
+2024-12-19 05:52:08,892 WARN  [http-nio-8080-exec-72] com.example.app.Cache - Slow cache lookup for key=user:17553
+2024-12-19 08:34:05,381 INFO  [http-nio-8080-exec-90] com.example.app.RequestHandler - Handled request in 140 ms
+2024-12-19 17:09:36,860 INFO  [http-nio-8080-exec-13] com.example.app.RequestHandler - Handled request in 133 ms
+2024-12-19 11:38:35,449 WARN  [http-nio-8080-exec-39] com.example.app.Cache - Slow cache lookup for key=user:15032
+2024-12-19 10:52:56,144 WARN  [http-nio-8080-exec-89] com.example.app.Cache - Slow cache lookup for key=user:14597
+2024-12-19 13:28:50,569 INFO  [http-nio-8080-exec-62] com.example.app.RequestHandler - Handled request in 432 ms
+2024-12-19 07:11:53,768 INFO  [http-nio-8080-exec-51] com.example.app.RequestHandler - Handled request in 167 ms
+2024-12-19 02:45:40,185 INFO  [http-nio-8080-exec-2] com.example.app.RequestHandler - Handled request in 94 ms
+2024-12-19 08:09:21,361 INFO  [http-nio-8080-exec-58] com.example.app.RequestHandler - Handled request in 55 ms
+2024-12-19 10:02:02,601 INFO  [http-nio-8080-exec-80] com.example.app.RequestHandler - Handled request in 228 ms
+2024-12-19 21:26:45,555 INFO  [http-nio-8080-exec-70] com.example.app.RequestHandler - Handled request in 23 ms
+2024-12-19 06:44:37,389 INFO  [http-nio-8080-exec-78] com.example.app.RequestHandler - Handled request in 102 ms
+2024-12-19 13:28:53,977 INFO  [http-nio-8080-exec-69] com.example.app.RequestHandler - Handled request in 248 ms
+2024-12-19 12:02:26,560 WARN  [http-nio-8080-exec-39] com.example.app.Cache - Slow cache lookup for key=user:5745
+2024-12-19 16:15:57,159 INFO  [http-nio-8080-exec-48] com.example.app.RequestHandler - Handled request in 363 ms
+2024-12-19 16:23:18,141 INFO  [http-nio-8080-exec-50] com.example.app.RequestHandler - Handled request in 422 ms
+2024-12-19 10:28:16,776 INFO  [http-nio-8080-exec-22] com.example.app.RequestHandler - Handled request in 238 ms
+2024-12-19 14:33:06,639 INFO  [http-nio-8080-exec-20] com.example.app.RequestHandler - Handled request in 372 ms
+2024-12-19 12:41:36,741 INFO  [http-nio-8080-exec-82] com.example.app.RequestHandler - Handled request in 257 ms
+2024-12-19 02:08:51,746 INFO  [http-nio-8080-exec-19] com.example.app.RequestHandler - Handled request in 432 ms
+2024-12-19 22:44:09,210 INFO  [http-nio-8080-exec-46] com.example.app.RequestHandler - Handled request in 216 ms
+2024-12-19 02:29:29,510 INFO  [http-nio-8080-exec-63] com.example.app.RequestHandler - Handled request in 357 ms
+2024-12-20 18:41:52,241 INFO  [http-nio-8080-exec-53] com.example.app.RequestHandler - Handled request in 350 ms
+2024-12-20 23:47:25,313 INFO  [http-nio-8080-exec-74] com.example.app.RequestHandler - Handled request in 55 ms
+2024-12-20 00:11:45,931 WARN  [http-nio-8080-exec-62] com.example.app.Cache - Slow cache lookup for key=user:9611
+2024-12-20 19:57:19,293 WARN  [http-nio-8080-exec-65] com.example.app.Cache - Slow cache lookup for key=user:21800
+2024-12-20 23:49:14,573 INFO  [http-nio-8080-exec-16] com.example.app.RequestHandler - Handled request in 312 ms
+2024-12-20 07:23:24,760 INFO  [http-nio-8080-exec-24] com.example.app.RequestHandler - Handled request in 360 ms
+2024-12-20 08:43:17,805 INFO  [http-nio-8080-exec-79] com.example.app.RequestHandler - Handled request in 26 ms
+2024-12-20 21:46:40,780 INFO  [http-nio-8080-exec-57] com.example.app.RequestHandler - Handled request in 230 ms
+2024-12-20 10:27:28,623 WARN  [http-nio-8080-exec-28] com.example.app.Cache - Slow cache lookup for key=user:9492
+2024-12-20 07:20:06,680 INFO  [http-nio-8080-exec-43] com.example.app.RequestHandler - Handled request in 130 ms
+2024-12-20 19:10:12,669 INFO  [http-nio-8080-exec-66] com.example.app.RequestHandler - Handled request in 347 ms
+2024-12-20 04:08:45,830 WARN  [http-nio-8080-exec-9] com.example.app.Cache - Slow cache lookup for key=user:24488
+2024-12-20 15:22:59,186 WARN  [http-nio-8080-exec-97] com.example.app.Cache - Slow cache lookup for key=user:27362
+2024-12-20 03:06:41,813 INFO  [http-nio-8080-exec-66] com.example.app.RequestHandler - Handled request in 156 ms
+2024-12-20 08:52:31,691 INFO  [http-nio-8080-exec-48] com.example.app.RequestHandler - Handled request in 12 ms
+2024-12-20 05:28:37,985 INFO  [http-nio-8080-exec-20] com.example.app.RequestHandler - Handled request in 321 ms
+2024-12-20 18:18:51,713 INFO  [http-nio-8080-exec-77] com.example.app.RequestHandler - Handled request in 453 ms
+2024-12-20 17:43:50,279 INFO  [http-nio-8080-exec-42] com.example.app.RequestHandler - Handled request in 488 ms
+2024-12-20 15:35:51,101 INFO  [http-nio-8080-exec-20] com.example.app.RequestHandler - Handled request in 495 ms
+2024-12-20 00:05:24,865 INFO  [http-nio-8080-exec-80] com.example.app.RequestHandler - Handled request in 31 ms
+2024-12-20 14:19:39,531 INFO  [http-nio-8080-exec-1] com.example.app.RequestHandler - Handled request in 437 ms
+2024-12-20 01:37:16,942 INFO  [http-nio-8080-exec-69] com.example.app.RequestHandler - Handled request in 431 ms
+2024-12-20 09:12:11,834 WARN  [http-nio-8080-exec-70] com.example.app.Cache - Slow cache lookup for key=user:21628
+2024-12-20 03:00:10,803 WARN  [http-nio-8080-exec-35] com.example.app.Cache - Slow cache lookup for key=user:9817
+2024-12-20 14:05:37,405 INFO  [http-nio-8080-exec-18] com.example.app.RequestHandler - Handled request in 84 ms
+2024-12-20 13:52:56,384 INFO  [http-nio-8080-exec-26] com.example.app.RequestHandler - Handled request in 100 ms
+2024-12-20 03:52:09,271 INFO  [http-nio-8080-exec-2] com.example.app.RequestHandler - Handled request in 91 ms
+2024-12-20 15:35:27,411 INFO  [http-nio-8080-exec-15] com.example.app.RequestHandler - Handled request in 453 ms
+2024-12-20 13:53:24,368 INFO  [http-nio-8080-exec-58] com.example.app.RequestHandler - Handled request in 441 ms
+2024-12-20 03:21:27,192 INFO  [http-nio-8080-exec-12] com.example.app.RequestHandler - Handled request in 495 ms
+2024-12-20 22:25:49,776 ERROR [http-nio-8080-exec-61] com.example.app.UserController - Unhandled exception processing /api/user
+java.lang.NullPointerException: Cannot read property 'id' of null
+	at com.example.app.service.SomeService.method(SomeService.java:164)
+	at com.example.app.service.SomeService.method(SomeService.java:197)
+	at com.example.app.service.SomeService.method(SomeService.java:197)
+	at com.example.app.UserController.handle(UserController.java:15)
+2024-12-20 18:38:26,848 INFO  [http-nio-8080-exec-59] com.example.app.RequestHandler - Handled request in 318 ms
+2024-12-20 02:27:12,192 INFO  [http-nio-8080-exec-84] com.example.app.RequestHandler - Handled request in 108 ms
+2024-12-20 23:40:03,417 INFO  [http-nio-8080-exec-99] com.example.app.RequestHandler - Handled request in 272 ms
+2024-12-20 04:19:24,153 INFO  [http-nio-8080-exec-30] com.example.app.RequestHandler - Handled request in 292 ms
+2024-12-20 07:19:56,243 INFO  [http-nio-8080-exec-5] com.example.app.RequestHandler - Handled request in 136 ms
+2024-12-20 16:21:00,619 INFO  [http-nio-8080-exec-50] com.example.app.RequestHandler - Handled request in 29 ms
+2024-12-21 16:27:25,228 INFO  [http-nio-8080-exec-71] com.example.app.RequestHandler - Handled request in 193 ms
+2024-12-21 00:58:03,743 ERROR [http-nio-8080-exec-72] com.example.app.UserController - Unhandled exception processing /api/user
+java.lang.NullPointerException: Cannot read property 'id' of null
+	at com.example.app.service.SomeService.method(SomeService.java:184)
+	at com.example.app.service.SomeService.method(SomeService.java:116)
+	at com.example.app.service.SomeService.method(SomeService.java:149)
+	at com.example.app.UserController.handle(UserController.java:26)
+2024-12-21 17:19:13,766 INFO  [http-nio-8080-exec-12] com.example.app.RequestHandler - Handled request in 79 ms
+2024-12-21 10:07:45,206 INFO  [http-nio-8080-exec-65] com.example.app.RequestHandler - Handled request in 39 ms
+2024-12-21 17:57:00,373 INFO  [http-nio-8080-exec-100] com.example.app.RequestHandler - Handled request in 408 ms
+2024-12-21 03:47:49,589 INFO  [http-nio-8080-exec-53] com.example.app.RequestHandler - Handled request in 495 ms
+2024-12-21 11:10:35,951 INFO  [http-nio-8080-exec-13] com.example.app.RequestHandler - Handled request in 2 ms
+2024-12-21 02:32:01,702 INFO  [http-nio-8080-exec-5] com.example.app.RequestHandler - Handled request in 121 ms
+2024-12-21 23:54:38,933 INFO  [http-nio-8080-exec-1] com.example.app.RequestHandler - Handled request in 359 ms
+2024-12-21 22:57:43,659 ERROR [http-nio-8080-exec-65] com.example.app.UserController - Unhandled exception processing /api/user
+java.lang.NullPointerException: Cannot read property 'id' of null
+	at com.example.app.service.SomeService.method(SomeService.java:123)
+	at com.example.app.service.SomeService.method(SomeService.java:169)
+	at com.example.app.service.SomeService.method(SomeService.java:192)
+	at com.example.app.UserController.handle(UserController.java:73)
+2024-12-21 21:57:45,645 INFO  [http-nio-8080-exec-4] com.example.app.RequestHandler - Handled request in 135 ms
+2024-12-21 00:36:31,309 INFO  [http-nio-8080-exec-74] com.example.app.RequestHandler - Handled request in 150 ms
+2024-12-21 14:32:02,612 WARN  [http-nio-8080-exec-93] com.example.app.Cache - Slow cache lookup for key=user:6842
+2024-12-21 05:00:58,774 INFO  [http-nio-8080-exec-32] com.example.app.RequestHandler - Handled request in 444 ms
+2024-12-21 11:42:22,170 INFO  [http-nio-8080-exec-76] com.example.app.RequestHandler - Handled request in 97 ms
+2024-12-21 15:10:44,310 INFO  [http-nio-8080-exec-14] com.example.app.RequestHandler - Handled request in 167 ms
+2024-12-21 04:07:45,514 WARN  [http-nio-8080-exec-56] com.example.app.Cache - Slow cache lookup for key=user:17523
+2024-12-21 21:28:31,624 WARN  [http-nio-8080-exec-62] com.example.app.Cache - Slow cache lookup for key=user:999
+2024-12-21 16:41:11,586 INFO  [http-nio-8080-exec-41] com.example.app.RequestHandler - Handled request in 344 ms
+2024-12-21 06:40:08,580 INFO  [http-nio-8080-exec-48] com.example.app.RequestHandler - Handled request in 310 ms
+2024-12-21 01:51:54,792 INFO  [http-nio-8080-exec-63] com.example.app.RequestHandler - Handled request in 15 ms
+2024-12-21 14:46:28,719 WARN  [http-nio-8080-exec-91] com.example.app.Cache - Slow cache lookup for key=user:16155
+2024-12-22 15:39:37,812 INFO  [http-nio-8080-exec-59] com.example.app.RequestHandler - Handled request in 330 ms
+2024-12-22 15:05:40,341 INFO  [http-nio-8080-exec-12] com.example.app.RequestHandler - Handled request in 294 ms
+2024-12-22 06:52:50,198 INFO  [http-nio-8080-exec-38] com.example.app.RequestHandler - Handled request in 7 ms
+2024-12-22 04:49:41,200 ERROR [http-nio-8080-exec-79] com.example.app.UserController - Unhandled exception processing /api/user
+java.lang.NullPointerException: Cannot read property 'id' of null
+	at com.example.app.service.SomeService.method(SomeService.java:97)
+	at com.example.app.service.SomeService.method(SomeService.java:69)
+	at com.example.app.service.SomeService.method(SomeService.java:187)
+	at com.example.app.UserController.handle(UserController.java:18)
+2024-12-22 06:28:42,747 INFO  [http-nio-8080-exec-3] com.example.app.RequestHandler - Handled request in 311 ms
+2024-12-22 06:03:23,534 INFO  [http-nio-8080-exec-87] com.example.app.RequestHandler - Handled request in 216 ms
+2024-12-22 07:08:38,417 WARN  [http-nio-8080-exec-17] com.example.app.Cache - Slow cache lookup for key=user:11100
+2024-12-22 15:53:35,268 INFO  [http-nio-8080-exec-32] com.example.app.RequestHandler - Handled request in 368 ms
+2024-12-22 09:44:26,485 INFO  [http-nio-8080-exec-84] com.example.app.RequestHandler - Handled request in 179 ms
+2024-12-22 16:59:24,588 INFO  [http-nio-8080-exec-67] com.example.app.RequestHandler - Handled request in 467 ms
+2024-12-22 15:42:42,358 INFO  [http-nio-8080-exec-18] com.example.app.RequestHandler - Handled request in 431 ms
+2024-12-22 15:43:05,941 INFO  [http-nio-8080-exec-18] com.example.app.RequestHandler - Handled request in 154 ms
+2024-12-22 04:56:46,294 INFO  [http-nio-8080-exec-77] com.example.app.RequestHandler - Handled request in 319 ms
+2024-12-22 23:49:23,450 INFO  [http-nio-8080-exec-17] com.example.app.RequestHandler - Handled request in 430 ms
+2024-12-22 00:10:42,333 INFO  [http-nio-8080-exec-47] com.example.app.RequestHandler - Handled request in 196 ms
+2024-12-22 03:20:25,279 WARN  [http-nio-8080-exec-43] com.example.app.Cache - Slow cache lookup for key=user:1039
+2024-12-22 21:47:58,982 INFO  [http-nio-8080-exec-36] com.example.app.RequestHandler - Handled request in 461 ms
+2024-12-22 13:32:51,822 WARN  [http-nio-8080-exec-38] com.example.app.Cache - Slow cache lookup for key=user:19626
+2024-12-22 17:47:26,494 INFO  [http-nio-8080-exec-24] com.example.app.RequestHandler - Handled request in 157 ms
+2024-12-22 13:57:13,152 INFO  [http-nio-8080-exec-68] com.example.app.RequestHandler - Handled request in 411 ms
+2024-12-22 17:06:54,978 INFO  [http-nio-8080-exec-48] com.example.app.RequestHandler - Handled request in 102 ms
+2024-12-22 11:08:26,177 INFO  [http-nio-8080-exec-59] com.example.app.RequestHandler - Handled request in 225 ms
+2024-12-22 16:51:18,571 INFO  [http-nio-8080-exec-8] com.example.app.RequestHandler - Handled request in 423 ms
+2024-12-22 20:51:20,190 INFO  [http-nio-8080-exec-33] com.example.app.RequestHandler - Handled request in 6 ms
+2024-12-22 11:50:48,114 INFO  [http-nio-8080-exec-42] com.example.app.RequestHandler - Handled request in 156 ms
+2024-12-22 21:35:19,959 INFO  [http-nio-8080-exec-7] com.example.app.RequestHandler - Handled request in 206 ms
+2024-12-22 16:06:13,430 INFO  [http-nio-8080-exec-93] com.example.app.RequestHandler - Handled request in 326 ms
+2024-12-22 13:03:43,772 INFO  [http-nio-8080-exec-24] com.example.app.RequestHandler - Handled request in 382 ms
+2024-12-22 12:42:43,844 INFO  [http-nio-8080-exec-65] com.example.app.RequestHandler - Handled request in 14 ms
+2024-12-22 09:57:03,450 INFO  [http-nio-8080-exec-71] com.example.app.RequestHandler - Handled request in 78 ms
+2024-12-22 07:03:13,883 INFO  [http-nio-8080-exec-47] com.example.app.RequestHandler - Handled request in 124 ms
+2024-12-22 06:04:19,560 INFO  [http-nio-8080-exec-72] com.example.app.RequestHandler - Handled request in 390 ms
+2024-12-22 00:52:31,129 INFO  [http-nio-8080-exec-95] com.example.app.RequestHandler - Handled request in 123 ms
+2024-12-22 11:32:50,679 INFO  [http-nio-8080-exec-14] com.example.app.RequestHandler - Handled request in 25 ms
+2024-12-22 01:49:07,814 INFO  [http-nio-8080-exec-65] com.example.app.RequestHandler - Handled request in 163 ms
+2024-12-22 03:25:44,678 INFO  [http-nio-8080-exec-93] com.example.app.RequestHandler - Handled request in 226 ms
+2024-12-22 01:15:20,310 INFO  [http-nio-8080-exec-30] com.example.app.RequestHandler - Handled request in 32 ms
+2024-12-22 02:32:43,423 INFO  [http-nio-8080-exec-15] com.example.app.RequestHandler - Handled request in 105 ms
+2024-12-22 09:42:15,816 INFO  [http-nio-8080-exec-93] com.example.app.RequestHandler - Handled request in 156 ms
+2024-12-22 17:54:50,668 INFO  [http-nio-8080-exec-30] com.example.app.RequestHandler - Handled request in 174 ms
+2024-12-22 21:21:13,203 INFO  [http-nio-8080-exec-59] com.example.app.RequestHandler - Handled request in 483 ms
+2024-12-22 08:29:56,759 INFO  [http-nio-8080-exec-75] com.example.app.RequestHandler - Handled request in 488 ms
+2024-12-22 06:32:22,387 INFO  [http-nio-8080-exec-80] com.example.app.RequestHandler - Handled request in 160 ms
+2024-12-22 22:59:22,894 INFO  [http-nio-8080-exec-89] com.example.app.RequestHandler - Handled request in 281 ms
+2024-12-23 01:26:00,129 INFO  [http-nio-8080-exec-22] com.example.app.RequestHandler - Handled request in 92 ms
+2024-12-23 08:27:19,466 INFO  [http-nio-8080-exec-40] com.example.app.RequestHandler - Handled request in 295 ms
+2024-12-23 18:26:09,621 INFO  [http-nio-8080-exec-31] com.example.app.RequestHandler - Handled request in 170 ms
+2024-12-23 15:21:41,298 INFO  [http-nio-8080-exec-69] com.example.app.RequestHandler - Handled request in 446 ms
+2024-12-23 04:14:45,878 WARN  [http-nio-8080-exec-82] com.example.app.Cache - Slow cache lookup for key=user:2437
+2024-12-23 11:47:31,366 INFO  [http-nio-8080-exec-26] com.example.app.RequestHandler - Handled request in 500 ms
+2024-12-23 03:23:42,163 INFO  [http-nio-8080-exec-8] com.example.app.RequestHandler - Handled request in 366 ms
+2024-12-23 20:02:43,888 INFO  [http-nio-8080-exec-47] com.example.app.RequestHandler - Handled request in 8 ms
+2024-12-23 17:29:21,505 WARN  [http-nio-8080-exec-58] com.example.app.Cache - Slow cache lookup for key=user:2935
+2024-12-23 00:05:38,226 INFO  [http-nio-8080-exec-20] com.example.app.RequestHandler - Handled request in 10 ms
+2024-12-23 22:03:35,883 INFO  [http-nio-8080-exec-79] com.example.app.RequestHandler - Handled request in 255 ms
+2024-12-23 23:53:50,446 INFO  [http-nio-8080-exec-13] com.example.app.RequestHandler - Handled request in 394 ms
+2024-12-23 09:09:16,572 INFO  [http-nio-8080-exec-37] com.example.app.RequestHandler - Handled request in 481 ms
+2024-12-23 05:37:32,850 INFO  [http-nio-8080-exec-49] com.example.app.RequestHandler - Handled request in 356 ms
+2024-12-23 21:05:10,198 INFO  [http-nio-8080-exec-61] com.example.app.RequestHandler - Handled request in 268 ms
+2024-12-23 07:01:42,141 ERROR [http-nio-8080-exec-13] com.example.app.UserController - Unhandled exception processing /api/user
+java.lang.NullPointerException: Cannot read property 'id' of null
+	at com.example.app.service.SomeService.method(SomeService.java:147)
+	at com.example.app.service.SomeService.method(SomeService.java:136)
+	at com.example.app.service.SomeService.method(SomeService.java:53)
+	at com.example.app.UserController.handle(UserController.java:86)
+2024-12-23 00:52:05,861 INFO  [http-nio-8080-exec-29] com.example.app.RequestHandler - Handled request in 269 ms
+2024-12-23 23:12:25,398 INFO  [http-nio-8080-exec-8] com.example.app.RequestHandler - Handled request in 473 ms
+2024-12-23 18:05:14,394 INFO  [http-nio-8080-exec-89] com.example.app.RequestHandler - Handled request in 176 ms
+2024-12-23 18:36:13,542 INFO  [http-nio-8080-exec-21] com.example.app.RequestHandler - Handled request in 244 ms
+2024-12-23 20:06:45,794 INFO  [http-nio-8080-exec-11] com.example.app.RequestHandler - Handled request in 438 ms
+2024-12-23 20:18:24,264 WARN  [http-nio-8080-exec-90] com.example.app.Cache - Slow cache lookup for key=user:27386
+2024-12-23 07:11:05,392 INFO  [http-nio-8080-exec-46] com.example.app.RequestHandler - Handled request in 16 ms
+2024-12-23 07:01:29,814 INFO  [http-nio-8080-exec-40] com.example.app.RequestHandler - Handled request in 460 ms
+2024-12-23 21:10:25,307 INFO  [http-nio-8080-exec-12] com.example.app.RequestHandler - Handled request in 134 ms
+2024-12-23 17:25:43,680 INFO  [http-nio-8080-exec-23] com.example.app.RequestHandler - Handled request in 376 ms
+2024-12-23 01:03:52,616 WARN  [http-nio-8080-exec-97] com.example.app.Cache - Slow cache lookup for key=user:28716
+2024-12-23 08:14:35,960 INFO  [http-nio-8080-exec-11] com.example.app.RequestHandler - Handled request in 269 ms
+2024-12-23 02:55:30,583 INFO  [http-nio-8080-exec-71] com.example.app.RequestHandler - Handled request in 449 ms
+2024-12-23 17:49:20,564 INFO  [http-nio-8080-exec-61] com.example.app.RequestHandler - Handled request in 431 ms
+2024-12-23 17:21:55,668 INFO  [http-nio-8080-exec-94] com.example.app.RequestHandler - Handled request in 63 ms
+2024-12-23 07:47:51,827 INFO  [http-nio-8080-exec-20] com.example.app.RequestHandler - Handled request in 320 ms
+2024-12-23 10:38:18,263 INFO  [http-nio-8080-exec-63] com.example.app.RequestHandler - Handled request in 116 ms
+2024-12-23 20:40:37,501 INFO  [http-nio-8080-exec-11] com.example.app.RequestHandler - Handled request in 269 ms
+2024-12-23 00:03:25,860 INFO  [http-nio-8080-exec-24] com.example.app.RequestHandler - Handled request in 261 ms
+2024-12-23 05:15:21,784 INFO  [http-nio-8080-exec-8] com.example.app.RequestHandler - Handled request in 307 ms
+2024-12-23 12:57:37,972 INFO  [http-nio-8080-exec-83] com.example.app.RequestHandler - Handled request in 482 ms
+2024-12-23 10:32:09,154 INFO  [http-nio-8080-exec-83] com.example.app.RequestHandler - Handled request in 125 ms
+2024-12-23 09:46:38,471 INFO  [http-nio-8080-exec-30] com.example.app.RequestHandler - Handled request in 309 ms
+2024-12-23 21:29:43,536 INFO  [http-nio-8080-exec-94] com.example.app.RequestHandler - Handled request in 474 ms
+2024-12-23 07:46:05,553 INFO  [http-nio-8080-exec-30] com.example.app.RequestHandler - Handled request in 93 ms
+2024-12-23 13:37:12,627 INFO  [http-nio-8080-exec-29] com.example.app.RequestHandler - Handled request in 165 ms
+2024-12-23 14:25:42,558 WARN  [http-nio-8080-exec-79] com.example.app.Cache - Slow cache lookup for key=user:23403
+2024-12-23 08:25:49,549 WARN  [http-nio-8080-exec-97] com.example.app.Cache - Slow cache lookup for key=user:8021
+2024-12-24 22:16:05,876 WARN  [http-nio-8080-exec-48] com.example.app.Cache - Slow cache lookup for key=user:19333
+2024-12-24 09:09:03,291 WARN  [http-nio-8080-exec-85] com.example.app.Cache - Slow cache lookup for key=user:17660
+2024-12-24 11:48:22,984 INFO  [http-nio-8080-exec-57] com.example.app.RequestHandler - Handled request in 386 ms
+2024-12-24 07:40:15,912 INFO  [http-nio-8080-exec-51] com.example.app.RequestHandler - Handled request in 245 ms
+2024-12-24 16:42:11,138 INFO  [http-nio-8080-exec-58] com.example.app.RequestHandler - Handled request in 100 ms
+2024-12-24 23:38:37,213 INFO  [http-nio-8080-exec-92] com.example.app.RequestHandler - Handled request in 453 ms
+2024-12-24 13:45:46,677 INFO  [http-nio-8080-exec-87] com.example.app.RequestHandler - Handled request in 437 ms
+2024-12-24 15:46:27,939 INFO  [http-nio-8080-exec-36] com.example.app.RequestHandler - Handled request in 217 ms
+2024-12-24 05:03:01,781 INFO  [http-nio-8080-exec-98] com.example.app.RequestHandler - Handled request in 73 ms
+2024-12-24 00:22:06,835 INFO  [http-nio-8080-exec-26] com.example.app.RequestHandler - Handled request in 169 ms
+2024-12-24 01:56:02,292 INFO  [http-nio-8080-exec-90] com.example.app.RequestHandler - Handled request in 94 ms
+2024-12-24 15:24:25,127 INFO  [http-nio-8080-exec-71] com.example.app.RequestHandler - Handled request in 91 ms
+2024-12-24 17:37:11,317 WARN  [http-nio-8080-exec-67] com.example.app.Cache - Slow cache lookup for key=user:18733
+2024-12-24 18:33:25,487 INFO  [http-nio-8080-exec-23] com.example.app.RequestHandler - Handled request in 438 ms
+2024-12-24 11:46:43,768 INFO  [http-nio-8080-exec-34] com.example.app.RequestHandler - Handled request in 371 ms
+2024-12-24 11:45:24,128 INFO  [http-nio-8080-exec-51] com.example.app.RequestHandler - Handled request in 222 ms
+2024-12-24 11:50:40,899 INFO  [http-nio-8080-exec-65] com.example.app.RequestHandler - Handled request in 490 ms
+2024-12-24 09:55:06,383 INFO  [http-nio-8080-exec-39] com.example.app.RequestHandler - Handled request in 109 ms
+2024-12-24 13:43:30,135 INFO  [http-nio-8080-exec-71] com.example.app.RequestHandler - Handled request in 243 ms
+2024-12-24 00:14:58,486 INFO  [http-nio-8080-exec-13] com.example.app.RequestHandler - Handled request in 466 ms
+2024-12-24 07:07:21,757 WARN  [http-nio-8080-exec-1] com.example.app.Cache - Slow cache lookup for key=user:19095
+2024-12-24 19:46:07,716 INFO  [http-nio-8080-exec-62] com.example.app.RequestHandler - Handled request in 495 ms
+2024-12-24 18:21:09,126 INFO  [http-nio-8080-exec-8] com.example.app.RequestHandler - Handled request in 229 ms
+2024-12-24 11:18:58,216 INFO  [http-nio-8080-exec-43] com.example.app.RequestHandler - Handled request in 105 ms
+2024-12-24 19:36:02,869 INFO  [http-nio-8080-exec-36] com.example.app.RequestHandler - Handled request in 287 ms
+2024-12-24 21:40:22,585 INFO  [http-nio-8080-exec-12] com.example.app.RequestHandler - Handled request in 127 ms
+2024-12-24 03:37:27,742 INFO  [http-nio-8080-exec-92] com.example.app.RequestHandler - Handled request in 328 ms
+2024-12-24 13:40:28,748 INFO  [http-nio-8080-exec-14] com.example.app.RequestHandler - Handled request in 73 ms
+2024-12-24 07:05:02,782 INFO  [http-nio-8080-exec-61] com.example.app.RequestHandler - Handled request in 289 ms
+2024-12-24 05:40:11,709 INFO  [http-nio-8080-exec-67] com.example.app.RequestHandler - Handled request in 369 ms
+2024-12-24 22:20:16,341 INFO  [http-nio-8080-exec-5] com.example.app.RequestHandler - Handled request in 418 ms
+2024-12-24 18:25:41,969 WARN  [http-nio-8080-exec-82] com.example.app.Cache - Slow cache lookup for key=user:8192
+2024-12-25 07:59:37,288 INFO  [http-nio-8080-exec-80] com.example.app.RequestHandler - Handled request in 96 ms
+2024-12-25 17:08:48,988 INFO  [http-nio-8080-exec-58] com.example.app.RequestHandler - Handled request in 215 ms
+2024-12-25 18:40:46,243 INFO  [http-nio-8080-exec-88] com.example.app.RequestHandler - Handled request in 49 ms
+2024-12-25 17:47:48,154 INFO  [http-nio-8080-exec-9] com.example.app.RequestHandler - Handled request in 68 ms
+2024-12-25 12:33:43,186 INFO  [http-nio-8080-exec-36] com.example.app.RequestHandler - Handled request in 284 ms
+2024-12-25 15:49:58,257 INFO  [http-nio-8080-exec-42] com.example.app.RequestHandler - Handled request in 97 ms
+2024-12-25 10:36:19,588 INFO  [http-nio-8080-exec-87] com.example.app.RequestHandler - Handled request in 302 ms
+2024-12-25 11:11:28,380 INFO  [http-nio-8080-exec-24] com.example.app.RequestHandler - Handled request in 307 ms
+2024-12-25 04:11:03,299 INFO  [http-nio-8080-exec-89] com.example.app.RequestHandler - Handled request in 98 ms
+2024-12-25 15:41:45,866 INFO  [http-nio-8080-exec-86] com.example.app.RequestHandler - Handled request in 26 ms
+2024-12-25 16:48:28,618 INFO  [http-nio-8080-exec-13] com.example.app.RequestHandler - Handled request in 261 ms
+2024-12-25 15:28:37,264 INFO  [http-nio-8080-exec-8] com.example.app.RequestHandler - Handled request in 29 ms
+2024-12-25 09:18:23,245 INFO  [http-nio-8080-exec-63] com.example.app.RequestHandler - Handled request in 211 ms
+2024-12-25 18:47:33,141 INFO  [http-nio-8080-exec-1] com.example.app.RequestHandler - Handled request in 418 ms
+2024-12-25 10:59:42,167 INFO  [http-nio-8080-exec-42] com.example.app.RequestHandler - Handled request in 183 ms
+2024-12-25 05:15:37,843 INFO  [http-nio-8080-exec-43] com.example.app.RequestHandler - Handled request in 365 ms
+2024-12-25 12:28:24,544 INFO  [http-nio-8080-exec-65] com.example.app.RequestHandler - Handled request in 15 ms
+2024-12-25 02:15:00,819 ERROR [http-nio-8080-exec-38] com.example.app.UserController - Unhandled exception processing /api/user
+java.lang.NullPointerException: Cannot read property 'id' of null
+	at com.example.app.service.SomeService.method(SomeService.java:190)
+	at com.example.app.service.SomeService.method(SomeService.java:193)
+	at com.example.app.service.SomeService.method(SomeService.java:158)
+	at com.example.app.UserController.handle(UserController.java:90)
+2024-12-25 15:54:50,462 INFO  [http-nio-8080-exec-88] com.example.app.RequestHandler - Handled request in 431 ms
+2024-12-25 18:51:36,577 INFO  [http-nio-8080-exec-69] com.example.app.RequestHandler - Handled request in 498 ms
+2024-12-25 11:21:07,807 INFO  [http-nio-8080-exec-1] com.example.app.RequestHandler - Handled request in 144 ms
+2024-12-25 21:22:30,145 INFO  [http-nio-8080-exec-97] com.example.app.RequestHandler - Handled request in 163 ms
+2024-12-26 18:29:45,101 INFO  [http-nio-8080-exec-20] com.example.app.RequestHandler - Handled request in 418 ms
+2024-12-26 20:39:32,593 WARN  [http-nio-8080-exec-99] com.example.app.Cache - Slow cache lookup for key=user:14708
+2024-12-26 05:57:19,272 INFO  [http-nio-8080-exec-66] com.example.app.RequestHandler - Handled request in 413 ms
+2024-12-26 21:50:47,296 INFO  [http-nio-8080-exec-24] com.example.app.RequestHandler - Handled request in 441 ms
+2024-12-26 15:06:57,899 INFO  [http-nio-8080-exec-42] com.example.app.RequestHandler - Handled request in 105 ms
+2024-12-26 20:45:25,792 INFO  [http-nio-8080-exec-100] com.example.app.RequestHandler - Handled request in 362 ms
+2024-12-26 16:30:45,480 WARN  [http-nio-8080-exec-8] com.example.app.Cache - Slow cache lookup for key=user:18293
+2024-12-26 21:30:52,767 WARN  [http-nio-8080-exec-34] com.example.app.Cache - Slow cache lookup for key=user:11596
+2024-12-26 00:22:38,965 INFO  [http-nio-8080-exec-98] com.example.app.RequestHandler - Handled request in 53 ms
+2024-12-26 08:49:35,587 INFO  [http-nio-8080-exec-90] com.example.app.RequestHandler - Handled request in 237 ms
+2024-12-26 12:35:05,231 INFO  [http-nio-8080-exec-73] com.example.app.RequestHandler - Handled request in 140 ms
+2024-12-26 20:00:11,181 INFO  [http-nio-8080-exec-46] com.example.app.RequestHandler - Handled request in 445 ms
+2024-12-26 16:44:56,325 INFO  [http-nio-8080-exec-91] com.example.app.RequestHandler - Handled request in 18 ms
+2024-12-26 21:44:51,772 INFO  [http-nio-8080-exec-69] com.example.app.RequestHandler - Handled request in 291 ms
+2024-12-26 09:34:48,161 INFO  [http-nio-8080-exec-89] com.example.app.RequestHandler - Handled request in 400 ms
+2024-12-26 12:57:10,563 INFO  [http-nio-8080-exec-57] com.example.app.RequestHandler - Handled request in 284 ms
+2024-12-26 04:18:21,299 INFO  [http-nio-8080-exec-12] com.example.app.RequestHandler - Handled request in 13 ms
+2024-12-26 22:11:22,852 INFO  [http-nio-8080-exec-36] com.example.app.RequestHandler - Handled request in 273 ms
+2024-12-26 04:38:37,274 INFO  [http-nio-8080-exec-49] com.example.app.RequestHandler - Handled request in 396 ms
+2024-12-26 02:56:38,557 INFO  [http-nio-8080-exec-27] com.example.app.RequestHandler - Handled request in 335 ms
+2024-12-26 16:54:20,168 ERROR [http-nio-8080-exec-63] com.example.app.UserController - Unhandled exception processing /api/user
+java.lang.NullPointerException: Cannot read property 'id' of null
+	at com.example.app.service.SomeService.method(SomeService.java:174)
+	at com.example.app.service.SomeService.method(SomeService.java:32)
+	at com.example.app.service.SomeService.method(SomeService.java:102)
+	at com.example.app.UserController.handle(UserController.java:83)
+2024-12-26 07:47:32,251 INFO  [http-nio-8080-exec-47] com.example.app.RequestHandler - Handled request in 82 ms
+2024-12-26 13:16:17,276 INFO  [http-nio-8080-exec-24] com.example.app.RequestHandler - Handled request in 469 ms
+2024-12-26 05:24:10,706 INFO  [http-nio-8080-exec-44] com.example.app.RequestHandler - Handled request in 415 ms
+2024-12-26 15:34:49,797 INFO  [http-nio-8080-exec-67] com.example.app.RequestHandler - Handled request in 194 ms
+2024-12-26 03:54:17,632 INFO  [http-nio-8080-exec-19] com.example.app.RequestHandler - Handled request in 340 ms
+2024-12-26 02:53:42,596 INFO  [http-nio-8080-exec-69] com.example.app.RequestHandler - Handled request in 25 ms
+2024-12-26 18:11:22,807 WARN  [http-nio-8080-exec-16] com.example.app.Cache - Slow cache lookup for key=user:3184
+2024-12-26 17:55:17,757 INFO  [http-nio-8080-exec-24] com.example.app.RequestHandler - Handled request in 317 ms
+2024-12-26 08:30:27,181 ERROR [http-nio-8080-exec-66] com.example.app.UserController - Unhandled exception processing /api/user
+java.lang.NullPointerException: Cannot read property 'id' of null
+	at com.example.app.service.SomeService.method(SomeService.java:127)
+	at com.example.app.service.SomeService.method(SomeService.java:58)
+	at com.example.app.service.SomeService.method(SomeService.java:73)
+	at com.example.app.UserController.handle(UserController.java:14)
+2024-12-26 22:34:48,743 ERROR [http-nio-8080-exec-62] com.example.app.UserController - Unhandled exception processing /api/user
+java.lang.NullPointerException: Cannot read property 'id' of null
+	at com.example.app.service.SomeService.method(SomeService.java:45)
+	at com.example.app.service.SomeService.method(SomeService.java:112)
+	at com.example.app.service.SomeService.method(SomeService.java:98)
+	at com.example.app.UserController.handle(UserController.java:32)
+2024-12-26 04:50:59,159 INFO  [http-nio-8080-exec-59] com.example.app.RequestHandler - Handled request in 111 ms
+2024-12-26 15:48:48,147 INFO  [http-nio-8080-exec-41] com.example.app.RequestHandler - Handled request in 89 ms
+2024-12-26 08:51:53,588 INFO  [http-nio-8080-exec-83] com.example.app.RequestHandler - Handled request in 250 ms
+2024-12-26 10:34:33,129 INFO  [http-nio-8080-exec-64] com.example.app.RequestHandler - Handled request in 482 ms
+2024-12-27 14:55:12,881 INFO  [http-nio-8080-exec-3] com.example.app.RequestHandler - Handled request in 211 ms
+2024-12-27 07:31:31,220 INFO  [http-nio-8080-exec-13] com.example.app.RequestHandler - Handled request in 252 ms
+2024-12-27 04:39:43,949 INFO  [http-nio-8080-exec-3] com.example.app.RequestHandler - Handled request in 27 ms
+2024-12-27 21:40:52,488 INFO  [http-nio-8080-exec-50] com.example.app.RequestHandler - Handled request in 427 ms
+2024-12-27 04:43:08,512 INFO  [http-nio-8080-exec-92] com.example.app.RequestHandler - Handled request in 201 ms
+2024-12-27 10:01:50,215 INFO  [http-nio-8080-exec-14] com.example.app.RequestHandler - Handled request in 304 ms
+2024-12-27 20:17:22,754 WARN  [http-nio-8080-exec-1] com.example.app.Cache - Slow cache lookup for key=user:9005
+2024-12-27 22:19:20,782 INFO  [http-nio-8080-exec-66] com.example.app.RequestHandler - Handled request in 299 ms
+2024-12-27 02:27:32,523 INFO  [http-nio-8080-exec-10] com.example.app.RequestHandler - Handled request in 165 ms
+2024-12-27 02:16:44,733 INFO  [http-nio-8080-exec-54] com.example.app.RequestHandler - Handled request in 491 ms
+2024-12-27 15:31:04,215 WARN  [http-nio-8080-exec-92] com.example.app.Cache - Slow cache lookup for key=user:27605
+2024-12-27 22:55:37,218 INFO  [http-nio-8080-exec-97] com.example.app.RequestHandler - Handled request in 338 ms
+2024-12-27 23:56:53,737 INFO  [http-nio-8080-exec-14] com.example.app.RequestHandler - Handled request in 283 ms
+2024-12-27 20:20:59,737 WARN  [http-nio-8080-exec-87] com.example.app.Cache - Slow cache lookup for key=user:25455
+2024-12-27 02:59:46,903 INFO  [http-nio-8080-exec-100] com.example.app.RequestHandler - Handled request in 341 ms
+2024-12-27 17:16:52,483 INFO  [http-nio-8080-exec-80] com.example.app.RequestHandler - Handled request in 77 ms
+2024-12-27 21:27:39,683 INFO  [http-nio-8080-exec-31] com.example.app.RequestHandler - Handled request in 223 ms
+2024-12-27 05:00:05,216 WARN  [http-nio-8080-exec-11] com.example.app.Cache - Slow cache lookup for key=user:7146
+2024-12-27 09:51:28,909 INFO  [http-nio-8080-exec-83] com.example.app.RequestHandler - Handled request in 102 ms
+2024-12-27 02:28:18,513 INFO  [http-nio-8080-exec-66] com.example.app.RequestHandler - Handled request in 340 ms
+2024-12-27 13:21:40,533 INFO  [http-nio-8080-exec-13] com.example.app.RequestHandler - Handled request in 186 ms
+2024-12-27 14:25:34,784 INFO  [http-nio-8080-exec-48] com.example.app.RequestHandler - Handled request in 320 ms
+2024-12-27 17:36:51,490 INFO  [http-nio-8080-exec-60] com.example.app.RequestHandler - Handled request in 211 ms
+2024-12-27 09:37:23,761 WARN  [http-nio-8080-exec-23] com.example.app.Cache - Slow cache lookup for key=user:19788
+2024-12-27 17:19:19,710 INFO  [http-nio-8080-exec-7] com.example.app.RequestHandler - Handled request in 204 ms
+2024-12-27 22:49:43,533 ERROR [http-nio-8080-exec-25] com.example.app.UserController - Unhandled exception processing /api/user
+java.lang.NullPointerException: Cannot read property 'id' of null
+	at com.example.app.service.SomeService.method(SomeService.java:59)
+	at com.example.app.service.SomeService.method(SomeService.java:176)
+	at com.example.app.service.SomeService.method(SomeService.java:74)
+	at com.example.app.UserController.handle(UserController.java:83)
+2024-12-27 09:26:24,138 WARN  [http-nio-8080-exec-32] com.example.app.Cache - Slow cache lookup for key=user:29709
+2024-12-27 12:02:30,847 WARN  [http-nio-8080-exec-6] com.example.app.Cache - Slow cache lookup for key=user:12618
+2024-12-27 13:56:36,982 INFO  [http-nio-8080-exec-56] com.example.app.RequestHandler - Handled request in 139 ms
+2024-12-27 02:20:17,402 WARN  [http-nio-8080-exec-59] com.example.app.Cache - Slow cache lookup for key=user:24467
+2024-12-27 21:52:58,559 INFO  [http-nio-8080-exec-53] com.example.app.RequestHandler - Handled request in 124 ms
+2024-12-27 14:54:13,953 INFO  [http-nio-8080-exec-73] com.example.app.RequestHandler - Handled request in 92 ms
+2024-12-27 07:21:20,101 INFO  [http-nio-8080-exec-38] com.example.app.RequestHandler - Handled request in 17 ms
+2024-12-27 15:10:57,300 INFO  [http-nio-8080-exec-1] com.example.app.RequestHandler - Handled request in 374 ms
+2024-12-27 18:58:28,340 WARN  [http-nio-8080-exec-75] com.example.app.Cache - Slow cache lookup for key=user:24408
+2024-12-27 22:46:09,964 INFO  [http-nio-8080-exec-84] com.example.app.RequestHandler - Handled request in 59 ms
+2024-12-27 01:17:48,211 INFO  [http-nio-8080-exec-44] com.example.app.RequestHandler - Handled request in 351 ms
+2024-12-27 15:42:07,604 INFO  [http-nio-8080-exec-14] com.example.app.RequestHandler - Handled request in 296 ms
+2024-12-27 18:26:34,430 WARN  [http-nio-8080-exec-43] com.example.app.Cache - Slow cache lookup for key=user:1835
+2024-12-27 07:17:46,150 INFO  [http-nio-8080-exec-14] com.example.app.RequestHandler - Handled request in 377 ms
+2024-12-27 22:09:24,556 INFO  [http-nio-8080-exec-52] com.example.app.RequestHandler - Handled request in 129 ms
+2024-12-27 12:39:29,420 INFO  [http-nio-8080-exec-94] com.example.app.RequestHandler - Handled request in 235 ms
+2024-12-27 13:13:55,685 INFO  [http-nio-8080-exec-55] com.example.app.RequestHandler - Handled request in 445 ms
+2024-12-27 00:35:46,499 WARN  [http-nio-8080-exec-27] com.example.app.Cache - Slow cache lookup for key=user:2618
+2024-12-27 02:49:10,129 INFO  [http-nio-8080-exec-75] com.example.app.RequestHandler - Handled request in 62 ms
+2024-12-27 01:58:17,707 INFO  [http-nio-8080-exec-21] com.example.app.RequestHandler - Handled request in 293 ms
+2024-12-28 18:53:25,293 INFO  [http-nio-8080-exec-28] com.example.app.RequestHandler - Handled request in 417 ms
+2024-12-28 02:15:05,112 INFO  [http-nio-8080-exec-72] com.example.app.RequestHandler - Handled request in 427 ms
+2024-12-28 23:36:36,170 INFO  [http-nio-8080-exec-94] com.example.app.RequestHandler - Handled request in 247 ms
+2024-12-28 08:06:27,471 INFO  [http-nio-8080-exec-82] com.example.app.RequestHandler - Handled request in 92 ms
+2024-12-28 10:12:05,405 INFO  [http-nio-8080-exec-50] com.example.app.RequestHandler - Handled request in 340 ms
+2024-12-28 04:08:51,994 INFO  [http-nio-8080-exec-93] com.example.app.RequestHandler - Handled request in 366 ms
+2024-12-28 01:42:41,586 INFO  [http-nio-8080-exec-29] com.example.app.RequestHandler - Handled request in 52 ms
+2024-12-28 19:54:46,742 INFO  [http-nio-8080-exec-69] com.example.app.RequestHandler - Handled request in 471 ms
+2024-12-28 01:00:46,258 INFO  [http-nio-8080-exec-49] com.example.app.RequestHandler - Handled request in 220 ms
+2024-12-28 03:40:04,557 INFO  [http-nio-8080-exec-79] com.example.app.RequestHandler - Handled request in 47 ms
+2024-12-28 04:37:40,115 INFO  [http-nio-8080-exec-94] com.example.app.RequestHandler - Handled request in 148 ms
+2024-12-28 13:50:41,910 WARN  [http-nio-8080-exec-79] com.example.app.Cache - Slow cache lookup for key=user:24474
+2024-12-28 10:15:56,539 INFO  [http-nio-8080-exec-91] com.example.app.RequestHandler - Handled request in 184 ms
+2024-12-28 20:04:21,836 INFO  [http-nio-8080-exec-28] com.example.app.RequestHandler - Handled request in 12 ms
+2024-12-28 23:18:23,159 INFO  [http-nio-8080-exec-30] com.example.app.RequestHandler - Handled request in 207 ms
+2024-12-28 10:29:30,204 INFO  [http-nio-8080-exec-19] com.example.app.RequestHandler - Handled request in 214 ms
+2024-12-28 15:03:45,567 INFO  [http-nio-8080-exec-44] com.example.app.RequestHandler - Handled request in 334 ms
+2024-12-28 12:58:07,539 INFO  [http-nio-8080-exec-17] com.example.app.RequestHandler - Handled request in 371 ms
+2024-12-28 02:52:38,794 INFO  [http-nio-8080-exec-41] com.example.app.RequestHandler - Handled request in 498 ms
+2024-12-28 12:31:05,961 INFO  [http-nio-8080-exec-67] com.example.app.RequestHandler - Handled request in 133 ms
+2024-12-28 19:16:24,343 WARN  [http-nio-8080-exec-93] com.example.app.Cache - Slow cache lookup for key=user:17013
+2024-12-28 05:43:14,437 WARN  [http-nio-8080-exec-56] com.example.app.Cache - Slow cache lookup for key=user:22351
+2024-12-28 07:56:50,248 INFO  [http-nio-8080-exec-39] com.example.app.RequestHandler - Handled request in 421 ms
+2024-12-28 16:54:48,704 WARN  [http-nio-8080-exec-39] com.example.app.Cache - Slow cache lookup for key=user:11559
+2024-12-28 14:24:59,200 INFO  [http-nio-8080-exec-92] com.example.app.RequestHandler - Handled request in 148 ms
+2024-12-28 18:25:22,319 INFO  [http-nio-8080-exec-38] com.example.app.RequestHandler - Handled request in 89 ms
+2024-12-28 09:47:23,327 INFO  [http-nio-8080-exec-55] com.example.app.RequestHandler - Handled request in 338 ms
+2024-12-28 13:02:24,699 INFO  [http-nio-8080-exec-62] com.example.app.RequestHandler - Handled request in 63 ms
+2024-12-28 08:21:30,890 ERROR [http-nio-8080-exec-43] com.example.app.UserController - Unhandled exception processing /api/user
+java.lang.NullPointerException: Cannot read property 'id' of null
+	at com.example.app.service.SomeService.method(SomeService.java:65)
+	at com.example.app.service.SomeService.method(SomeService.java:89)
+	at com.example.app.service.SomeService.method(SomeService.java:197)
+	at com.example.app.UserController.handle(UserController.java:75)
+2024-12-28 19:48:51,639 INFO  [http-nio-8080-exec-45] com.example.app.RequestHandler - Handled request in 159 ms
+2024-12-29 06:19:26,568 WARN  [http-nio-8080-exec-18] com.example.app.Cache - Slow cache lookup for key=user:14880
+2024-12-29 22:07:53,947 INFO  [http-nio-8080-exec-65] com.example.app.RequestHandler - Handled request in 460 ms
+2024-12-29 07:43:19,436 INFO  [http-nio-8080-exec-24] com.example.app.RequestHandler - Handled request in 212 ms
+2024-12-29 16:35:43,237 INFO  [http-nio-8080-exec-71] com.example.app.RequestHandler - Handled request in 109 ms
+2024-12-29 21:11:29,122 INFO  [http-nio-8080-exec-38] com.example.app.RequestHandler - Handled request in 451 ms
+2024-12-29 22:49:50,898 INFO  [http-nio-8080-exec-66] com.example.app.RequestHandler - Handled request in 331 ms
+2024-12-29 04:30:00,451 WARN  [http-nio-8080-exec-21] com.example.app.Cache - Slow cache lookup for key=user:25193
+2024-12-29 20:28:03,835 INFO  [http-nio-8080-exec-66] com.example.app.RequestHandler - Handled request in 367 ms
+2024-12-29 15:14:18,628 WARN  [http-nio-8080-exec-32] com.example.app.Cache - Slow cache lookup for key=user:1602
+2024-12-29 07:32:38,705 INFO  [http-nio-8080-exec-43] com.example.app.RequestHandler - Handled request in 122 ms
+2024-12-29 06:22:58,898 INFO  [http-nio-8080-exec-12] com.example.app.RequestHandler - Handled request in 195 ms
+2024-12-29 09:51:21,824 INFO  [http-nio-8080-exec-97] com.example.app.RequestHandler - Handled request in 236 ms
+2024-12-29 22:20:00,990 INFO  [http-nio-8080-exec-93] com.example.app.RequestHandler - Handled request in 201 ms
+2024-12-29 19:35:14,235 INFO  [http-nio-8080-exec-71] com.example.app.RequestHandler - Handled request in 310 ms
+2024-12-29 02:07:05,272 INFO  [http-nio-8080-exec-89] com.example.app.RequestHandler - Handled request in 29 ms
+2024-12-29 11:16:56,843 INFO  [http-nio-8080-exec-59] com.example.app.RequestHandler - Handled request in 438 ms
+2024-12-29 19:49:27,948 WARN  [http-nio-8080-exec-59] com.example.app.Cache - Slow cache lookup for key=user:8785
+2024-12-29 23:28:04,428 INFO  [http-nio-8080-exec-29] com.example.app.RequestHandler - Handled request in 336 ms
+2024-12-29 07:31:52,975 WARN  [http-nio-8080-exec-73] com.example.app.Cache - Slow cache lookup for key=user:6071
+2024-12-29 07:45:07,977 INFO  [http-nio-8080-exec-49] com.example.app.RequestHandler - Handled request in 489 ms
+2024-12-29 23:41:51,213 INFO  [http-nio-8080-exec-100] com.example.app.RequestHandler - Handled request in 18 ms
+2024-12-29 21:47:15,125 INFO  [http-nio-8080-exec-24] com.example.app.RequestHandler - Handled request in 139 ms
+2024-12-29 00:22:37,902 WARN  [http-nio-8080-exec-12] com.example.app.Cache - Slow cache lookup for key=user:22805
+2024-12-29 20:34:26,578 INFO  [http-nio-8080-exec-54] com.example.app.RequestHandler - Handled request in 424 ms
+2024-12-29 21:28:59,672 INFO  [http-nio-8080-exec-79] com.example.app.RequestHandler - Handled request in 283 ms
+2024-12-29 13:20:09,295 WARN  [http-nio-8080-exec-49] com.example.app.Cache - Slow cache lookup for key=user:15438
+2024-12-29 14:36:35,504 INFO  [http-nio-8080-exec-57] com.example.app.RequestHandler - Handled request in 303 ms
+2024-12-29 11:29:52,322 WARN  [http-nio-8080-exec-86] com.example.app.Cache - Slow cache lookup for key=user:17840
+2024-12-29 07:05:05,491 WARN  [http-nio-8080-exec-60] com.example.app.Cache - Slow cache lookup for key=user:21379
+2024-12-29 13:58:26,790 INFO  [http-nio-8080-exec-47] com.example.app.RequestHandler - Handled request in 145 ms
+2024-12-29 09:17:47,954 INFO  [http-nio-8080-exec-23] com.example.app.RequestHandler - Handled request in 3 ms
+2024-12-30 18:53:53,382 WARN  [http-nio-8080-exec-75] com.example.app.Cache - Slow cache lookup for key=user:26774
+2024-12-30 00:11:21,294 INFO  [http-nio-8080-exec-44] com.example.app.RequestHandler - Handled request in 415 ms
+2024-12-30 10:43:36,767 INFO  [http-nio-8080-exec-22] com.example.app.RequestHandler - Handled request in 322 ms
+2024-12-30 03:51:22,160 INFO  [http-nio-8080-exec-73] com.example.app.RequestHandler - Handled request in 302 ms
+2024-12-30 08:50:37,103 WARN  [http-nio-8080-exec-12] com.example.app.Cache - Slow cache lookup for key=user:6844
+2024-12-30 01:26:48,865 INFO  [http-nio-8080-exec-12] com.example.app.RequestHandler - Handled request in 413 ms
+2024-12-30 13:56:29,739 INFO  [http-nio-8080-exec-54] com.example.app.RequestHandler - Handled request in 391 ms
+2024-12-30 04:34:51,215 INFO  [http-nio-8080-exec-25] com.example.app.RequestHandler - Handled request in 208 ms
+2024-12-30 18:51:18,882 INFO  [http-nio-8080-exec-73] com.example.app.RequestHandler - Handled request in 356 ms
+2024-12-30 20:33:07,112 INFO  [http-nio-8080-exec-9] com.example.app.RequestHandler - Handled request in 311 ms
+2024-12-30 21:02:01,706 INFO  [http-nio-8080-exec-92] com.example.app.RequestHandler - Handled request in 197 ms
+2024-12-30 14:37:21,205 INFO  [http-nio-8080-exec-24] com.example.app.RequestHandler - Handled request in 249 ms
+2024-12-30 17:13:42,382 INFO  [http-nio-8080-exec-41] com.example.app.RequestHandler - Handled request in 186 ms
+2024-12-30 15:40:14,725 ERROR [http-nio-8080-exec-31] com.example.app.UserController - Unhandled exception processing /api/user
+java.lang.NullPointerException: Cannot read property 'id' of null
+	at com.example.app.service.SomeService.method(SomeService.java:98)
+	at com.example.app.service.SomeService.method(SomeService.java:65)
+	at com.example.app.service.SomeService.method(SomeService.java:94)
+	at com.example.app.UserController.handle(UserController.java:44)
+2024-12-30 18:18:12,274 INFO  [http-nio-8080-exec-32] com.example.app.RequestHandler - Handled request in 61 ms
+2024-12-30 10:39:54,999 INFO  [http-nio-8080-exec-85] com.example.app.RequestHandler - Handled request in 15 ms
+2024-12-30 22:26:24,738 ERROR [http-nio-8080-exec-14] com.example.app.UserController - Unhandled exception processing /api/user
+java.lang.NullPointerException: Cannot read property 'id' of null
+	at com.example.app.service.SomeService.method(SomeService.java:194)
+	at com.example.app.service.SomeService.method(SomeService.java:124)
+	at com.example.app.service.SomeService.method(SomeService.java:194)
+	at com.example.app.UserController.handle(UserController.java:35)
+2024-12-30 22:20:52,612 ERROR [http-nio-8080-exec-12] com.example.app.UserController - Unhandled exception processing /api/user
+java.lang.NullPointerException: Cannot read property 'id' of null
+	at com.example.app.service.SomeService.method(SomeService.java:109)
+	at com.example.app.service.SomeService.method(SomeService.java:165)
+	at com.example.app.service.SomeService.method(SomeService.java:47)
+	at com.example.app.UserController.handle(UserController.java:53)
+2024-12-30 18:41:11,409 INFO  [http-nio-8080-exec-4] com.example.app.RequestHandler - Handled request in 95 ms
+2024-12-30 18:47:48,922 INFO  [http-nio-8080-exec-3] com.example.app.RequestHandler - Handled request in 455 ms
+2024-12-30 18:58:48,250 INFO  [http-nio-8080-exec-51] com.example.app.RequestHandler - Handled request in 80 ms
+2024-12-30 22:14:06,327 INFO  [http-nio-8080-exec-14] com.example.app.RequestHandler - Handled request in 228 ms
+2024-12-30 16:47:12,672 INFO  [http-nio-8080-exec-68] com.example.app.RequestHandler - Handled request in 139 ms
+2024-12-30 00:03:22,221 ERROR [http-nio-8080-exec-67] com.example.app.UserController - Unhandled exception processing /api/user
+java.lang.NullPointerException: Cannot read property 'id' of null
+	at com.example.app.service.SomeService.method(SomeService.java:51)
+	at com.example.app.service.SomeService.method(SomeService.java:39)
+	at com.example.app.service.SomeService.method(SomeService.java:109)
+	at com.example.app.UserController.handle(UserController.java:39)
+2024-12-31 06:41:04,545 INFO  [http-nio-8080-exec-19] com.example.app.RequestHandler - Handled request in 269 ms
+2024-12-31 18:07:02,954 INFO  [http-nio-8080-exec-65] com.example.app.RequestHandler - Handled request in 392 ms
+2024-12-31 10:34:41,640 INFO  [http-nio-8080-exec-77] com.example.app.RequestHandler - Handled request in 36 ms
+2024-12-31 22:19:20,326 INFO  [http-nio-8080-exec-57] com.example.app.RequestHandler - Handled request in 426 ms
+2024-12-31 06:14:25,371 ERROR [http-nio-8080-exec-100] com.example.app.UserController - Unhandled exception processing /api/user
+java.lang.NullPointerException: Cannot read property 'id' of null
+	at com.example.app.service.SomeService.method(SomeService.java:122)
+	at com.example.app.service.SomeService.method(SomeService.java:76)
+	at com.example.app.service.SomeService.method(SomeService.java:178)
+	at com.example.app.UserController.handle(UserController.java:88)
+2024-12-31 10:40:52,599 INFO  [http-nio-8080-exec-58] com.example.app.RequestHandler - Handled request in 281 ms
+2024-12-31 23:53:34,160 WARN  [http-nio-8080-exec-77] com.example.app.Cache - Slow cache lookup for key=user:15362
+2024-12-31 10:16:11,517 INFO  [http-nio-8080-exec-52] com.example.app.RequestHandler - Handled request in 286 ms
+2024-12-31 01:51:30,802 INFO  [http-nio-8080-exec-25] com.example.app.RequestHandler - Handled request in 52 ms
+2024-12-31 15:40:31,337 WARN  [http-nio-8080-exec-43] com.example.app.Cache - Slow cache lookup for key=user:16784
+2024-12-31 13:02:31,209 INFO  [http-nio-8080-exec-80] com.example.app.RequestHandler - Handled request in 148 ms
+2024-12-31 18:51:55,866 WARN  [http-nio-8080-exec-6] com.example.app.Cache - Slow cache lookup for key=user:8504
+2024-12-31 20:01:52,950 INFO  [http-nio-8080-exec-16] com.example.app.RequestHandler - Handled request in 292 ms
+2024-12-31 00:21:54,316 INFO  [http-nio-8080-exec-99] com.example.app.RequestHandler - Handled request in 251 ms
+2024-12-31 00:40:58,475 ERROR [http-nio-8080-exec-26] com.example.app.UserController - Unhandled exception processing /api/user
+java.lang.NullPointerException: Cannot read property 'id' of null
+	at com.example.app.service.SomeService.method(SomeService.java:44)
+	at com.example.app.service.SomeService.method(SomeService.java:86)
+	at com.example.app.service.SomeService.method(SomeService.java:30)
+	at com.example.app.UserController.handle(UserController.java:49)
+2024-12-31 17:55:35,379 INFO  [http-nio-8080-exec-35] com.example.app.RequestHandler - Handled request in 292 ms
+2024-12-31 19:31:20,156 WARN  [http-nio-8080-exec-70] com.example.app.Cache - Slow cache lookup for key=user:5491
+2024-12-31 05:12:59,255 WARN  [http-nio-8080-exec-24] com.example.app.Cache - Slow cache lookup for key=user:4705
+2024-12-31 04:46:49,571 ERROR [http-nio-8080-exec-66] com.example.app.UserController - Unhandled exception processing /api/user
+java.lang.NullPointerException: Cannot read property 'id' of null
+	at com.example.app.service.SomeService.method(SomeService.java:95)
+	at com.example.app.service.SomeService.method(SomeService.java:98)
+	at com.example.app.service.SomeService.method(SomeService.java:139)
+	at com.example.app.UserController.handle(UserController.java:46)
+2024-12-31 18:46:13,836 WARN  [http-nio-8080-exec-49] com.example.app.Cache - Slow cache lookup for key=user:24258
+2024-12-31 10:30:59,904 INFO  [http-nio-8080-exec-69] com.example.app.RequestHandler - Handled request in 424 ms
+2024-12-31 12:16:54,931 INFO  [http-nio-8080-exec-93] com.example.app.RequestHandler - Handled request in 490 ms
+2024-12-31 17:20:31,691 INFO  [http-nio-8080-exec-96] com.example.app.RequestHandler - Handled request in 377 ms
+2024-12-31 14:37:57,274 INFO  [http-nio-8080-exec-15] com.example.app.RequestHandler - Handled request in 359 ms
+2024-12-31 14:01:43,387 INFO  [http-nio-8080-exec-89] com.example.app.RequestHandler - Handled request in 181 ms
+2024-12-31 05:49:00,944 INFO  [http-nio-8080-exec-99] com.example.app.RequestHandler - Handled request in 115 ms
+2024-12-31 23:33:06,134 INFO  [http-nio-8080-exec-93] com.example.app.RequestHandler - Handled request in 303 ms
+2024-12-31 08:30:35,168 INFO  [http-nio-8080-exec-58] com.example.app.RequestHandler - Handled request in 444 ms
+2024-12-31 18:08:50,137 INFO  [http-nio-8080-exec-75] com.example.app.RequestHandler - Handled request in 478 ms
+2024-12-31 21:13:46,867 INFO  [http-nio-8080-exec-84] com.example.app.RequestHandler - Handled request in 131 ms
+2024-12-31 21:24:45,150 INFO  [http-nio-8080-exec-43] com.example.app.RequestHandler - Handled request in 96 ms
+2024-12-31 02:29:36,281 INFO  [http-nio-8080-exec-99] com.example.app.RequestHandler - Handled request in 414 ms
+2024-12-31 15:51:19,674 WARN  [http-nio-8080-exec-58] com.example.app.Cache - Slow cache lookup for key=user:10971
+2024-12-31 21:36:55,384 INFO  [http-nio-8080-exec-12] com.example.app.RequestHandler - Handled request in 395 ms
+2024-12-31 11:41:53,216 INFO  [http-nio-8080-exec-41] com.example.app.RequestHandler - Handled request in 241 ms
+2024-12-31 10:23:55,769 INFO  [http-nio-8080-exec-6] com.example.app.RequestHandler - Handled request in 153 ms
+2024-12-31 23:39:09,670 WARN  [http-nio-8080-exec-95] com.example.app.Cache - Slow cache lookup for key=user:18160
+2024-12-31 20:26:14,211 WARN  [http-nio-8080-exec-66] com.example.app.Cache - Slow cache lookup for key=user:1546
+2024-12-31 01:02:35,431 INFO  [http-nio-8080-exec-79] com.example.app.RequestHandler - Handled request in 8 ms
+2024-12-31 01:06:04,636 INFO  [http-nio-8080-exec-48] com.example.app.RequestHandler - Handled request in 212 ms
+2024-12-31 22:23:32,538 INFO  [http-nio-8080-exec-100] com.example.app.RequestHandler - Handled request in 422 ms
+2024-12-31 12:35:44,154 INFO  [http-nio-8080-exec-3] com.example.app.RequestHandler - Handled request in 421 ms
+2024-12-31 05:35:02,853 WARN  [http-nio-8080-exec-50] com.example.app.Cache - Slow cache lookup for key=user:16749
+2024-12-31 23:59:17,794 INFO  [http-nio-8080-exec-83] com.example.app.RequestHandler - Handled request in 327 ms
+2024-12-31 17:49:28,950 ERROR [http-nio-8080-exec-21] com.example.app.UserController - Unhandled exception processing /api/user
+java.lang.NullPointerException: Cannot read property 'id' of null
+	at com.example.app.service.SomeService.method(SomeService.java:184)
+	at com.example.app.service.SomeService.method(SomeService.java:92)
+	at com.example.app.service.SomeService.method(SomeService.java:85)
+	at com.example.app.UserController.handle(UserController.java:83)
+2024-12-31 17:23:49,314 INFO  [http-nio-8080-exec-67] com.example.app.RequestHandler - Handled request in 207 ms
+2024-12-31 09:12:24,494 INFO  [http-nio-8080-exec-99] com.example.app.RequestHandler - Handled request in 442 ms
+2024-12-31 14:59:04,943 WARN  [http-nio-8080-exec-9] com.example.app.Cache - Slow cache lookup for key=user:9674
+2024-12-31 04:09:39,787 INFO  [http-nio-8080-exec-60] com.example.app.RequestHandler - Handled request in 157 ms
+2024-12-31 17:05:26,834 INFO  [http-nio-8080-exec-59] com.example.app.RequestHandler - Handled request in 49 ms

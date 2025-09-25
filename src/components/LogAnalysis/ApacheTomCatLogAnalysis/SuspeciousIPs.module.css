@@ -1,0 +1,96 @@
+.mainCt {
+  width: 30%;
+  height: 100%;
+  background-color: var(--bg-white);
+  border-radius: 6px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-black);
+}
+
+.ipCt {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  overflow: auto;
+  scrollbar-gutter: stable;
+  scrollbar-width: thin;
+}
+
+.ipCtInner {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  padding: 5px;
+  border-radius: 6px;
+  transition: background 0.5s;
+}
+
+.ipCtInner.expanded {
+  background-color: var(--bg-primary);
+}
+
+.ipCtInner:hover {
+  background-color: var(--bg-color);
+}
+
+.ipCtMainBar {
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.ip {
+  padding: 0 5px 0 5px;
+  border-radius: 6px;
+  transition: all 0.5s;
+}
+
+.ip.expanded {
+  background-color: var(--bg-white);
+  color: var(--text-primary);
+}
+
+.actionCt {
+  opacity: 0;
+  display: inline-flex;
+  gap: 5px;
+}
+
+.ipCtInner:hover .actionCt {
+  opacity: 1;
+}
+
+.actionCt button {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.infoCt {
+  width: 100%;
+  padding: 6px 5px 6px 5px;
+  background-color: var(--bg-white);
+  border-radius: 6px;
+}
+
+.reasonCt {
+  margin: 5px;
+}
+
+@media (max-width: 768px) {
+  .mainCt {
+    flex: none;
+    width: 100%;
+    height: 300px;
+  }
+}
